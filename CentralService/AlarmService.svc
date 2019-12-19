@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GotWell.CentralService.AlarmService" CodeBehind="AlarmService.svc.cs" %>

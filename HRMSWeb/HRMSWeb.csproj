@@ -1,0 +1,1531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16F5A5B3-FCE1-41B4-BA3A-E76929F26870}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GotWell.HRMS.HRMSWeb</RootNamespace>
+    <AssemblyName>GotWell.HRMS.HRMSWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, PublicKeyToken=b32731d11ce58905">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft ASP.NET\ASP.NET MVC Preview 3\Assemblies\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft ASP.NET\ASP.NET MVC Preview 3\Assemblies\System.Web.Routing.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ConfigHandler.cs" />
+    <Compile Include="Common\ConfigReader.cs" />
+    <Compile Include="Common\HRMSHttpModule.cs" />
+    <Compile Include="Common\ExceptionPaser.cs" />
+    <Compile Include="Controllers\atabsdtlController.cs" />
+    <Compile Include="Controllers\atabssumController.cs" />
+    <Compile Include="Controllers\atanaattController.cs" />
+    <Compile Include="Controllers\atanarstController.cs" />
+    <Compile Include="Controllers\atcaldarController.cs" />
+    <Compile Include="Controllers\atcldworkdaysController.cs" />
+    <Compile Include="Controllers\atdatmnuController.cs" />
+    <Compile Include="Controllers\atoridatController.cs" />
+    <Compile Include="Controllers\bsratingController.cs" />
+    <Compile Include="Controllers\logonController.cs" />
+    <Compile Include="Controllers\otaplctnController.cs" />
+    <Compile Include="Controllers\otdetailController.cs" />
+    <Compile Include="Controllers\otlimitController.cs" />
+    <Compile Include="Controllers\otsummryController.cs" />
+    <Compile Include="Controllers\atpvtcldController.cs" />
+    <Compile Include="Controllers\atrosterController.cs" />
+    <Compile Include="Controllers\atroshisController.cs" />
+    <Compile Include="Controllers\atshiftController.cs" />
+    <Compile Include="Controllers\atshfelyController.cs" />
+    <Compile Include="Controllers\atshflatController.cs" />
+    <Compile Include="Controllers\atshfottController.cs" />
+    <Compile Include="Controllers\BaseAttendanceController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\DropDownController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\lvcryfwdController.cs" />
+    <Compile Include="Controllers\lvdfbyemController.cs" />
+    <Compile Include="Controllers\lvdfbyyrController.cs" />
+    <Compile Include="Controllers\lvleaappController.cs" />
+    <Compile Include="Controllers\lvlealmtController.cs" />
+    <Compile Include="Controllers\MasterDataController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MenuConfigController.cs" />
+    <Compile Include="Controllers\rcaplinfController.cs" />
+    <Compile Include="Controllers\rcapplicController.cs" />
+    <Compile Include="Controllers\rcintasmController.cs" />
+    <Compile Include="Controllers\rcintrstController.cs" />
+    <Compile Include="Controllers\rcintschController.cs" />
+    <Compile Include="Controllers\stcheckrController.cs" />
+    <Compile Include="Controllers\stperiodController.cs" />
+    <Compile Include="Controllers\otttlvController.cs" />
+    <Compile Include="Controllers\praccalcController.cs" />
+    <Compile Include="Controllers\praddrstController.cs" />
+    <Compile Include="Controllers\prbaalcrController.cs" />
+    <Compile Include="Controllers\prcalculController.cs" />
+    <Compile Include="Controllers\prcstalcController.cs" />
+    <Compile Include="Controllers\prccalcrController.cs" />
+    <Compile Include="Controllers\prcumitmController.cs" />
+    <Compile Include="Controllers\prfmularController.cs" />
+    <Compile Include="Controllers\prprirstController.cs" />
+    <Compile Include="Controllers\prpubrstController.cs" />
+    <Compile Include="Controllers\prrunController.cs" />
+    <Compile Include="Controllers\prsalhisController.cs" />
+    <Compile Include="Controllers\prsalitmController.cs" />
+    <Compile Include="Controllers\prvarbleController.cs" />
+    <Compile Include="Controllers\psaccontController.cs" />
+    <Compile Include="Controllers\psaddresController.cs" />
+    <Compile Include="Controllers\pscertfcController.cs" />
+    <Compile Include="Controllers\pschghisController.cs" />
+    <Compile Include="Controllers\psclubController.cs" />
+    <Compile Include="Controllers\pscontctController.cs" />
+    <Compile Include="Controllers\pscontrtController.cs" />
+    <Compile Include="Controllers\psdepostController.cs" />
+    <Compile Include="Controllers\psdetainController.cs" />
+    <Compile Include="Controllers\pseductnController.cs" />
+    <Compile Include="Controllers\psempchgController.cs" />
+    <Compile Include="Controllers\psemplymController.cs" />
+    <Compile Include="Controllers\pseventController.cs" />
+    <Compile Include="Controllers\psexprncController.cs" />
+    <Compile Include="Controllers\pshctcfgController.cs" />
+    <Compile Include="Controllers\pshctvalController.cs" />
+    <Compile Include="Controllers\pshltrecController.cs" />
+    <Compile Include="Controllers\psinsurnController.cs" />
+    <Compile Include="Controllers\pspersonController.cs" />
+    <Compile Include="Controllers\psquafcaController.cs" />
+    <Compile Include="Controllers\psqurterController.cs" />
+    <Compile Include="Controllers\psrelshpController.cs" />
+    <Compile Include="Controllers\psskillController.cs" />
+    <Compile Include="Controllers\pstraingController.cs" />
+    <Compile Include="Controllers\pswelfreController.cs" />
+    <Compile Include="Controllers\publicController.cs" />
+    <Compile Include="Controllers\lvdfbyotController.cs" />
+    <Compile Include="Controllers\prpbrhisController.cs" />
+    <Compile Include="Controllers\rpexrpdfController.cs" />
+    <Compile Include="Controllers\rpexrpdpController.cs" />
+    <Compile Include="Controllers\rphctctlController.cs" />
+    <Compile Include="Controllers\rpsalanaController.cs" />
+    <Compile Include="Controllers\staldlybController.cs" />
+    <Compile Include="Controllers\stcondtnController.cs" />
+    <Compile Include="Controllers\stpubmsgController.cs" />
+    <Compile Include="Controllers\strecnotController.cs" />
+    <Compile Include="Controllers\stsearchController.cs" />
+    <Compile Include="Controllers\stusrinfController.cs" />
+    <Compile Include="Controllers\tracerController.cs" />
+    <Compile Include="Controllers\HelpController.cs" />
+    <Compile Include="Controllers\trtraattController.cs" />
+    <Compile Include="Controllers\trtraingController.cs" />
+    <Compile Include="Controllers\trtrarstController.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\rpexrpdp.aspx.cs">
+      <DependentUpon>rpexrpdp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reporting\rpexrpdp.aspx.designer.cs">
+      <DependentUpon>rpexrpdp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\rphctctl.aspx.cs">
+      <DependentUpon>rphctctl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reporting\rphctctl.aspx.designer.cs">
+      <DependentUpon>rphctctl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\rpsalana.aspx.cs">
+      <DependentUpon>rpsalana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reporting\rpsalana.aspx.designer.cs">
+      <DependentUpon>rpsalana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AlarmService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AuthorizationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atabsdtl\atabsdtl.aspx.cs">
+      <DependentUpon>atabsdtl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atabsdtl\atabsdtl.aspx.designer.cs">
+      <DependentUpon>atabsdtl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atabssum\atabssum.aspx.cs">
+      <DependentUpon>atabssum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atabssum\atabssum.aspx.designer.cs">
+      <DependentUpon>atabssum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atanaatt\atanaatt.aspx.cs">
+      <DependentUpon>atanaatt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atanaatt\atanaatt.aspx.designer.cs">
+      <DependentUpon>atanaatt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atanarst\atanarst.aspx.cs">
+      <DependentUpon>atanarst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atanarst\atanarst.aspx.designer.cs">
+      <DependentUpon>atanarst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atcaldar\atcaldar.aspx.cs">
+      <DependentUpon>atcaldar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atcaldar\atcaldar.aspx.designer.cs">
+      <DependentUpon>atcaldar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atcldworkdays\atcldworkdays.aspx.cs">
+      <DependentUpon>atcldworkdays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atcldworkdays\atcldworkdays.aspx.designer.cs">
+      <DependentUpon>atcldworkdays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atdatmnu\atdatmnu.aspx.cs">
+      <DependentUpon>atdatmnu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atdatmnu\atdatmnu.aspx.designer.cs">
+      <DependentUpon>atdatmnu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atoridat\atoridat.aspx.cs">
+      <DependentUpon>atoridat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atoridat\atoridat.aspx.designer.cs">
+      <DependentUpon>atoridat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atpvtcld\atpvtcld.aspx.cs">
+      <DependentUpon>atpvtcld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atpvtcld\atpvtcld.aspx.designer.cs">
+      <DependentUpon>atpvtcld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atroshis\atroshis.aspx.cs">
+      <DependentUpon>atroshis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atroshis\atroshis.aspx.designer.cs">
+      <DependentUpon>atroshis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atroster\atroster.aspx.cs">
+      <DependentUpon>atroster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atroster\atroster.aspx.designer.cs">
+      <DependentUpon>atroster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atshfely\atshfely.aspx.cs">
+      <DependentUpon>atshfely.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atshfely\atshfely.aspx.designer.cs">
+      <DependentUpon>atshfely.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atshflat\atshflat.aspx.cs">
+      <DependentUpon>atshflat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atshflat\atshflat.aspx.designer.cs">
+      <DependentUpon>atshflat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atshfott\atshfott.aspx.cs">
+      <DependentUpon>atshfott.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atshfott\atshfott.aspx.designer.cs">
+      <DependentUpon>atshfott.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\atshift\atshift.aspx.cs">
+      <DependentUpon>atshift.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\atshift\atshift.aspx.designer.cs">
+      <DependentUpon>atshift.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\bsrating\bsrating.aspx.cs">
+      <DependentUpon>bsrating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\bsrating\bsrating.aspx.designer.cs">
+      <DependentUpon>bsrating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rcaplinf\rcaplinf.aspx.cs">
+      <DependentUpon>rcaplinf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rcaplinf\rcaplinf.aspx.designer.cs">
+      <DependentUpon>rcaplinf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rcapplic\rcapplic.aspx.cs">
+      <DependentUpon>rcapplic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rcapplic\rcapplic.aspx.designer.cs">
+      <DependentUpon>rcapplic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rcintasm\rcintasm.aspx.cs">
+      <DependentUpon>rcintasm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rcintasm\rcintasm.aspx.designer.cs">
+      <DependentUpon>rcintasm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rcintrst\rcintrst.aspx.cs">
+      <DependentUpon>rcintrst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rcintrst\rcintrst.aspx.designer.cs">
+      <DependentUpon>rcintrst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rcintsch\rcintsch.aspx.cs">
+      <DependentUpon>rcintsch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rcintsch\rcintsch.aspx.designer.cs">
+      <DependentUpon>rcintsch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\stcheckr\stcheckr.aspx.cs">
+      <DependentUpon>stcheckr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\stcheckr\stcheckr.aspx.designer.cs">
+      <DependentUpon>stcheckr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\stperiod\stperiod.aspx.cs">
+      <DependentUpon>stperiod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\stperiod\stperiod.aspx.designer.cs">
+      <DependentUpon>stperiod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Error\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\logon\logon.aspx.cs">
+      <DependentUpon>logon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\logon\logon.aspx.designer.cs">
+      <DependentUpon>logon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\lvcryfwd\lvcryfwd.aspx.cs">
+      <DependentUpon>lvcryfwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\lvcryfwd\lvcryfwd.aspx.designer.cs">
+      <DependentUpon>lvcryfwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\lvdfbyem\lvdfbyem.aspx.cs">
+      <DependentUpon>lvdfbyem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\lvdfbyem\lvdfbyem.aspx.designer.cs">
+      <DependentUpon>lvdfbyem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\lvdfbyyr\lvdfbyyr.aspx.cs">
+      <DependentUpon>lvdfbyyr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\lvdfbyyr\lvdfbyyr.aspx.designer.cs">
+      <DependentUpon>lvdfbyyr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\lvleaapp\lvleaapp.aspx.cs">
+      <DependentUpon>lvleaapp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\lvleaapp\lvleaapp.aspx.designer.cs">
+      <DependentUpon>lvleaapp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\lvlealmt\lvlealmt.aspx.cs">
+      <DependentUpon>lvlealmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\lvlealmt\lvlealmt.aspx.designer.cs">
+      <DependentUpon>lvlealmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterData\MasterData.aspx.cs">
+      <DependentUpon>MasterData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\MasterData\MasterData.aspx.designer.cs">
+      <DependentUpon>MasterData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\otaplctn\otaplctn.aspx.cs">
+      <DependentUpon>otaplctn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\otaplctn\otaplctn.aspx.designer.cs">
+      <DependentUpon>otaplctn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\otdetail\otdetail.aspx.cs">
+      <DependentUpon>otdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\otdetail\otdetail.aspx.designer.cs">
+      <DependentUpon>otdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\otlimit\otlimit.aspx.cs">
+      <DependentUpon>otlimit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\otlimit\otlimit.aspx.designer.cs">
+      <DependentUpon>otlimit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\otsummry\otsummry.aspx.cs">
+      <DependentUpon>otsummry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\otsummry\otsummry.aspx.designer.cs">
+      <DependentUpon>otsummry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\otttlv\otttlv.aspx.cs">
+      <DependentUpon>otttlv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\otttlv\otttlv.aspx.designer.cs">
+      <DependentUpon>otttlv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\praccalc\praccalc.aspx.cs">
+      <DependentUpon>praccalc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\praccalc\praccalc.aspx.designer.cs">
+      <DependentUpon>praccalc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\praddrst\praddrst.aspx.cs">
+      <DependentUpon>praddrst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\praddrst\praddrst.aspx.designer.cs">
+      <DependentUpon>praddrst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prbaalcr\prbaalcr.aspx.cs">
+      <DependentUpon>prbaalcr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prbaalcr\prbaalcr.aspx.designer.cs">
+      <DependentUpon>prbaalcr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prcalcul\prcalcul.aspx.cs">
+      <DependentUpon>prcalcul.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prcalcul\prcalcul.aspx.designer.cs">
+      <DependentUpon>prcalcul.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prccalcr\prccalcr.aspx.cs">
+      <DependentUpon>prccalcr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prccalcr\prccalcr.aspx.designer.cs">
+      <DependentUpon>prccalcr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prcstalc\prcstalc.aspx.cs">
+      <DependentUpon>prcstalc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prcstalc\prcstalc.aspx.designer.cs">
+      <DependentUpon>prcstalc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prcumitm\prcumitm.aspx.cs">
+      <DependentUpon>prcumitm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prcumitm\prcumitm.aspx.designer.cs">
+      <DependentUpon>prcumitm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prfmular\prfmular.aspx.cs">
+      <DependentUpon>prfmular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prfmular\prfmular.aspx.designer.cs">
+      <DependentUpon>prfmular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prpbrhis\prpbrhis.aspx.cs">
+      <DependentUpon>prpbrhis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prpbrhis\prpbrhis.aspx.designer.cs">
+      <DependentUpon>prpbrhis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prprirst\prprirst.aspx.cs">
+      <DependentUpon>prprirst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prprirst\prprirst.aspx.designer.cs">
+      <DependentUpon>prprirst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prpubrst\prpubrst.aspx.cs">
+      <DependentUpon>prpubrst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prpubrst\prpubrst.aspx.designer.cs">
+      <DependentUpon>prpubrst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prrun\prrun.aspx.cs">
+      <DependentUpon>prrun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prrun\prrun.aspx.designer.cs">
+      <DependentUpon>prrun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prsalhis\prsalhis.aspx.cs">
+      <DependentUpon>prsalhis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prsalhis\prsalhis.aspx.designer.cs">
+      <DependentUpon>prsalhis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prsalitm\prsalitm.aspx.cs">
+      <DependentUpon>prsalitm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prsalitm\prsalitm.aspx.designer.cs">
+      <DependentUpon>prsalitm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\prvarble\prvarble.aspx.cs">
+      <DependentUpon>prvarble.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\prvarble\prvarble.aspx.designer.cs">
+      <DependentUpon>prvarble.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psaccont\psaccont.aspx.cs">
+      <DependentUpon>psaccont.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psaccont\psaccont.aspx.designer.cs">
+      <DependentUpon>psaccont.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psaddres\psaddres.aspx.cs">
+      <DependentUpon>psaddres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psaddres\psaddres.aspx.designer.cs">
+      <DependentUpon>psaddres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pscertfc\pscertfc.aspx.cs">
+      <DependentUpon>pscertfc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pscertfc\pscertfc.aspx.designer.cs">
+      <DependentUpon>pscertfc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pschghis\pschghis.aspx.cs">
+      <DependentUpon>pschghis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pschghis\pschghis.aspx.designer.cs">
+      <DependentUpon>pschghis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psclub\psclub.aspx.cs">
+      <DependentUpon>psclub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psclub\psclub.aspx.designer.cs">
+      <DependentUpon>psclub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pscontct\pscontct.aspx.cs">
+      <DependentUpon>pscontct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pscontct\pscontct.aspx.designer.cs">
+      <DependentUpon>pscontct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pscontrt\pscontrt.aspx.cs">
+      <DependentUpon>pscontrt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pscontrt\pscontrt.aspx.designer.cs">
+      <DependentUpon>pscontrt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psdepost\psdepost.aspx.cs">
+      <DependentUpon>psdepost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psdepost\psdepost.aspx.designer.cs">
+      <DependentUpon>psdepost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psdetain\psdetain.aspx.cs">
+      <DependentUpon>psdetain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psdetain\psdetain.aspx.designer.cs">
+      <DependentUpon>psdetain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pseductn\pseductn.aspx.cs">
+      <DependentUpon>pseductn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pseductn\pseductn.aspx.designer.cs">
+      <DependentUpon>pseductn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psempchg\psempchg.aspx.cs">
+      <DependentUpon>psempchg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psempchg\psempchg.aspx.designer.cs">
+      <DependentUpon>psempchg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psemplym\psemplym.aspx.cs">
+      <DependentUpon>psemplym.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psemplym\psemplym.aspx.designer.cs">
+      <DependentUpon>psemplym.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psevent\psevent.aspx.cs">
+      <DependentUpon>psevent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psevent\psevent.aspx.designer.cs">
+      <DependentUpon>psevent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psexprnc\psexprnc.aspx.cs">
+      <DependentUpon>psexprnc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psexprnc\psexprnc.aspx.designer.cs">
+      <DependentUpon>psexprnc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pshctcfg\pshctcfg.aspx.cs">
+      <DependentUpon>pshctcfg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pshctcfg\pshctcfg.aspx.designer.cs">
+      <DependentUpon>pshctcfg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pshctval\pshctval.aspx.cs">
+      <DependentUpon>pshctval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pshctval\pshctval.aspx.designer.cs">
+      <DependentUpon>pshctval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pshltrec\pshltrec.aspx.cs">
+      <DependentUpon>pshltrec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pshltrec\pshltrec.aspx.designer.cs">
+      <DependentUpon>pshltrec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psinsurn\psinsurn.aspx.cs">
+      <DependentUpon>psinsurn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psinsurn\psinsurn.aspx.designer.cs">
+      <DependentUpon>psinsurn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psperson\psperson.aspx.cs">
+      <DependentUpon>psperson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psperson\psperson.aspx.designer.cs">
+      <DependentUpon>psperson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psquafca\psquafca.aspx.cs">
+      <DependentUpon>psquafca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psquafca\psquafca.aspx.designer.cs">
+      <DependentUpon>psquafca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psqurter\psqurter.aspx.cs">
+      <DependentUpon>psqurter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psqurter\psqurter.aspx.designer.cs">
+      <DependentUpon>psqurter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psrelshp\psrelshp.aspx.cs">
+      <DependentUpon>psrelshp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psrelshp\psrelshp.aspx.designer.cs">
+      <DependentUpon>psrelshp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\psskill\psskill.aspx.cs">
+      <DependentUpon>psskill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\psskill\psskill.aspx.designer.cs">
+      <DependentUpon>psskill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pstraing\pstraing.aspx.cs">
+      <DependentUpon>pstraing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pstraing\pstraing.aspx.designer.cs">
+      <DependentUpon>pstraing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pswelfre\pswelfre.aspx.cs">
+      <DependentUpon>pswelfre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\pswelfre\pswelfre.aspx.designer.cs">
+      <DependentUpon>pswelfre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rpexrpdf\rpexrpdf.aspx.cs">
+      <DependentUpon>rpexrpdf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rpexrpdf\rpexrpdf.aspx.designer.cs">
+      <DependentUpon>rpexrpdf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rpexrpdp\rpexrpdp.aspx.cs">
+      <DependentUpon>rpexrpdp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rpexrpdp\rpexrpdp.aspx.designer.cs">
+      <DependentUpon>rpexrpdp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rphctctl\rphctctl.aspx.cs">
+      <DependentUpon>rphctctl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rphctctl\rphctctl.aspx.designer.cs">
+      <DependentUpon>rphctctl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\rpsalana\rpsalana.aspx.cs">
+      <DependentUpon>rpsalana.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\rpsalana\rpsalana.aspx.designer.cs">
+      <DependentUpon>rpsalana.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\lvdfbyot\lvdfbyot.aspx.cs">
+      <DependentUpon>lvdfbyot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\lvdfbyot\lvdfbyot.aspx.designer.cs">
+      <DependentUpon>lvdfbyot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\stcondtn\stcondtn.aspx.cs">
+      <DependentUpon>stcondtn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\stcondtn\stcondtn.aspx.designer.cs">
+      <DependentUpon>stcondtn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\stpubmsg\stpubmsg.aspx.cs">
+      <DependentUpon>stpubmsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\stpubmsg\stpubmsg.aspx.designer.cs">
+      <DependentUpon>stpubmsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\stsearch\stsearch.aspx.cs">
+      <DependentUpon>stsearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\stsearch\stsearch.aspx.designer.cs">
+      <DependentUpon>stsearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\stusrinf\stusrinf.aspx.cs">
+      <DependentUpon>stusrinf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\stusrinf\stusrinf.aspx.designer.cs">
+      <DependentUpon>stusrinf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\tracer\tracer.aspx.cs">
+      <DependentUpon>tracer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\tracer\tracer.aspx.designer.cs">
+      <DependentUpon>tracer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\trtraatt\trtraatt.aspx.cs">
+      <DependentUpon>trtraatt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\trtraatt\trtraatt.aspx.designer.cs">
+      <DependentUpon>trtraatt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\trtraing\trtraing.aspx.cs">
+      <DependentUpon>trtraing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\trtraing\trtraing.aspx.designer.cs">
+      <DependentUpon>trtraing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\trtrarst\trtrarst.aspx.cs">
+      <DependentUpon>trtrarst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\trtrarst\trtrarst.aspx.designer.cs">
+      <DependentUpon>trtrarst.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="ExtJS\check_idcard.js" />
+    <Content Include="ExtJS\employment-advqry-nogrid.js" />
+    <Content Include="ExtJS\expression-builder.js" />
+    <Content Include="ExtJS\employment-advqry.js" />
+    <Content Include="ExtJS\ext-util.js" />
+    <Content Include="ExtJS\hrms-public.js" />
+    <Content Include="ExtJS\error-grid.js" />
+    <Content Include="ExtJS\ext\adapter\ext\ext-base.js" />
+    <Content Include="ExtJS\ext\adapter\jquery\ext-jquery-adapter.js" />
+    <Content Include="ExtJS\ext\adapter\jquery\jquery.js" />
+    <Content Include="ExtJS\ext\adapter\prototype\effects.js" />
+    <Content Include="ExtJS\ext\adapter\prototype\ext-prototype-adapter.js" />
+    <Content Include="ExtJS\ext\adapter\prototype\prototype.js" />
+    <Content Include="ExtJS\ext\adapter\prototype\scriptaculous.js" />
+    <Content Include="ExtJS\ext\adapter\yui\ext-yui-adapter.js" />
+    <Content Include="ExtJS\ext\adapter\yui\yui-utilities.js" />
+    <Content Include="ExtJS\ext\ext-all-debug.js" />
+    <Content Include="ExtJS\ext\ext-all.js" />
+    <Content Include="ExtJS\ext\resources\css\borders.css" />
+    <Content Include="ExtJS\ext\resources\css\box.css" />
+    <Content Include="ExtJS\ext\resources\css\button.css" />
+    <Content Include="ExtJS\ext\resources\css\combo.css" />
+    <Content Include="ExtJS\ext\resources\css\core.css" />
+    <Content Include="ExtJS\ext\resources\css\date-picker.css" />
+    <Content Include="ExtJS\ext\resources\css\dd.css" />
+    <Content Include="ExtJS\ext\resources\css\debug.css" />
+    <Content Include="ExtJS\ext\resources\css\dialog.css" />
+    <Content Include="ExtJS\ext\resources\css\editor.css" />
+    <Content Include="ExtJS\ext\resources\css\ext-all.css" />
+    <Content Include="ExtJS\ext\resources\css\form.css" />
+    <Content Include="ExtJS\ext\resources\css\grid.css" />
+    <Content Include="ExtJS\ext\resources\css\layout.css" />
+    <Content Include="ExtJS\ext\resources\css\menu.css" />
+    <Content Include="ExtJS\ext\resources\css\panel.css" />
+    <Content Include="ExtJS\ext\resources\css\progress.css" />
+    <Content Include="ExtJS\ext\resources\css\qtips.css" />
+    <Content Include="ExtJS\ext\resources\css\README.txt" />
+    <Content Include="ExtJS\ext\resources\css\reset-min.css" />
+    <Content Include="ExtJS\ext\resources\css\reset.css" />
+    <Content Include="ExtJS\ext\resources\css\resizable.css" />
+    <Content Include="ExtJS\ext\resources\css\tabs.css" />
+    <Content Include="ExtJS\ext\resources\css\toolbar.css" />
+    <Content Include="ExtJS\ext\resources\css\tree.css" />
+    <Content Include="ExtJS\ext\resources\css\window.css" />
+    <Content Include="ExtJS\ext\resources\css\xtheme-gray.css" />
+    <Content Include="ExtJS\ext\resources\images\default\box\corners-blue.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\corners.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\l-blue.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\l.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\r-blue.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\r.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\tb-blue.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\box\tb.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\button\btn-arrow.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\button\btn-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\dd\drop-add.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\dd\drop-no.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\dd\drop-yes.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\editor\tb-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\clear-trigger.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\date-trigger.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\error-tip-corners.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\exclamation.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\search-trigger.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\text-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\trigger-tpl.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\form\trigger.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\gradient-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\arrow-left-white.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\arrow-right-white.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\col-move-bottom.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\col-move-top.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\columns.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\dirty.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\done.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\drop-no.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\drop-yes.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\footer-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid-blue-hd.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid-blue-split.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid-hrow.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid-loading.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid-split.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid-vista-hd.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid3-hd-btn.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid3-hrow-over.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid3-hrow.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid3-special-col-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\grid3-special-col-sel-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\group-by.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\group-expand-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hd-pop.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hmenu-asc.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hmenu-desc.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hmenu-lock.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hmenu-lock.png" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hmenu-unlock.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\hmenu-unlock.png" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\invalid_line.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\loading.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\mso-hd.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\nowait.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-first-disabled.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-first.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-last-disabled.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-last.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-next-disabled.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-next.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-prev-disabled.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\page-prev.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\pick-button.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\refresh.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\row-check-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\row-expand-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\row-over.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\row-sel.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\sort_asc.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\sort_desc.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\grid\wait.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\collapse.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\expand.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\gradient-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\mini-bottom.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\mini-left.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\mini-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\mini-top.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\ns-collapse.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\ns-expand.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\panel-close.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\panel-title-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\panel-title-light-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\stick.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\stuck.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\tab-close-on.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\layout\tab-close.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\menu\checked.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\menu\group-checked.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\menu\item-over.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\menu\menu-parent.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\menu\menu.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\menu\unchecked.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\corners-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\left-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\light-hd.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\tool-sprite-tpl.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\tool-sprites.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\tools-sprites-trans.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\top-bottom.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\top-bottom.png" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\white-corners-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\white-left-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\panel\white-top-bottom.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\progress\progress-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\qtip\bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\qtip\close.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\qtip\tip-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\s.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shadow-c.png" />
+    <Content Include="ExtJS\ext\resources\images\default\shadow-lr.png" />
+    <Content Include="ExtJS\ext\resources\images\default\shadow.png" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\blue-loading.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\calendar.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\glass-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\hd-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\large-loading.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\left-btn.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\loading-balls.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\right-btn.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\shared\warning.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\e-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\e-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\ne-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\ne-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\nw-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\nw-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\s-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\s-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\se-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\se-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\square.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\sw-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\sizer\sw-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\scroll-left.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\scroll-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\scroller-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-btm-left-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-btm-right-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-close.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-strip-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-strip-bg.png" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tabs\tabs-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\btn-arrow-light.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\btn-arrow.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\btn-over-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\gray-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\tb-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\toolbar\tb-btn-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\drop-add.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\drop-between.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\drop-no.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\drop-over.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\drop-under.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\drop-yes.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-end-minus-nl.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-end-minus.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-end-plus-nl.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-end-plus.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-end.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-line.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-minus-nl.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-minus.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-plus-nl.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow-plus.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\elbow.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\folder-open.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\folder.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\leaf.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\loading.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\tree\s.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\window\icon-error.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\window\icon-info.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\window\icon-question.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\window\icon-warning.gif" />
+    <Content Include="ExtJS\ext\resources\images\default\window\left-corners.png" />
+    <Content Include="ExtJS\ext\resources\images\default\window\left-right.png" />
+    <Content Include="ExtJS\ext\resources\images\default\window\right-corners.png" />
+    <Content Include="ExtJS\ext\resources\images\default\window\top-bottom.png" />
+    <Content Include="ExtJS\ext\resources\images\gray\button\btn-arrow.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\button\btn-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\gradient-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\corners-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\left-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\light-hd.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\tool-sprite-tpl.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\tool-sprites.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\tools-sprites-trans.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\top-bottom.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\top-bottom.png" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\white-corners-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\white-left-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\panel\white-top-bottom.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\qtip\bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\qtip\close.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\qtip\tip-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\s.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\scroll-left.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\scroll-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\scroller-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-btm-left-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-btm-right-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-close.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-strip-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-strip-bg.png" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tab-strip-btm-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\tabs\tabs-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\btn-arrow-light.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\btn-arrow.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\btn-over-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\gray-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\tb-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\toolbar\tb-btn-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\icon-error.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\icon-info.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\icon-question.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\icon-warning.gif" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\left-corners.png" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\left-right.png" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\right-corners.png" />
+    <Content Include="ExtJS\ext\resources\images\gray\window\top-bottom.png" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\bg-center.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\bg-left.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\bg-right.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\close.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\collapse.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\dlg-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\e-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\expand.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\hd-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\s-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\se-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\basic-dialog\w-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\gradient-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\grid\grid-split.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\grid\grid-vista-hd.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\collapse.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\expand.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\gradient-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\ns-collapse.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\ns-expand.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\panel-close.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\panel-title-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\panel-title-light-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\stick.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\tab-close-on.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\layout\tab-close.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\qtip\bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\qtip\tip-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\s.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\e-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\e-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\ne-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\ne-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\nw-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\nw-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\s-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\s-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\se-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\se-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\sw-handle-dark.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\sizer\sw-handle.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\tabs\tab-btm-inactive-left-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\tabs\tab-btm-inactive-right-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\tabs\tab-btm-left-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\tabs\tab-btm-right-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\tabs\tab-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\toolbar\gray-bg.gif" />
+    <Content Include="ExtJS\ext\resources\images\vista\toolbar\tb-btn-sprite.gif" />
+    <Content Include="ExtJS\ext\resources\legacy\basic-dialog.css" />
+    <Content Include="ExtJS\ext\resources\legacy\grid.css" />
+    <Content Include="ExtJS\ext\resources\license.txt" />
+    <Content Include="ExtJS\javascript-util.js" />
+    <Content Include="ExtJS\log-viewer.js" />
+    <Content Include="ExtJS\resources\accept.png" />
+    <Content Include="ExtJS\resources\accordian.gif" />
+    <Content Include="ExtJS\resources\add.gif" />
+    <Content Include="ExtJS\resources\arrow_down.png" />
+    <Content Include="ExtJS\resources\arrow_up.png" />
+    <Content Include="ExtJS\resources\block-bg.gif" />
+    <Content Include="ExtJS\resources\block-bottom.gif" />
+    <Content Include="ExtJS\resources\block-top.gif" />
+    <Content Include="ExtJS\resources\class.gif" />
+    <Content Include="ExtJS\resources\clean.png" />
+    <Content Include="ExtJS\resources\cmp.gif" />
+    <Content Include="ExtJS\resources\cog.png" />
+    <Content Include="ExtJS\resources\collapse-all.gif" />
+    <Content Include="ExtJS\resources\collapse-bg.gif" />
+    <Content Include="ExtJS\resources\collapser.css" />
+    <Content Include="ExtJS\resources\column-tree.css" />
+    <Content Include="ExtJS\resources\ColumnNodeUI.js" />
+    <Content Include="ExtJS\resources\company.bmp" />
+    <Content Include="ExtJS\resources\config.gif" />
+    <Content Include="ExtJS\resources\dashboard.gif" />
+    <Content Include="ExtJS\resources\delete.gif" />
+    <Content Include="ExtJS\resources\docs.css" />
+    <Content Include="ExtJS\resources\docs.gif" />
+    <Content Include="ExtJS\resources\docs.js" />
+    <Content Include="ExtJS\resources\down.gif" />
+    <Content Include="ExtJS\resources\elbow-end.gif" />
+    <Content Include="ExtJS\resources\event.gif" />
+    <Content Include="ExtJS\resources\example.gif" />
+    <Content Include="ExtJS\resources\exit.gif" />
+    <Content Include="ExtJS\resources\expand-all.gif" />
+    <Content Include="ExtJS\resources\expand-bg-over.gif" />
+    <Content Include="ExtJS\resources\expand-bg.gif" />
+    <Content Include="ExtJS\resources\expand-members.gif" />
+    <Content Include="ExtJS\resources\extanim32.gif" />
+    <Content Include="ExtJS\resources\extanim64.gif" />
+    <Content Include="ExtJS\resources\extjs.gif" />
+    <Content Include="ExtJS\resources\fav.gif" />
+    <Content Include="ExtJS\resources\feed_disk.png" />
+    <Content Include="ExtJS\resources\folder.gif" />
+    <Content Include="ExtJS\resources\folder_go.png" />
+    <Content Include="ExtJS\resources\folder_open.gif" />
+    <Content Include="ExtJS\resources\form.png" />
+    <Content Include="ExtJS\resources\forum.gif" />
+    <Content Include="ExtJS\resources\hd-bg.gif" />
+    <Content Include="ExtJS\resources\hide-inherited.gif" />
+    <Content Include="ExtJS\html-text-viewer.js" />
+    <Content Include="ExtJS\resources\icon-grid.gif" />
+    <Content Include="ExtJS\resources\import.gif" />
+    <Content Include="ExtJS\resources\inherited.gif" />
+    <Content Include="ExtJS\resources\logview.png" />
+    <Content Include="ExtJS\resources\member-collapsed.gif" />
+    <Content Include="ExtJS\resources\member-expanded.gif" />
+    <Content Include="ExtJS\resources\member-hover.gif" />
+    <Content Include="ExtJS\resources\menuTree.css" />
+    <Content Include="ExtJS\resources\method.gif" />
+    <Content Include="ExtJS\resources\minus.gif" />
+    <Content Include="ExtJS\resources\muf_add.png" />
+    <Content Include="ExtJS\resources\muf_delete.png" />
+    <Content Include="ExtJS\resources\note.gif" />
+    <Content Include="ExtJS\resources\no_pic.gif" />
+    <Content Include="ExtJS\resources\ocean.gif" />
+    <Content Include="ExtJS\resources\pkg-closed.gif" />
+    <Content Include="ExtJS\resources\pkg-open.gif" />
+    <Content Include="ExtJS\resources\pkg.gif" />
+    <Content Include="ExtJS\resources\plus.gif" />
+    <Content Include="ExtJS\resources\print.css" />
+    <Content Include="ExtJS\resources\print.gif" />
+    <Content Include="ExtJS\resources\prop.gif" />
+    <Content Include="ExtJS\resources\publish.png" />
+    <Content Include="ExtJS\resources\rec_confirm.png" />
+    <Content Include="ExtJS\resources\refresh.png" />
+    <Content Include="ExtJS\resources\reset.css" />
+    <Content Include="ExtJS\resources\RowExpander.js" />
+    <Content Include="ExtJS\resources\s.gif" />
+    <Content Include="ExtJS\resources\save.gif" />
+    <Content Include="ExtJS\resources\search.gif" />
+    <Content Include="ExtJS\resources\SearchField.js" />
+    <Content Include="ExtJS\resources\setting.gif" />
+    <Content Include="ExtJS\resources\static.gif" />
+    <Content Include="ExtJS\resources\style.css" />
+    <Content Include="ExtJS\resources\TabCloseMenu.js" />
+    <Content Include="ExtJS\resources\tabs.gif" />
+    <Content Include="ExtJS\resources\tick.png" />
+    <Content Include="ExtJS\resources\tree-bg.gif" />
+    <Content Include="ExtJS\resources\update.gif" />
+    <Content Include="ExtJS\resources\user.gif" />
+    <Content Include="ExtJS\resources\user_msg.gif" />
+    <Content Include="ExtJS\resources\view.png" />
+    <Content Include="ExtJS\resources\warning.gif" />
+    <Content Include="ExtJS\resources\wel-bg.gif" />
+    <Content Include="ExtJS\resources\welcome-bg.gif" />
+    <Content Include="ExtJS\resources\welcome.css" />
+    <Content Include="ExtJS\row-expander.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Help\Help_C101.xml" />
+    <Content Include="Help\Help_TraceViewer.xml" />
+    <None Include="Service References\AlarmService\AlarmService.disco" />
+    <None Include="Service References\AlarmService\configuration91.svcinfo" />
+    <None Include="Service References\AlarmService\configuration.svcinfo" />
+    <None Include="Service References\AlarmService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Reporting\rpexrpdp.aspx" />
+    <Content Include="Reporting\rphctctl.aspx" />
+    <Content Include="Reporting\rpsalana.aspx" />
+    <None Include="Service References\AuthorizationService\AuthorizationService.disco" />
+    <None Include="Service References\AuthorizationService\configuration91.svcinfo" />
+    <None Include="Service References\AuthorizationService\configuration.svcinfo" />
+    <None Include="Service References\AuthorizationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Views\atabsdtl\atabsdtl.aspx" />
+    <Content Include="Views\atabssum\atabssum.aspx" />
+    <Content Include="Views\atanaatt\atanaatt.aspx" />
+    <Content Include="Views\atanarst\atanarst.aspx" />
+    <Content Include="Views\atcaldar\atcaldar.aspx" />
+    <Content Include="Views\atcldworkdays\atcldworkdays.aspx" />
+    <Content Include="Views\atdatmnu\atdatmnu.aspx" />
+    <Content Include="Views\atoridat\atoridat.aspx" />
+    <Content Include="Views\atpvtcld\atpvtcld.aspx" />
+    <Content Include="Views\atroshis\atroshis.aspx" />
+    <Content Include="Views\atroster\atroster.aspx" />
+    <Content Include="Views\atshfely\atshfely.aspx" />
+    <Content Include="Views\atshflat\atshflat.aspx" />
+    <Content Include="Views\atshfott\atshfott.aspx" />
+    <Content Include="Views\atshift\atshift.aspx" />
+    <Content Include="Views\bsrating\bsrating.aspx" />
+    <Content Include="Views\rcaplinf\rcaplinf.aspx" />
+    <Content Include="Views\rcapplic\rcapplic.aspx" />
+    <Content Include="Views\rcintasm\rcintasm.aspx" />
+    <Content Include="Views\rcintrst\rcintrst.aspx" />
+    <Content Include="Views\rcintsch\rcintsch.aspx" />
+    <Content Include="Views\stcheckr\stcheckr.aspx" />
+    <Content Include="Views\stperiod\stperiod.aspx" />
+    <Content Include="Views\Error\Error.aspx" />
+    <Content Include="Views\logon\logon.aspx" />
+    <Content Include="Views\lvcryfwd\lvcryfwd.aspx" />
+    <Content Include="Views\lvdfbyem\lvdfbyem.aspx" />
+    <Content Include="Views\lvdfbyyr\lvdfbyyr.aspx" />
+    <Content Include="Views\lvleaapp\lvleaapp.aspx" />
+    <Content Include="Views\lvlealmt\lvlealmt.aspx" />
+    <Content Include="Views\MasterData\MasterData.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\otaplctn\otaplctn.aspx" />
+    <Content Include="Views\otdetail\otdetail.aspx" />
+    <Content Include="Views\otlimit\otlimit.aspx" />
+    <Content Include="Views\otsummry\otsummry.aspx" />
+    <Content Include="Views\otttlv\otttlv.aspx" />
+    <Content Include="Views\praccalc\praccalc.aspx" />
+    <Content Include="Views\praddrst\praddrst.aspx" />
+    <Content Include="Views\prbaalcr\prbaalcr.aspx" />
+    <Content Include="Views\prcalcul\prcalcul.aspx" />
+    <Content Include="Views\prccalcr\prccalcr.aspx" />
+    <Content Include="Views\prcstalc\prcstalc.aspx" />
+    <Content Include="Views\prcumitm\prcumitm.aspx" />
+    <Content Include="Views\prfmular\prfmular.aspx" />
+    <Content Include="Views\prpbrhis\prpbrhis.aspx" />
+    <Content Include="Views\prprirst\prprirst.aspx" />
+    <Content Include="Views\prpubrst\prpubrst.aspx" />
+    <Content Include="Views\prrun\prrun.aspx" />
+    <Content Include="Views\prsalhis\prsalhis.aspx" />
+    <Content Include="Views\prsalitm\prsalitm.aspx" />
+    <Content Include="Views\prvarble\prvarble.aspx" />
+    <Content Include="Views\psaccont\psaccont.aspx" />
+    <Content Include="Views\psaddres\psaddres.aspx" />
+    <Content Include="Views\pscertfc\pscertfc.aspx" />
+    <Content Include="Views\pschghis\pschghis.aspx" />
+    <Content Include="Views\psclub\psclub.aspx" />
+    <Content Include="Views\pscontct\pscontct.aspx" />
+    <Content Include="Views\pscontrt\pscontrt.aspx" />
+    <Content Include="Views\psdepost\psdepost.aspx" />
+    <Content Include="Views\psdetain\psdetain.aspx" />
+    <Content Include="Views\pseductn\pseductn.aspx" />
+    <Content Include="Views\psempchg\psempchg.aspx" />
+    <Content Include="Views\psemplym\psemplym.aspx" />
+    <Content Include="Views\psevent\psevent.aspx" />
+    <Content Include="Views\psexprnc\psexprnc.aspx" />
+    <Content Include="Views\pshctcfg\pshctcfg.aspx" />
+    <Content Include="Views\pshctval\pshctval.aspx" />
+    <Content Include="Views\pshltrec\pshltrec.aspx" />
+    <Content Include="Views\psinsurn\psinsurn.aspx" />
+    <Content Include="Views\psperson\psperson.aspx" />
+    <Content Include="Views\psquafca\psquafca.aspx" />
+    <Content Include="Views\psqurter\psqurter.aspx" />
+    <Content Include="Views\psrelshp\psrelshp.aspx" />
+    <Content Include="Views\psskill\psskill.aspx" />
+    <Content Include="Views\pstraing\pstraing.aspx" />
+    <Content Include="Views\pswelfre\pswelfre.aspx" />
+    <Content Include="Views\lvdfbyot\lvdfbyot.aspx" />
+    <Content Include="Views\rpexrpdf\rpexrpdf.aspx" />
+    <Content Include="Views\rpexrpdp\rpexrpdp.aspx" />
+    <Content Include="Views\rphctctl\rphctctl.aspx" />
+    <Content Include="Views\rpsalana\rpsalana.aspx" />
+    <Content Include="Views\stcondtn\stcondtn.aspx" />
+    <Content Include="Views\stpubmsg\stpubmsg.aspx" />
+    <Content Include="Views\stsearch\stsearch.aspx" />
+    <Content Include="Views\stusrinf\stusrinf.aspx" />
+    <Content Include="Views\tracer\tracer.aspx" />
+    <Content Include="Views\trtraatt\trtraatt.aspx" />
+    <Content Include="Views\trtraing\trtraing.aspx" />
+    <Content Include="Views\trtrarst\trtrarst.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Shared\Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExtJS\ext\resources\images\default\form\clear-trigger.psd" />
+    <None Include="ExtJS\ext\resources\images\default\form\date-trigger.psd" />
+    <None Include="ExtJS\ext\resources\images\default\form\search-trigger.psd" />
+    <None Include="ExtJS\ext\resources\images\default\form\trigger.psd" />
+    <None Include="ExtJS\ext\resources\images\default\grid\Thumbs.db" />
+    <None Include="ExtJS\ext\resources\images\default\window\left-corners.psd" />
+    <None Include="ExtJS\ext\resources\images\default\window\left-right.psd" />
+    <None Include="ExtJS\ext\resources\images\default\window\right-corners.psd" />
+    <None Include="ExtJS\ext\resources\images\default\window\top-bottom.psd" />
+    <None Include="ExtJS\ext\resources\images\gray\window\left-corners.pspimage" />
+    <None Include="ExtJS\ext\resources\raw-images\shadow.psd" />
+    <None Include="ExtJS\ext\resources\resources.jsb" />
+    <None Include="ExtJS\resources\.DS_Store" />
+    <None Include="ExtJS\resources\column-data.json" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\AlarmService\AlarmService.wsdl" />
+    <None Include="Service References\AlarmService\AlarmService.xsd" />
+    <None Include="Service References\AlarmService\AlarmService1.xsd" />
+    <None Include="Service References\AuthorizationService\AuthorizationService.wsdl" />
+    <None Include="Service References\AuthorizationService\AuthorizationService.xsd" />
+    <None Include="Service References\AuthorizationService\AuthorizationService1.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HRMSWeb\Common\Common.csproj">
+      <Project>{1B8CCE4C-6C02-4992-86B2-E20E00F4349A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRMSBusiness\HRMSBusiness.csproj">
+      <Project>{4067B8C1-97EA-4A86-9A59-1991990CEABD}</Project>
+      <Name>HRMSBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRMSCore\HRMSCore.csproj">
+      <Project>{FBE6510E-FCB7-43EC-A979-B10FFE93E5B7}</Project>
+      <Name>HRMSCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageResources\LanguageResources.csproj">
+      <Project>{2641856B-0A51-4797-9A96-5CBAB3D0CD91}</Project>
+      <Name>LanguageResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{20213824-9014-4DED-8E7A-A0663FA89847}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{0845EC90-DD90-44E1-B3B5-E573FE3F0895}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AlarmService\" />
+    <WCFMetadataStorage Include="Service References\AuthorizationService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Excel\" />
+    <Folder Include="Log\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>3333</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/CostingWeb</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

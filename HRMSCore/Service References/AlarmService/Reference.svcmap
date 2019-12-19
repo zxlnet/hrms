@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0ac9827a-fb37-4687-aa7c-dae5bc8efc00" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8461/centralservice/AlarmService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlarmService.disco" MetadataType="Disco" ID="41734b8b-6c4f-4679-9df8-6db3cea78fd9" SourceId="1" SourceUrl="http://localhost:8461/centralservice/AlarmService.svc?disco" />
+    <MetadataFile FileName="AlarmService.wsdl" MetadataType="Wsdl" ID="676711d6-9002-4ed6-84db-aac741882aad" SourceId="1" SourceUrl="http://localhost:8461/centralservice/AlarmService.svc?wsdl" />
+    <MetadataFile FileName="AlarmService.xsd" MetadataType="Schema" ID="d9f40a95-575e-485d-be01-c1d3a8340af1" SourceId="1" SourceUrl="http://localhost:8461/centralservice/AlarmService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AlarmService1.xsd" MetadataType="Schema" ID="56b78e94-2d59-435e-a437-73fa401d4034" SourceId="1" SourceUrl="http://localhost:8461/centralservice/AlarmService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

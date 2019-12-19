@@ -1,0 +1,145 @@
+[{
+    task:'MD001',
+    duration:'管理部门',
+    user:'Jerry',
+    uiProvider:'col',
+    cls:'master-task',
+    iconCls:'task-folder',
+    children:[{
+        task:'MD002',
+        duration:'总经理',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'MD003',
+        duration:'人事部门',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'MD004',
+        duration:'行政部门',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    }]
+},{
+    task:'SD001',
+    duration:'销售部门',
+    user:'',
+    uiProvider:'col',
+    cls:'master-task',
+    iconCls:'task-folder',
+    children:[{
+        task:'SD002',
+        duration:'销售分部一',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'SD003',
+        duration:'销售分部二',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'SD004',
+        duration:'销售分部三',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    }]
+},{
+    task:'YD001',
+    duration:'业务部门',
+    user:'svtaln',
+    uiProvider:'col',
+    cls:'master-task',
+    iconCls:'task-folder',
+    children:[{
+        task:'YD002',
+        duration:'业务部门一',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'YD003',
+        duration:'业务部门二',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'YD004',
+        duration:'业务部门三',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'YD005',
+        duration:'业务部门四',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'YD006',
+        duration:'业务部门五',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    }]
+},{
+    task:'TD001',
+    duration:'运输部门',
+    user:'',
+    uiProvider:'col',
+    cls:'master-task',
+    iconCls:'task-folder',
+    children:[{
+        task:'TD002',
+        duration:'运输部门一',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'TD003',
+        duration:'运输部门二',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'TD004',
+        duration:'运输部门三',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'TD005',
+        duration:'运输部门四',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    },{
+        task:'TD006',
+        duration:'运输部门五',
+        user:'Jack Slocum',
+        uiProvider:'col',
+        leaf:true,
+        iconCls:'task'
+    }]
+}]

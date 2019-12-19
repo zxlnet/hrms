@@ -1,0 +1,314 @@
+Ext.BLANK_IMAGE_URL = ContextInfo.contextPath+'/ExtJS/resources/s.gif'; 
+
+Docs = {}; 
+var win;
+
+defaultTree=new Ext.tree.TreePanel({ 
+    			loader: new Ext.tree.TreeLoader(), 
+     			rootVisible:false, 
+     			lines:false, 
+     			autoScroll:true,    			
+     			root: new Ext.tree.AsyncTreeNode({ 
+           		
+     	        }) 
+ 	});
+
+ 		
+
+MenuPanel=function(){ 
+MenuPanel.superclass.constructor.call(this,{ 
+        id:'menu-tree', 
+        region:'west', 
+        width:200, 
+        split:true,
+        minSize: 200,
+        maxSize: 350,  
+        lines:false,
+        autoScroll:true,
+        animCollapse:false,
+        animate: false,
+        collapseMode:'mini',
+        collapseFirst:false,
+        layout:'accordion',         
+      	items: [ 
+     	    defaultTree 	
+      ] 
+    }); 
+}; 
+
+
+Ext.extend(MenuPanel,Ext.Panel); 
+
+
+DocPanel = Ext.extend(Ext.Panel, { 
+    closable: true, 
+    autoScroll:true, 
+		
+    initComponent : function(){ 
+        var ps = this.cclass.split('.'); 
+        this.title = ps[ps.length-1]; 
+
+        DocPanel.superclass.initComponent.call(this); 
+  
+    }, 
+
+    scrollToMember : function(member){ 
+        var el = Ext.fly(this.cclass + '-' + member); 
+        if(el){ 
+            var top = (el.getOffsetsTo(this.body)[1]) + this.body.dom.scrollTop; 
+            this.body.scrollTo('top', top-25, {duration:.75, callback: this.hlMember.createDelegate(this, [member])}); 
+        } 
+    }, 
+
+	scrollToSection : function(id){ 
+		var el = Ext.getDom(id); 
+		if(el){ 
+			var top = (Ext.fly(el).getOffsetsTo(this.body)[1]) + this.body.dom.scrollTop; 
+			this.body.scrollTo('top', top-25, {duration:.5}); 
+		} 
+	}, 
+
+    hlMember : function(member){ 
+        var el = Ext.fly(this.cclass + '-' + member); 
+        if(el){ 
+            el.up('tr').highlight('#cadaf9'); 
+        } 
+    } 
+}); 
+
+
+  MainPanel = function(){ 
+
+  MainPanel.superclass.constructor.call(this, { 
+        id:'doc-body', 
+        region:'center', 
+        margins:'0 5 5 0', 
+        resizeTabs: true, 
+        minTabWidth: 135, 
+        tabWidth: 135, 
+        plugins: new Ext.ux.TabCloseMenu(), 
+        enableTabScroll: true, 
+        activeTab: 0, 
+        listeners:{
+            resize:function(tab,adjWidth,adjHeight){              
+                var ap=tab.getActiveTab();
+                if(ap){
+                    
+                    var g=Ext.getCmp(ap.id+'_panel');
+	                if(g){
+	                    g.setWidth(adjWidth-2);
+	                    var adHeight=29;
+	                    var f=g.getComponent(0);
+	                    if(f){
+	                        var tbar=f.getTopToolbar();
+	                        if(tbar){
+	                            adHeight=tbar.getSize().height+2;
+	                        }
+	                    }
+	                    g.setHeight(adjHeight-adHeight);
+	                }
+                }
+            }
+        },
+        items: { 
+            id:'main', 
+            title:BCDCosting.Public_Tab_Summary, 
+            style: 'background:#FFFFFF',
+     		autoLoad: {url: 'main.htm',scripts:true}, 
+            iconCls:'icon-dashboard', 
+            autoScroll: true 
+        } 
+    }); 
+}; 
+
+Ext.extend(MainPanel, Ext.TabPanel, { 
+
+    initEvents : function(){ 
+        MainPanel.superclass.initEvents.call(this); 
+    }, 
+
+    loadClass : function(href, cls, iconCls,text, member,forceLoad){        
+        var id = cls; 
+        var tab = this.getComponent(id);   
+         var autoLoad = {url: href,scripts:true};
+        if(tab){ 
+            this.setActiveTab(tab); 
+            if(forceLoad){
+                tab.load(autoLoad);
+            }            
+            if(member){ 
+                tab.scrollToMember(member); 
+            } 
+        }else{   
+            var openTabs=this.items.length;
+            if(openTabs>Tabs.openedTabs){
+                Ext.MessageBox.show({
+                    title: BCDCosting.Public_Message_Error,
+                    msg:BCDCosting.Public_Message_OpenTabsExceed+Tabs.openedTabs+')',
+                    buttons: Ext.MessageBox.OK,
+                    icon:Ext.MessageBox.ERROR
+                });
+                return;
+            }       
+            if(member){ 
+                autoLoad.callback = function(){ 
+                    Ext.getCmp(id).scrollToMember(member); 
+                } 
+            } 
+            var p = this.add(new DocPanel({
+                id: id,                
+                cclass : text, 
+                autoLoad: autoLoad, 
+                layout:'fit',
+                iconCls: iconCls,
+                style: 'background:#FFFFFF'
+            })); 
+            this.setActiveTab(p); 
+        } 
+    }
+}); 
+
+var mainPanel = new MainPanel();
+
+Ext.onReady(function(){ 
+
+    Ext.QuickTips.init(); 
+    
+    infoPanel=new Ext.Panel({
+        title:'System Information', 
+        iconCls:'icon-ocean',
+        hidden:'true',
+        html:'<p style=padding:5px>Not implementation<br></p>'
+    });
+    
+    var period=ContextInfo.currentPeriod.fullPeriod;
+    var periodStart=ContextInfo.currentPeriod.start;
+    var periodEnd=ContextInfo.currentPeriod.end;
+    
+    var hd = new Ext.Panel({ 
+        border: false, 
+        layout:'anchor', 
+        region:'north', 
+        cls: 'docs-header', 
+        height:60, 
+        items: [{ 
+            xtype:'box', 
+            el:'header', 
+            border:false, 
+            anchor: 'none -25' 
+        }, 
+        new Ext.Toolbar({ 
+            cls:'top-toolbar', 
+            items:[ ' ', 
+			{ 
+   				text: BCDCosting.Public_Button_User+':'+ContextInfo.currentUser, 
+                iconCls: 'icon-user'
+     		}, '-',  
+            { 
+                text: "<b><font color='blue'>" + BCDCosting.Public_Button_CurrentPeriod+': '+ period+'</font></b> ['+periodStart+' - '+periodEnd+']',
+                handler:function()
+                {
+                    mainPanel.loadClass(ContextInfo.contextPath+'/costingperiod.mvc/index?menuId=M9010','M9010','',BCDCosting.Public_Menu_CostingPeriod);
+                }
+            }, '-',  
+            { 
+                text: "<b><font color='green'>" + BCDCosting.Public_Menu_CalculationStatus + "</font></b>",
+                handler:function()
+                {
+                    mainPanel.loadClass(ContextInfo.contextPath+'/calculationstatus.mvc/index?menuId=M9020','M9020','',BCDCosting.Public_Menu_CalculationStatus);
+                }
+            }, '->', 
+            { 
+                text: BCDCosting.Public_Button_Chinese,
+                handler:function(){
+                    var form=document.createElement('form');
+	                form.name='chinaForm';
+	                form.method='post';
+	                form.action=ContextInfo.contextPath+'/home.mvc/changeLang';
+                    var hd = document.createElement('input');
+                    hd.type = 'hidden';
+                    hd.name = 'lang';
+                    hd.value = 'zh-cn';
+                    form.appendChild(hd);
+	                document.body.appendChild(form);
+	                form.submit();
+	                document.body.removeChild(form);
+                },
+                scope:this
+            }, '-',
+            { 
+                text: BCDCosting.Public_Button_English,
+                id:'en',
+                handler:function(){
+                    var form=document.createElement('form');
+	                form.name='englishForm';
+	                form.method='post';
+	                form.action=ContextInfo.contextPath+'/home.mvc/changeLang';
+                    var hd = document.createElement('input');
+                    hd.type = 'hidden';
+                    hd.name = 'lang';
+                    hd.value = 'en';
+                    form.appendChild(hd);
+	                document.body.appendChild(form);
+	                form.submit();
+	                document.body.removeChild(form);
+                },
+                scope:this
+            }] 
+        })] 
+    });
+   
+    Ext.Ajax.request({
+		   url: ContextInfo.contextPath+'/menuconfig.mvc/listTopMenu',			  
+		   success: function(response){
+		        var api = new MenuPanel();   	         
+                api.remove(defaultTree); 
+		   		var o= Ext.util.JSON.decode(response.responseText);
+		   		for (var i=0;i<o.length;i++){		   		    
+		   		    var mTree=new Ext.tree.TreePanel({ 
+    			                title: o[i].MenuItem_Name, 
+     			                loader: new Ext.tree.TreeLoader({
+     			                     dataUrl:ContextInfo.contextPath+'/menuconfig.mvc/getMenuTree',
+     			                     baseParams:{parent_menuitem:o[i].MenuItem_Id},
+     			                     requestMethod:"GET"
+     			                }), 
+     			                rootVisible:false, 
+     			                lines:false, 
+     			                autoScroll:true,
+     			                iconCls:'icon-ocean',
+     			                listeners: {
+         			                click: function(node,e){
+         				                e.stopEvent();          				                
+         				                mainPanel.loadClass(ContextInfo.contextPath+node.attributes.href, node.id,node.attributes.iconCls,node.attributes.text);			     		                         				                
+         			                }     			
+         		                },
+     			                root: new Ext.tree.AsyncTreeNode() 
+ 	                }); 
+		   		    api.add(mTree);
+		   		}
+		   		api.add(infoPanel); 
+		   		var viewport = new Ext.Viewport({ 
+                    layout:'border', 
+                    items:[ hd, api, mainPanel ] 
+                }); 
+     
+                viewport.doLayout(); 
+		   },
+		   failure: function(response){
+		   		Ext.MessageBox.show({
+   					title: BCDCosting.Public_Message_Error,
+   					msg:response.responseText,
+   					buttons: Ext.MessageBox.OK,
+   					icon:Ext.MessageBox.ERROR
+   				});
+		   },
+		   scope:this
+		});
+	
+    setTimeout(function(){ 
+        Ext.get('loading').remove(); 
+        Ext.get('loading-mask').fadeOut({remove:true}); 
+    }, 250); 
+    
+    
+}); 

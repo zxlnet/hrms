@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4067B8C1-97EA-4A86-9A59-1991990CEABD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GotWell.HRMS.HRMSBusiness</RootNamespace>
+    <AssemblyName>GotWell.HRMS.HRMSBusiness</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attendance\atabssumBll.cs" />
+    <Compile Include="Attendance\atanaattBll.cs" />
+    <Compile Include="Authorization\logonBll.cs" />
+    <Compile Include="Common\ValueInfoBll.cs" />
+    <Compile Include="Master\bsratingBll.cs" />
+    <Compile Include="Overtime\otanaovtBll.cs" />
+    <Compile Include="Attendance\atanarstBll.cs" />
+    <Compile Include="Attendance\atcaldarBll.cs" />
+    <Compile Include="Attendance\atcldworkdaysBll.cs" />
+    <Compile Include="Attendance\atdatmnuBll.cs" />
+    <Compile Include="Attendance\atoridatBll.cs" />
+    <Compile Include="Overtime\otaplctnBll.cs" />
+    <Compile Include="Overtime\otdetailBll.cs" />
+    <Compile Include="Overtime\otlimitBll.cs" />
+    <Compile Include="Overtime\otsummryBll.cs" />
+    <Compile Include="Attendance\atpvtcldBll.cs" />
+    <Compile Include="Attendance\atrosterBll.cs" />
+    <Compile Include="Attendance\atroshisBll.cs" />
+    <Compile Include="Attendance\atshiftBll.cs" />
+    <Compile Include="Attendance\atshfelyBll.cs" />
+    <Compile Include="Attendance\atshflatBll.cs" />
+    <Compile Include="Attendance\atshfottBll.cs" />
+    <Compile Include="Authorization\AuthorizationBll.cs" />
+    <Compile Include="Common\BaseBll.cs" />
+    <Compile Include="Common\PublicBll.cs" />
+    <Compile Include="Common\tracerBll.cs" />
+    <Compile Include="Leave\lvanalevBll.cs" />
+    <Compile Include="Leave\lvcryfwdBll.cs" />
+    <Compile Include="Leave\lvdfbyemBll.cs" />
+    <Compile Include="Leave\lvdfbyyrBll.cs" />
+    <Compile Include="Leave\lvleaappBll.cs" />
+    <Compile Include="Leave\lvdfbyotBll.cs" />
+    <Compile Include="Leave\lvlealmtBll.cs" />
+    <Compile Include="Common\MenuConfigBll.cs" />
+    <Compile Include="Master\MasterDataBll.cs" />
+    <Compile Include="Common\TransactionLogBll.cs" />
+    <Compile Include="Recruitment\rcaplinfBll.cs" />
+    <Compile Include="Recruitment\rcapplicBll.cs" />
+    <Compile Include="Recruitment\rcintadtBll.cs" />
+    <Compile Include="Recruitment\rcintasmBll.cs" />
+    <Compile Include="Recruitment\rcintrdtBll.cs" />
+    <Compile Include="Recruitment\rcintrstBll.cs" />
+    <Compile Include="Recruitment\rcintschBll.cs" />
+    <Compile Include="Syst\stcheckrBll.cs" />
+    <Compile Include="Syst\stperiodBll.cs" />
+    <Compile Include="Attendance\atabsdtlBll.cs" />
+    <Compile Include="Overtime\otttlvBll.cs" />
+    <Compile Include="Payroll\IPayrollRuleSetItemMethod.cs" />
+    <Compile Include="Payroll\praccalcBll.cs" />
+    <Compile Include="Payroll\praddrstBll.cs" />
+    <Compile Include="Payroll\prbaalcrBll.cs" />
+    <Compile Include="Payroll\prcalculBll.cs" />
+    <Compile Include="Payroll\prcstalcBll.cs" />
+    <Compile Include="Payroll\prccalcrBll.cs" />
+    <Compile Include="Payroll\prcumitmBll.cs" />
+    <Compile Include="Payroll\prfmularBll.cs" />
+    <Compile Include="Payroll\prpbrhisBll.cs" />
+    <Compile Include="Payroll\prprirstBll.cs" />
+    <Compile Include="Payroll\prpubrstBll.cs" />
+    <Compile Include="Payroll\prrunBll.cs" />
+    <Compile Include="Payroll\prsalhisBll.cs" />
+    <Compile Include="Payroll\prsalitmBll.cs" />
+    <Compile Include="Payroll\prvarbleBll.cs" />
+    <Compile Include="Payroll\Variables\sysAbsDays.cs" />
+    <Compile Include="Payroll\Variables\sysAbsHours.cs" />
+    <Compile Include="Payroll\Variables\sysAge.cs" />
+    <Compile Include="Payroll\Variables\sysAllAtDays.cs" />
+    <Compile Include="Payroll\Variables\sysAllAtHours.cs" />
+    <Compile Include="Payroll\Variables\sysAtDays.cs" />
+    <Compile Include="Payroll\Variables\sysAtHours.cs" />
+    <Compile Include="Payroll\Variables\ISysVariables.cs" />
+    <Compile Include="Payroll\Variables\sysEarlyCount.cs" />
+    <Compile Include="Payroll\Variables\sysEarlyHours.cs" />
+    <Compile Include="Payroll\Variables\sysFalse.cs" />
+    <Compile Include="Payroll\Variables\sysIsActive.cs" />
+    <Compile Include="Payroll\Variables\sysIsInFirstMonth.cs" />
+    <Compile Include="Payroll\Variables\sysIsInProbation.cs" />
+    <Compile Include="Payroll\Variables\sysIsTerminated.cs" />
+    <Compile Include="Payroll\Variables\sysLateHours.cs" />
+    <Compile Include="Payroll\Variables\sysMonthEnd.cs" />
+    <Compile Include="Payroll\Variables\sysMonthStart.cs" />
+    <Compile Include="Payroll\Variables\sysPeriodEnd.cs" />
+    <Compile Include="Payroll\Variables\sysPeriodStart.cs" />
+    <Compile Include="Payroll\Variables\sysServiceDays.cs" />
+    <Compile Include="Payroll\Variables\sysServiceMonths.cs" />
+    <Compile Include="Payroll\Variables\sysServiceYears.cs" />
+    <Compile Include="Payroll\Variables\sysLateCount.cs" />
+    <Compile Include="Payroll\Variables\sysLvDays.cs" />
+    <Compile Include="Payroll\Variables\sysLvHours.cs" />
+    <Compile Include="Payroll\Variables\sysLvType.cs" />
+    <Compile Include="Payroll\Variables\sysMonthDays.cs" />
+    <Compile Include="Payroll\Variables\sysMonthDaysM.cs" />
+    <Compile Include="Payroll\Variables\sysOTHours.cs" />
+    <Compile Include="Payroll\Variables\sysOTType.cs" />
+    <Compile Include="Payroll\Variables\sysTrue.cs" />
+    <Compile Include="Payroll\Variables\sysWorkHours.cs" />
+    <Compile Include="Personal\formaterEMNO.cs" />
+    <Compile Include="Personal\formaterSFID.cs" />
+    <Compile Include="Personal\psaccontBll.cs" />
+    <Compile Include="Personal\psaddresBll.cs" />
+    <Compile Include="Personal\pscertfcBll.cs" />
+    <Compile Include="Personal\pschghisBll.cs" />
+    <Compile Include="Personal\psclubBll.cs" />
+    <Compile Include="Personal\pscontctBll.cs" />
+    <Compile Include="Personal\pscontrtBll.cs" />
+    <Compile Include="Personal\psdetainBll.cs" />
+    <Compile Include="Personal\pseductnBll.cs" />
+    <Compile Include="Personal\psempchgBll.cs" />
+    <Compile Include="Personal\psemplymBll.cs" />
+    <Compile Include="Personal\pseventBll.cs" />
+    <Compile Include="Personal\psexprncBll.cs" />
+    <Compile Include="Personal\pshctcfgBll.cs" />
+    <Compile Include="Personal\pshctvalBll.cs" />
+    <Compile Include="Personal\pshltrecBll.cs" />
+    <Compile Include="Personal\psinsurnBll.cs" />
+    <Compile Include="Personal\pspersonBll.cs" />
+    <Compile Include="Personal\psquafcaBll.cs" />
+    <Compile Include="Personal\psqurterBll.cs" />
+    <Compile Include="Personal\psrelshpBll.cs" />
+    <Compile Include="Personal\psskillBll.cs" />
+    <Compile Include="Personal\pstraingBll.cs" />
+    <Compile Include="Personal\pswelfreBll.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\rpexrpdfBll.cs" />
+    <Compile Include="Reporting\rpexrpdpBll.cs" />
+    <Compile Include="Reporting\rphctctlBll.cs" />
+    <Compile Include="Service References\AuthorizationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Syst\stcondtnBll.cs" />
+    <Compile Include="Syst\stpubmsgBll.cs" />
+    <Compile Include="Syst\strecnotBll.cs" />
+    <Compile Include="Syst\stsearchBll.cs" />
+    <Compile Include="Syst\stsyscfgBll.cs" />
+    <Compile Include="Syst\staldlybBll.cs" />
+    <Compile Include="Syst\stusrinfBll.cs" />
+    <Compile Include="Training\trtraattBll.cs" />
+    <Compile Include="Training\trtraingBll.cs" />
+    <Compile Include="Training\trtrarstBll.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HRMSWeb\Common\Common.csproj">
+      <Project>{1B8CCE4C-6C02-4992-86B2-E20E00F4349A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRMSCore\HRMSCore.csproj">
+      <Project>{FBE6510E-FCB7-43EC-A979-B10FFE93E5B7}</Project>
+      <Name>HRMSCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRMSData\HRMSData.csproj">
+      <Project>{2CED6B7E-DDCB-46A2-B30B-00F056FA6D54}</Project>
+      <Name>HRMSData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageResources\LanguageResources.csproj">
+      <Project>{2641856B-0A51-4797-9A96-5CBAB3D0CD91}</Project>
+      <Name>LanguageResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{20213824-9014-4DED-8E7A-A0663FA89847}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{0845EC90-DD90-44E1-B3B5-E573FE3F0895}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AuthorizationService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthorizationService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthorizationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthorizationService\AuthorizationService.xsd" />
+    <None Include="Service References\AuthorizationService\AuthorizationService1.xsd" />
+    <None Include="Service References\AuthorizationService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthorizationService\AuthorizationService.disco" />
+    <None Include="Service References\AuthorizationService\AuthorizationService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

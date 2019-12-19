@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Field_Date_Format_Error_Message" xml:space="preserve">
+    <value>is a invalid format,the right format is</value>
+  </data>
+  <data name="Field_Max_Length_Message" xml:space="preserve">
+    <value>too long,please to change!</value>
+  </data>
+  <data name="Field_Min_Length_Message" xml:space="preserve">
+    <value>too short,please to change!</value>
+  </data>
+  <data name="Page_Label_Id" xml:space="preserve">
+    <value>PageId</value>
+  </data>
+  <data name="Public_Add_WindowTitle" xml:space="preserve">
+    <value>New Window</value>
+  </data>
+  <data name="Public_Button_Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="Public_Button_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Public_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Public_Button_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Public_Button_CurrentPeriod" xml:space="preserve">
+    <value>Current Period</value>
+  </data>
+  <data name="Public_Button_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Public_Button_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Public_Button_FileList" xml:space="preserve">
+    <value>File List</value>
+  </data>
+  <data name="Public_Button_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Public_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Public_Button_User" xml:space="preserve">
+    <value>Current User</value>
+  </data>
+  <data name="Public_Confirm_Delete" xml:space="preserve">
+    <value>Are you sure to delete?</value>
+  </data>
+  <data name="Public_Confirm_Title" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Public_Edit_WindowTitle" xml:space="preserve">
+    <value>Edit Window</value>
+  </data>
+  <data name="Public_Grid_CalculationData" xml:space="preserve">
+    <value>Error Rows</value>
+  </data>
+  <data name="Public_Grid_ImportData" xml:space="preserve">
+    <value>Error Rows</value>
+  </data>
+  <data name="Public_Import_WindowTitle" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Public_Label_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Public_Menu_scapplic" xml:space="preserve">
+    <value>Application Mgt</value>
+  </data>
+  <data name="Public_Menu_scrole" xml:space="preserve">
+    <value>Role Mgt</value>
+  </data>
+  <data name="Public_Menu_Authorization" xml:space="preserve">
+    <value>Authorization</value>
+  </data>
+  <data name="Public_Message_AddBad" xml:space="preserve">
+    <value>Add Failure</value>
+  </data>
+  <data name="Public_Message_AddWell" xml:space="preserve">
+    <value>Add Successfully</value>
+  </data>
+  <data name="Public_Message_ApplicationExist" xml:space="preserve">
+    <value>Application name is existed,please checking!</value>
+  </data>
+  <data name="Public_Message_AppNoExistToAdd" xml:space="preserve">
+    <value>The application name not exist,If want to add,please to use add function!</value>
+  </data>
+  <data name="Public_Message_CalculationFail" xml:space="preserve">
+    <value>Calculation Fail</value>
+  </data>
+  <data name="Public_Message_CalculationSuccess" xml:space="preserve">
+    <value>Calculation Success</value>
+  </data>
+  <data name="Public_Message_CarryForwardFail" xml:space="preserve">
+    <value>CarryForward Fail</value>
+  </data>
+  <data name="Public_Message_CarryForwardSuccess" xml:space="preserve">
+    <value>CarryForward Success</value>
+  </data>
+  <data name="Public_Message_CheckFail" xml:space="preserve">
+    <value>Check Fail</value>
+  </data>
+  <data name="Public_Message_CheckPeriodStatusFail" xml:space="preserve">
+    <value>Check period status fail</value>
+  </data>
+  <data name="Public_Message_CheckPeriodStatusSuccess" xml:space="preserve">
+    <value>Check period status success</value>
+  </data>
+  <data name="Public_Message_CheckPreconditionFail" xml:space="preserve">
+    <value>Check step precondition fail</value>
+  </data>
+  <data name="Public_Message_CheckTraceFile" xml:space="preserve">
+    <value>Please check trace file</value>
+  </data>
+  <data name="Public_Message_CheckWarning" xml:space="preserve">
+    <value>Check Warning</value>
+  </data>
+  <data name="Public_Message_ClosePeriodFail" xml:space="preserve">
+    <value>Cose period fail.</value>
+  </data>
+  <data name="Public_Message_ClosePeriodSuccess" xml:space="preserve">
+    <value>Close period successful.</value>
+  </data>
+  <data name="Public_Message_ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to continue to cancel?</value>
+  </data>
+  <data name="Public_Message_ConfirmClosePeriod" xml:space="preserve">
+    <value>Are you sure you want to close the period?</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCalculation" xml:space="preserve">
+    <value>Are you sure you want to continue to calculation?</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueImport" xml:space="preserve">
+    <value>Are you sure you want to import?</value>
+  </data>
+  <data name="Public_Message_ConfirmOpenPeriod" xml:space="preserve">
+    <value>Are you sure you want to open the period?</value>
+  </data>
+  <data name="Public_Message_ConfirmReset2" xml:space="preserve">
+    <value>Are you sure you want to do it?</value>
+  </data>
+  <data name="Public_Message_DataCheckFail" xml:space="preserve">
+    <value>Data check fail</value>
+  </data>
+  <data name="Public_Message_DataCheckSuccess" xml:space="preserve">
+    <value>Data check success</value>
+  </data>
+  <data name="Public_Message_DeleteBad" xml:space="preserve">
+    <value>Delete Failure</value>
+  </data>
+  <data name="Public_Message_DeleteWell" xml:space="preserve">
+    <value>Delete Successfully</value>
+  </data>
+  <data name="Public_Message_EditBad" xml:space="preserve">
+    <value>Edit Failure</value>
+  </data>
+  <data name="Public_Message_EditWell" xml:space="preserve">
+    <value>Edit Successfully</value>
+  </data>
+  <data name="Public_Message_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Public_Message_ExcelNoRecord" xml:space="preserve">
+    <value>No data to export to excel</value>
+  </data>
+  <data name="Public_Message_ExportExcelFail" xml:space="preserve">
+    <value>Export to Excel fail</value>
+  </data>
+  <data name="Public_Message_FileNotEmpty" xml:space="preserve">
+    <value>Filename can not be empty or it is not an excel file!</value>
+  </data>
+  <data name="Public_Message_ImportBad" xml:space="preserve">
+    <value>Import Failure</value>
+  </data>
+  <data name="Public_Message_ImportDenied" xml:space="preserve">
+    <value>Import denied.</value>
+  </data>
+  <data name="Public_Message_ImportWell" xml:space="preserve">
+    <value>Import Successfully</value>
+  </data>
+  <data name="Public_Message_IsDuplicate" xml:space="preserve">
+    <value>has exist!</value>
+  </data>
+  <data name="Public_Message_NoDataToCarryForward" xml:space="preserve">
+    <value>No data to carryforward.</value>
+  </data>
+  <data name="Public_Message_NoStdPrice" xml:space="preserve">
+    <value>The stdprice of the material is not exists!</value>
+  </data>
+  <data name="Public_Message_OpenPeriodFail" xml:space="preserve">
+    <value>Open period fail.</value>
+  </data>
+  <data name="Public_Message_OpenPeriodFoundOpenDenied" xml:space="preserve">
+    <value>Open period found, please close it first.</value>
+  </data>
+  <data name="Public_Message_OpenPeriodSuccess" xml:space="preserve">
+    <value>Open period successfully.</value>
+  </data>
+  <data name="Public_Message_OpenTabsExceed" xml:space="preserve">
+    <value>Exceed maximun tabs count,please close some tabs!(Maximun:</value>
+  </data>
+  <data name="Public_Message_PeriodIsClosed" xml:space="preserve">
+    <value>Period is Closed</value>
+  </data>
+  <data name="Public_Message_PeriodIsUnused" xml:space="preserve">
+    <value>Period is Unused</value>
+  </data>
+  <data name="Public_Message_PostingFail" xml:space="preserve">
+    <value>Posting fail.</value>
+  </data>
+  <data name="Public_Message_PostingSuccess" xml:space="preserve">
+    <value>Posting success.</value>
+  </data>
+  <data name="Public_Message_QueryFail" xml:space="preserve">
+    <value>Query Fail</value>
+  </data>
+  <data name="Public_Message_RejectingFail" xml:space="preserve">
+    <value>Rejecting fail.</value>
+  </data>
+  <data name="Public_Message_RejectingSuccess" xml:space="preserve">
+    <value>Rejecting success.</value>
+  </data>
+  <data name="Public_Message_ResetFail" xml:space="preserve">
+    <value>Reset Fail.</value>
+  </data>
+  <data name="Public_Message_ResetIsUnnecessary" xml:space="preserve">
+    <value>Calculation does not start,reset is unnecessary.</value>
+  </data>
+  <data name="Public_Message_ResetSuccess" xml:space="preserve">
+    <value>Reset Success.</value>
+  </data>
+  <data name="Public_Message_RoleExist" xml:space="preserve">
+    <value>Role ID is existed,please checking!</value>
+  </data>
+  <data name="Public_Message_RoleNoExistToAdd" xml:space="preserve">
+    <value>The role ID not exist,If want to add,please to use add function!</value>
+  </data>
+  <data name="Public_Message_SaveBad" xml:space="preserve">
+    <value>Save failure</value>
+  </data>
+  <data name="Public_Message_SaveWell" xml:space="preserve">
+    <value>Save Successfully</value>
+  </data>
+  <data name="Public_Message_SessionTimeOut" xml:space="preserve">
+    <value>Session TimeOut,Please try &lt;a href='Default.aspx'&gt;&lt;font color=blue&gt;Login&lt;/font&gt;&lt;/a&gt; again</value>
+  </data>
+  <data name="Public_Message_StepCompleted" xml:space="preserve">
+    <value>This step was calculated and states Completed.</value>
+  </data>
+  <data name="Public_Message_StepCompletedCarryForwardDenied" xml:space="preserve">
+    <value>The selected step was completed, carryforward is denied.</value>
+  </data>
+  <data name="Public_Message_StepLocked" xml:space="preserve">
+    <value>Step is locked.</value>
+  </data>
+  <data name="Public_Message_Wating" xml:space="preserve">
+    <value>Uploading file,Please waiting...</value>
+  </data>
+  <data name="Public_PagingToolbar_EmptyMsg" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="Public_PagingToolbar_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Public_Query_WindowTitle" xml:space="preserve">
+    <value>Query Window</value>
+  </data>
+  <data name="Public_Tab_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Public_Title_Upload" xml:space="preserve">
+    <value>Uploading</value>
+  </data>
+  <data name="Public_Toolbar_Add" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Public_Toolbar_Calculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="Public_Toolbar_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Public_Toolbar_CarryForward" xml:space="preserve">
+    <value>CarryForward</value>
+  </data>
+  <data name="Public_Toolbar_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Public_Toolbar_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Public_Toolbar_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Public_Toolbar_ImportExcelLabel" xml:space="preserve">
+    <value>Please choose an excel file to open</value>
+  </data>
+  <data name="Public_Toolbar_InExcel" xml:space="preserve">
+    <value>InExcel</value>
+  </data>
+  <data name="Public_Toolbar_OutExcel" xml:space="preserve">
+    <value>FromExcel</value>
+  </data>
+  <data name="Public_Toolbar_Posting" xml:space="preserve">
+    <value>Posting</value>
+  </data>
+  <data name="Public_Toolbar_Query" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="Public_Toolbar_Rejecting" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="Public_Toolbar_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Public_Toolbar_Split" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="Public_Toolbar_ToExcel" xml:space="preserve">
+    <value>ToExcel</value>
+  </data>
+  <data name="RoleMgt_Message_ChoiceUsers" xml:space="preserve">
+    <value>Please choice users!</value>
+  </data>
+  <data name="RoleMgt_Message_InputBaseInfor" xml:space="preserve">
+    <value>Please first input role base information,for example role id and application name!</value>
+  </data>
+  <data name="SysUser_Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="SysUser_GroupName" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="SysUser_LastLogonTime" xml:space="preserve">
+    <value>Last Logon Time</value>
+  </data>
+  <data name="SysUser_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Trace_Label_FileName" xml:space="preserve">
+    <value>File Name:</value>
+  </data>
+  <data name="Role_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Public_Message_Warning" xml:space="preserve">
+    <value>Waining</value>
+  </data>
+  <data name="RoleMgt_Message_CannotDelSysRole" xml:space="preserve">
+    <value>Can not delete the system role</value>
+  </data>
+  <data name="SysUser_FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Public_Menu_scfunlst" xml:space="preserve">
+    <value>Function Mgt</value>
+  </data>
+  <data name="Public_Button_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Public_Help_WindowTitle" xml:space="preserve">
+    <value>Help Window</value>
+  </data>
+  <data name="Public_Toolbar_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Security_Label_apnm" xml:space="preserve">
+    <value>Application name</value>
+  </data>
+  <data name="Security_Label_apve" xml:space="preserve">
+    <value>Application version</value>
+  </data>
+  <data name="Security_Label_cnde" xml:space="preserve">
+    <value>Chinese desc</value>
+  </data>
+  <data name="Security_Label_ende" xml:space="preserve">
+    <value>English desc</value>
+  </data>
+  <data name="Security_Label_fnid" xml:space="preserve">
+    <value>Func Id</value>
+  </data>
+  <data name="Security_Label_fnnm" xml:space="preserve">
+    <value>Func name</value>
+  </data>
+  <data name="Security_Label_fsts" xml:space="preserve">
+    <value>Func status</value>
+  </data>
+  <data name="Security_Label_furl" xml:space="preserve">
+    <value>Func URL</value>
+  </data>
+  <data name="Security_Label_leno" xml:space="preserve">
+    <value>Level No</value>
+  </data>
+  <data name="Security_Label_modu" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Security_Label_nefe" xml:space="preserve">
+    <value>New features</value>
+  </data>
+  <data name="Security_Label_pfid" xml:space="preserve">
+    <value>Parent func Id</value>
+  </data>
+  <data name="Security_Label_plfo" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="Security_Label_reby" xml:space="preserve">
+    <value>Released by</value>
+  </data>
+  <data name="Security_Label_retm" xml:space="preserve">
+    <value>Released time</value>
+  </data>
+  <data name="Security_Label_stus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Security_Label_wurl" xml:space="preserve">
+    <value>Web URL</value>
+  </data>
+  <data name="Public_Menu_scuser" xml:space="preserve">
+    <value>User Mgt</value>
+  </data>
+  <data name="Public_Toolbar_CleanQuery" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Security_Label_availusers" xml:space="preserve">
+    <value>Available users</value>
+  </data>
+  <data name="Security_Label_basis" xml:space="preserve">
+    <value>Basis</value>
+  </data>
+  <data name="Security_Label_functions" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="Security_Label_issr" xml:space="preserve">
+    <value>Is system role</value>
+  </data>
+  <data name="Security_Label_issu" xml:space="preserve">
+    <value>Is system user</value>
+  </data>
+  <data name="Security_Label_lmtm" xml:space="preserve">
+    <value>Last modified time</value>
+  </data>
+  <data name="Security_Label_lmur" xml:space="preserve">
+    <value>Last modifier</value>
+  </data>
+  <data name="Security_Label_perm" xml:space="preserve">
+    <value>Permis</value>
+  </data>
+  <data name="Security_Label_pswd" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Security_Label_remk" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Security_Label_rode" xml:space="preserve">
+    <value>Role desc</value>
+  </data>
+  <data name="Security_Label_roid" xml:space="preserve">
+    <value>Role Id</value>
+  </data>
+  <data name="Security_Label_role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Security_Label_ronm" xml:space="preserve">
+    <value>Role name</value>
+  </data>
+  <data name="Security_Label_rost" xml:space="preserve">
+    <value>Role status</value>
+  </data>
+  <data name="Security_Label_selectedusers" xml:space="preserve">
+    <value>Selected users</value>
+  </data>
+  <data name="Security_Label_urid" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="Security_Label_urnm" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Security_Label_urst" xml:space="preserve">
+    <value>User status</value>
+  </data>
+  <data name="Security_Label_urty" xml:space="preserve">
+    <value>User type</value>
+  </data>
+  <data name="Security_Label_users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Security_Label_alep" xml:space="preserve">
+    <value>Allow edit personal info</value>
+  </data>
+  <data name="Security_Label_cpwd" xml:space="preserve">
+    <value>Confirm Pwd</value>
+  </data>
+  <data name="Security_Label_roty" xml:space="preserve">
+    <value>Role type</value>
+  </data>
+  <data name="Security_Label_sfid" xml:space="preserve">
+    <value>Staff Id</value>
+  </data>
+  <data name="Public_Message_CheckBad" xml:space="preserve">
+    <value>Check failed.</value>
+  </data>
+  <data name="Public_Message_CheckWell" xml:space="preserve">
+    <value>Check success.</value>
+  </data>
+  <data name="Public_Menu_scdatflt" xml:space="preserve">
+    <value>Data Filter</value>
+  </data>
+  <data name="Public_Menu_scusrflt" xml:space="preserve">
+    <value>User Filter</value>
+  </data>
+  <data name="scdatflt_Label_apnm" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="scdatflt_Label_fnid" xml:space="preserve">
+    <value>Function ID</value>
+  </data>
+  <data name="scdatflt_Label_ftds" xml:space="preserve">
+    <value>Filter desc</value>
+  </data>
+  <data name="scdatflt_Label_ftid" xml:space="preserve">
+    <value>Filter ID</value>
+  </data>
+  <data name="scdatflt_Label_fttx" xml:space="preserve">
+    <value>Filter text</value>
+  </data>
+  <data name="scdatflt_Label_isdi" xml:space="preserve">
+    <value>Is disabled</value>
+  </data>
+  <data name="scdatflt_Label_tbnm" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="scusrflt_Label_canc" xml:space="preserve">
+    <value>Can Create</value>
+  </data>
+  <data name="scusrflt_Label_cand" xml:space="preserve">
+    <value>Can Delete</value>
+  </data>
+  <data name="scusrflt_Label_cans" xml:space="preserve">
+    <value>Can Select</value>
+  </data>
+  <data name="scusrflt_Label_canu" xml:space="preserve">
+    <value>Can Update</value>
+  </data>
+  <data name="scusrflt_Label_urid" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="scusrflt_Label_urnm" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="scusrflt_Lbl_DataFilter" xml:space="preserve">
+    <value>Select Data Filters</value>
+  </data>
+  <data name="scusrflt_Lbl_Users" xml:space="preserve">
+    <value>Select Users</value>
+  </data>
+  <data name="Daemon_Label_clnm" xml:space="preserve">
+    <value>Class name</value>
+  </data>
+  <data name="Daemon_Label_cstr" xml:space="preserve">
+    <value>Cron string</value>
+  </data>
+  <data name="Daemon_Label_inte" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Daemon_Label_lgfi" xml:space="preserve">
+    <value>Log file</value>
+  </data>
+  <data name="Daemon_Label_lrre" xml:space="preserve">
+    <value>Last run result</value>
+  </data>
+  <data name="Daemon_Label_lrtm" xml:space="preserve">
+    <value>Last run time</value>
+  </data>
+  <data name="Daemon_Label_nrtm" xml:space="preserve">
+    <value>Next run time</value>
+  </data>
+  <data name="Daemon_Label_scid" xml:space="preserve">
+    <value>Schedule ID</value>
+  </data>
+  <data name="Daemon_Label_sclk" xml:space="preserve">
+    <value>Schedule lock </value>
+  </data>
+  <data name="Daemon_Label_scnm" xml:space="preserve">
+    <value>Schedule name</value>
+  </data>
+  <data name="Daemon_Label_scst" xml:space="preserve">
+    <value>Schedule state</value>
+  </data>
+  <data name="Daemon_Label_tkid" xml:space="preserve">
+    <value>Task ID</value>
+  </data>
+  <data name="Daemon_Label_tknm" xml:space="preserve">
+    <value>Task name</value>
+  </data>
+  <data name="Public_Menu_stsrvsch" xml:space="preserve">
+    <value>Schedule Setting</value>
+  </data>
+  <data name="Public_Menu_stsrvtsk" xml:space="preserve">
+    <value>Task Setting</value>
+  </data>
+  <data name="Public_Menu_daemon" xml:space="preserve">
+    <value>Daemon</value>
+  </data>
+  <data name="Daemon_Label_tkst" xml:space="preserve">
+    <value>Task state</value>
+  </data>
+  <data name="Public_Label_lmtm" xml:space="preserve">
+    <value>Last modified time</value>
+  </data>
+  <data name="Public_Label_lmur" xml:space="preserve">
+    <value>Last Modifier</value>
+  </data>
+</root>

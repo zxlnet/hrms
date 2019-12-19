@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="856a38c6-f65e-470f-93fd-f5e14c89d73e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9999/centralservice/AuthorizationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AuthorizationService.xsd" MetadataType="Schema" ID="fbf635ee-1c6d-46a3-803e-5f47f4fd7a5b" SourceId="1" SourceUrl="http://localhost:9999/centralservice/AuthorizationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AuthorizationService1.xsd" MetadataType="Schema" ID="3e364817-4378-4776-9fab-7f9da5f5352e" SourceId="1" SourceUrl="http://localhost:9999/centralservice/AuthorizationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuthorizationService.disco" MetadataType="Disco" ID="f04fe311-92a1-4e84-9d27-017f3b03ef4c" SourceId="1" SourceUrl="http://localhost:9999/centralservice/AuthorizationService.svc?disco" />
+    <MetadataFile FileName="AuthorizationService.wsdl" MetadataType="Wsdl" ID="f992e936-be7d-4d62-876b-7159ce68f1e8" SourceId="1" SourceUrl="http://localhost:9999/centralservice/AuthorizationService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,4002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Public_Button_Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="Public_Button_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Public_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Public_Button_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Public_Button_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Public_Tab_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Public_Button_User" xml:space="preserve">
+    <value>Current User</value>
+  </data>
+  <data name="Public_Button_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Public_Toolbar_Add" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Public_Toolbar_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Public_Toolbar_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Public_Menu_Basic" xml:space="preserve">
+    <value>Basis</value>
+  </data>
+  <data name="Public_Menu_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Public_Menu_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Public_Menu_Information" xml:space="preserve">
+    <value>My Information</value>
+  </data>
+  <data name="Public_Toolbar_InExcel" xml:space="preserve">
+    <value>Import. Excel</value>
+  </data>
+  <data name="Public_Toolbar_Query" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="Public_Toolbar_ToExcel" xml:space="preserve">
+    <value>Export. Excel</value>
+  </data>
+  <data name="Public_Add_WindowTitle" xml:space="preserve">
+    <value>New Window</value>
+  </data>
+  <data name="Public_Confirm_Delete" xml:space="preserve">
+    <value>Are you sure to delete?</value>
+  </data>
+  <data name="Public_Confirm_Title" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Public_Edit_WindowTitle" xml:space="preserve">
+    <value>Edit Window</value>
+  </data>
+  <data name="Public_Message_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Public_Query_WindowTitle" xml:space="preserve">
+    <value>Query Window</value>
+  </data>
+  <data name="Public_PagingToolbar_EmptyMsg" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="Public_PagingToolbar_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Public_Message_AddBad" xml:space="preserve">
+    <value>Add Failure</value>
+  </data>
+  <data name="Public_Message_ImportWell" xml:space="preserve">
+    <value>Import Successfully</value>
+  </data>
+  <data name="Public_Message_ImportBad" xml:space="preserve">
+    <value>Import Failure</value>
+  </data>
+  <data name="Public_Message_AddWell" xml:space="preserve">
+    <value>Add Successfully</value>
+  </data>
+  <data name="Public_Message_DeleteBad" xml:space="preserve">
+    <value>Delete Failure</value>
+  </data>
+  <data name="Public_Message_DeleteWell" xml:space="preserve">
+    <value>Delete Successfully</value>
+  </data>
+  <data name="Public_Message_EditBad" xml:space="preserve">
+    <value>Edit Failure</value>
+  </data>
+  <data name="Public_Message_EditWell" xml:space="preserve">
+    <value>Edit Successfully</value>
+  </data>
+  <data name="Public_Message_IsDuplicate" xml:space="preserve">
+    <value>has exist!</value>
+  </data>
+  <data name="Public_Toolbar_OutExcel" xml:space="preserve">
+    <value>Export. Excel</value>
+  </data>
+  <data name="Public_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Public_Import_WindowTitle" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Public_Label_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="Public_Label_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="Public_Toolbar_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Public_Toolbar_ImportExcelLabel" xml:space="preserve">
+    <value>Please choose an excel file to open</value>
+  </data>
+  <data name="Period_Label_ClosedBy" xml:space="preserve">
+    <value>Closed By</value>
+  </data>
+  <data name="Period_Label_ClosedTime" xml:space="preserve">
+    <value>Closed Time</value>
+  </data>
+  <data name="Period_Label_End" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Period_Label_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Period_Label_Remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Period_Label_Start" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Period_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Period_Label_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Period_Label_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Public_Message_FileNotEmpty" xml:space="preserve">
+    <value>Filename can not be empty or it is not an excel file!</value>
+  </data>
+  <data name="Public_Button_CurrentPeriod" xml:space="preserve">
+    <value>Payroll Period</value>
+  </data>
+  <data name="Public_Label_Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Public_Label_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Public_Label_Cca" xml:space="preserve">
+    <value>Cost Central</value>
+  </data>
+  <data name="Public_Label_Coel" xml:space="preserve">
+    <value>Cost Element</value>
+  </data>
+  <data name="Public_Label_Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="Public_Label_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Public_Label_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Public_Label_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Public_Label_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Public_Label_Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Page_Label_Id" xml:space="preserve">
+    <value>PageId</value>
+  </data>
+  <data name="Public_Label_ImportType" xml:space="preserve">
+    <value>Import Type</value>
+  </data>
+  <data name="Public_Message_CheckPreconditionFail" xml:space="preserve">
+    <value>Check step precondition fail</value>
+  </data>
+  <data name="Public_Message_PeriodIsClosed" xml:space="preserve">
+    <value>Period is Closed</value>
+  </data>
+  <data name="Public_Message_PeriodIsUnused" xml:space="preserve">
+    <value>Period is Unused</value>
+  </data>
+  <data name="Public_Message_ImportDenied" xml:space="preserve">
+    <value>Import denied.</value>
+  </data>
+  <data name="Public_Message_QueryFail" xml:space="preserve">
+    <value>Query Fail</value>
+  </data>
+  <data name="Period_Label_CurrencyRate" xml:space="preserve">
+    <value>CurrencyRate</value>
+  </data>
+  <data name="Public_Message_CheckPeriodStatusFail" xml:space="preserve">
+    <value>Check period status fail</value>
+  </data>
+  <data name="Public_Message_CheckPeriodStatusSuccess" xml:space="preserve">
+    <value>Check period status success</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueImport" xml:space="preserve">
+    <value>Are you sure you want to import?</value>
+  </data>
+  <data name="Public_Message_ExportExcelFail" xml:space="preserve">
+    <value>Export to Excel fail</value>
+  </data>
+  <data name="Public_Message_ExcelNoRecord" xml:space="preserve">
+    <value>No data to export to excel</value>
+  </data>
+  <data name="Public_Message_Wating" xml:space="preserve">
+    <value>Uploading file,Please waiting...</value>
+  </data>
+  <data name="Public_Title_Upload" xml:space="preserve">
+    <value>Uploading</value>
+  </data>
+  <data name="Public_Label_Accumulation" xml:space="preserve">
+    <value>Accumulation</value>
+  </data>
+  <data name="Public_Label_Spending" xml:space="preserve">
+    <value>Spending</value>
+  </data>
+  <data name="Public_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Public_Label_WcId" xml:space="preserve">
+    <value>Work Central</value>
+  </data>
+  <data name="Period_Toolbar_ClosePeriod" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Period_Toolbar_OpenPeriod" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Public_Message_OpenPeriodFoundOpenDenied" xml:space="preserve">
+    <value>Open period found, please close it first.</value>
+  </data>
+  <data name="Public_Grid_ImportData" xml:space="preserve">
+    <value>Error Rows</value>
+  </data>
+  <data name="Public_Message_ClosePeriodFail" xml:space="preserve">
+    <value>Cose period fail.</value>
+  </data>
+  <data name="Public_Message_ClosePeriodSuccess" xml:space="preserve">
+    <value>Close period successful.</value>
+  </data>
+  <data name="Public_Message_OpenPeriodFail" xml:space="preserve">
+    <value>Open period fail.</value>
+  </data>
+  <data name="Public_Message_OpenPeriodSuccess" xml:space="preserve">
+    <value>Open period successfully.</value>
+  </data>
+  <data name="Public_Message_ConfirmClosePeriod" xml:space="preserve">
+    <value>Are you sure you want to close the period?</value>
+  </data>
+  <data name="Public_Message_ConfirmOpenPeriod" xml:space="preserve">
+    <value>Are you sure you want to open the period?</value>
+  </data>
+  <data name="Public_Calculation_WindowTitle" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="Public_Grid_CalculationData" xml:space="preserve">
+    <value>Error Rows</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCalculation" xml:space="preserve">
+    <value>Are you sure you want to continue to calculation?</value>
+  </data>
+  <data name="Public_Toolbar_Calculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="Public_Toolbar_CarryForward" xml:space="preserve">
+    <value>CarryForward</value>
+  </data>
+  <data name="Public_CarryForward_WindowTitle" xml:space="preserve">
+    <value>CarryFoward</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCarryForward" xml:space="preserve">
+    <value>Are you sure you want to continue to carryforward?</value>
+  </data>
+  <data name="Public_Message_NoDataToCarryForward" xml:space="preserve">
+    <value>No data to carryforward.</value>
+  </data>
+  <data name="Public_Message_StepCompletedCarryForwardDenied" xml:space="preserve">
+    <value>The selected step was completed, carryforward is denied.</value>
+  </data>
+  <data name="Public_Message_CalculationFail" xml:space="preserve">
+    <value>Calculation Fail</value>
+  </data>
+  <data name="Public_Message_CalculationSuccess" xml:space="preserve">
+    <value>Calculation Success</value>
+  </data>
+  <data name="Public_Message_CarryForwardFail" xml:space="preserve">
+    <value>CarryForward Fail</value>
+  </data>
+  <data name="Public_Message_CarryForwardSuccess" xml:space="preserve">
+    <value>CarryForward Success</value>
+  </data>
+  <data name="MasterData_Message_DeleteDuplicate" xml:space="preserve">
+    <value>The record has been removed!</value>
+  </data>
+  <data name="MasterData_Message_EditDuplicate" xml:space="preserve">
+    <value>The record has been removed!</value>
+  </data>
+  <data name="Public_Button_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Public_Label_ActQty" xml:space="preserve">
+    <value>Actual Qty</value>
+  </data>
+  <data name="Public_Label_ActValue" xml:space="preserve">
+    <value>Actual Value</value>
+  </data>
+  <data name="Public_Label_Capacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="Public_Label_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Public_Label_AssetNo" xml:space="preserve">
+    <value>AssetNo</value>
+  </data>
+  <data name="Public_Toolbar_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Public_Toolbar_Split" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="Public_Label_QueryType" xml:space="preserve">
+    <value>Query Type</value>
+  </data>
+  <data name="Public_Message_SaveBad" xml:space="preserve">
+    <value>Save failure</value>
+  </data>
+  <data name="Public_Message_SaveWell" xml:space="preserve">
+    <value>Save Successfully</value>
+  </data>
+  <data name="Public_Toolbar_Preparation" xml:space="preserve">
+    <value>Data Preparation</value>
+  </data>
+  <data name="Public_Toolbar_Reset" xml:space="preserve">
+    <value>Calculation Reset</value>
+  </data>
+  <data name="Public_Message_ConfirmReset1" xml:space="preserve">
+    <value>This action will clear all [Application,P3**] steps's status.</value>
+  </data>
+  <data name="Public_Message_ConfirmReset2" xml:space="preserve">
+    <value>Are you sure you want to do it?</value>
+  </data>
+  <data name="Public_Message_ResetFail" xml:space="preserve">
+    <value>Reset Fail.</value>
+  </data>
+  <data name="Public_Message_ResetSuccess" xml:space="preserve">
+    <value>Reset Success.</value>
+  </data>
+  <data name="Public_Message_ResetIsUnnecessary" xml:space="preserve">
+    <value>Calculation does not start,reset is unnecessary.</value>
+  </data>
+  <data name="Public_Message_SessionTimeOut" xml:space="preserve">
+    <value>Session TimeOut,Please try &lt;a href='/Default.aspx'&gt;&lt;font color=blue&gt;Login&lt;/font&gt;&lt;/a&gt; again</value>
+  </data>
+  <data name="Public_Message_OpenTabsExceed" xml:space="preserve">
+    <value>Exceed maximun tabs count,please close some tabs!(Maximun:</value>
+  </data>
+  <data name="Public_Menu_Application" xml:space="preserve">
+    <value>Application  </value>
+  </data>
+  <data name="Public_Menu_CalculationStatus" xml:space="preserve">
+    <value>Calculation Status</value>
+  </data>
+  <data name="Public_Menu_Interface" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="Public_Menu_Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="Public_Menu_CostingPeriod" xml:space="preserve">
+    <value>Costing Period</value>
+  </data>
+  <data name="Public_Menu_Adjustment" xml:space="preserve">
+    <value>Adjustment</value>
+  </data>
+  <data name="Public_Toolbar_UploadSAP" xml:space="preserve">
+    <value>Upload SAP</value>
+  </data>
+  <data name="Public_Menu_UploadSAP" xml:space="preserve">
+    <value>Upload SAP</value>
+  </data>
+  <data name="Public_Label_PriceUnit" xml:space="preserve">
+    <value>Price Unit</value>
+  </data>
+  <data name="Public_UploadSAP_WindowTitle" xml:space="preserve">
+    <value>Upload SAP Window</value>
+  </data>
+  <data name="Public_Message_CheckFail" xml:space="preserve">
+    <value>Check Fail</value>
+  </data>
+  <data name="Public_Message_CheckWarning" xml:space="preserve">
+    <value>Check Warning</value>
+  </data>
+  <data name="Public_Message_CheckTraceFile" xml:space="preserve">
+    <value>Please check trace file</value>
+  </data>
+  <data name="Public_Message_DataCheckFail" xml:space="preserve">
+    <value>Data check fail</value>
+  </data>
+  <data name="Public_Message_DataCheckSuccess" xml:space="preserve">
+    <value>Data check success</value>
+  </data>
+  <data name="Public_Message_UploadSAPFail" xml:space="preserve">
+    <value>Upload SAP Fail</value>
+  </data>
+  <data name="Public_Message_UploadSAPSuccess" xml:space="preserve">
+    <value>Upload SAP Success</value>
+  </data>
+  <data name="Public_Message_StepCompleted" xml:space="preserve">
+    <value>This step was calculated and states Completed.</value>
+  </data>
+  <data name="Public_Message_NoStdPrice" xml:space="preserve">
+    <value>The stdprice of the material is not exists!</value>
+  </data>
+  <data name="Public_Label_Credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Public_Label_Debit" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="Public_Label_Docnr" xml:space="preserve">
+    <value>Doc No</value>
+  </data>
+  <data name="Public_Label_GLType" xml:space="preserve">
+    <value>GLType</value>
+  </data>
+  <data name="Public_Toolbar_Posting" xml:space="preserve">
+    <value>Posting</value>
+  </data>
+  <data name="Public_Toolbar_Rejecting" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Public_Label_DocStatus" xml:space="preserve">
+    <value>Doc Status</value>
+  </data>
+  <data name="Public_Menu_TraceViewer" xml:space="preserve">
+    <value>Tracer</value>
+  </data>
+  <data name="Trace_Label_FileName" xml:space="preserve">
+    <value>File Name:</value>
+  </data>
+  <data name="Public_Toolbar_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Public_Message_ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to continue to cancel?</value>
+  </data>
+  <data name="Public_Message_FeedBackFromSAP" xml:space="preserve">
+    <value>Got feedback from SAP.</value>
+  </data>
+  <data name="Public_Message_NoFeedBackFromSAP" xml:space="preserve">
+    <value>No feedback from SAP.</value>
+  </data>
+  <data name="Public_Message_PostingFail" xml:space="preserve">
+    <value>Posting fail.</value>
+  </data>
+  <data name="Public_Message_PostingSuccess" xml:space="preserve">
+    <value>Posting success.</value>
+  </data>
+  <data name="Public_Message_RejectingFail" xml:space="preserve">
+    <value>Rejecting fail.</value>
+  </data>
+  <data name="Public_Message_RejectingSuccess" xml:space="preserve">
+    <value>Rejecting success.</value>
+  </data>
+  <data name="Public_Message_SAPFeedBackError" xml:space="preserve">
+    <value>SAP feedback errors.</value>
+  </data>
+  <data name="Public_Message_ConfirmContinuePosting" xml:space="preserve">
+    <value>Are you sure you want to continue do POSTING?</value>
+  </data>
+  <data name="Public_Message_ConfirmPosting" xml:space="preserve">
+    <value>Are you sure you want to do POSTING?</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueRejecting" xml:space="preserve">
+    <value>Are you sure you want to continue to do REVERSE?</value>
+  </data>
+  <data name="Public_Message_ConfirmRejecting" xml:space="preserve">
+    <value>Are you sure you want to do REVERSE?</value>
+  </data>
+  <data name="Public_Message_StepLocked" xml:space="preserve">
+    <value>Step is locked.</value>
+  </data>
+  <data name="Public_Button_FileList" xml:space="preserve">
+    <value>File List</value>
+  </data>
+  <data name="Public_Message_CheckTrace" xml:space="preserve">
+    <value>Please Check Trace</value>
+  </data>
+  <data name="Public_Message_ReCalP3" xml:space="preserve">
+    <value>Execute all actions which start with P3!</value>
+  </data>
+  <data name="Public_Message_CheckDone" xml:space="preserve">
+    <value>Check done.</value>
+  </data>
+  <data name="Public_Check_WindowTitle" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="Public_Toolbar_Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="Public_Message_Excel" xml:space="preserve">
+    <value>Please choose an excel file!</value>
+  </data>
+  <data name="Public_Label_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Public_Message_UploadSAPFeeback" xml:space="preserve">
+    <value>UploadSAP Feeback</value>
+  </data>
+  <data name="Public_Menu_Reporting" xml:space="preserve">
+    <value>Reporting</value>
+  </data>
+  <data name="Public_Combo_BE" xml:space="preserve">
+    <value>BE</value>
+  </data>
+  <data name="Public_Combo_FE" xml:space="preserve">
+    <value>FE</value>
+  </data>
+  <data name="Public_Message_ResetAllFail" xml:space="preserve">
+    <value>Reset Failed!</value>
+  </data>
+  <data name="Public_Message_ResetAllSuccess" xml:space="preserve">
+    <value>Reset Successfully!</value>
+  </data>
+  <data name="Public_Message_Revise" xml:space="preserve">
+    <value>Please revise first!</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueUploadSAP" xml:space="preserve">
+    <value>Are you sure you want to upload SAP?</value>
+  </data>
+  <data name="Public_Button_Authorization" xml:space="preserve">
+    <value>Authorization</value>
+  </data>
+  <data name="Public_Toolbar_QueryWithAdj" xml:space="preserve">
+    <value>QueryWithAdj</value>
+  </data>
+  <data name="Public_Button_ReportCalculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="Public_Button_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Public_Help_WindowTitle" xml:space="preserve">
+    <value>Help Window</value>
+  </data>
+  <data name="Public_Button_Calculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="Public_Message_CheckSuccess" xml:space="preserve">
+    <value>Check Successfully!</value>
+  </data>
+  <data name="Public_Lock_WindowTitle" xml:space="preserve">
+    <value>Lock Window</value>
+  </data>
+  <data name="Public_Message_LockSuccess" xml:space="preserve">
+    <value>Lock Successfully!</value>
+  </data>
+  <data name="Public_Toolbar_Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCheck" xml:space="preserve">
+    <value>Are you sure you want to check?</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueLock" xml:space="preserve">
+    <value>Are you sure you want to lock?</value>
+  </data>
+  <data name="Period_Label_ElotRate" xml:space="preserve">
+    <value>Elot Rate</value>
+  </data>
+  <data name="Public_Label_Choose" xml:space="preserve">
+    <value>Please choose ...</value>
+  </data>
+  <data name="Public_Label_lmtm" xml:space="preserve">
+    <value>Last Modified Time</value>
+  </data>
+  <data name="Public_Label_lmur" xml:space="preserve">
+    <value>Last Modifier</value>
+  </data>
+  <data name="Public_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Public_Label_pscd" xml:space="preserve">
+    <value>Position Code</value>
+  </data>
+  <data name="Public_Label_psnm" xml:space="preserve">
+    <value>Position Name</value>
+  </data>
+  <data name="Public_Messsage_FormatInCorrect" xml:space="preserve">
+    <value>Format is incorrect</value>
+  </data>
+  <data name="Public_Menu_bswlftyp" xml:space="preserve">
+    <value>Welfare Type</value>
+  </data>
+  <data name="Public_Toolbar_CleanQuery" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="Public_Button_ApplyTo" xml:space="preserve">
+    <value>Apply To</value>
+  </data>
+  <data name="Public_Message_ApplyFail" xml:space="preserve">
+    <value>Apply fail</value>
+  </data>
+  <data name="Public_Message_ApplySuccess" xml:space="preserve">
+    <value>Apply success</value>
+  </data>
+  <data name="Public_Label_DefByEmployment" xml:space="preserve">
+    <value>By Employment</value>
+  </data>
+  <data name="Public_Label_DefByGrade" xml:space="preserve">
+    <value>By Grade</value>
+  </data>
+  <data name="Public_Label_DefByJobClass" xml:space="preserve">
+    <value>By Jobclass</value>
+  </data>
+  <data name="Public_Label_DefByPosition" xml:space="preserve">
+    <value>By Position</value>
+  </data>
+  <data name="Public_Label_DefByYear" xml:space="preserve">
+    <value>By Year</value>
+  </data>
+  <data name="Master_Label_aadd" xml:space="preserve">
+    <value>Agent address</value>
+  </data>
+  <data name="Master_Label_acmp" xml:space="preserve">
+    <value>Agent company</value>
+  </data>
+  <data name="Master_Label_acno" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="Master_Label_addr" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Master_Label_amnt" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Master_Label_apfe" xml:space="preserve">
+    <value>apfe</value>
+  </data>
+  <data name="Master_Label_arcd" xml:space="preserve">
+    <value>Area code</value>
+  </data>
+  <data name="Master_Label_arnm" xml:space="preserve">
+    <value>Area name</value>
+  </data>
+  <data name="Master_Label_atcd" xml:space="preserve">
+    <value>Address type code</value>
+  </data>
+  <data name="Master_Label_atel" xml:space="preserve">
+    <value>atel</value>
+  </data>
+  <data name="Master_Label_atnm" xml:space="preserve">
+    <value>Address type name</value>
+  </data>
+  <data name="Master_Label_atno" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="Master_Label_bath" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="Master_Label_bicd" xml:space="preserve">
+    <value>Bank item code</value>
+  </data>
+  <data name="Master_Label_binm" xml:space="preserve">
+    <value>Bank item name</value>
+  </data>
+  <data name="Master_Label_bkcd" xml:space="preserve">
+    <value>Bank code</value>
+  </data>
+  <data name="Master_Label_bknm" xml:space="preserve">
+    <value>Bank name</value>
+  </data>
+  <data name="Master_Label_bncd" xml:space="preserve">
+    <value>Buss nature code</value>
+  </data>
+  <data name="Master_Label_bnnm" xml:space="preserve">
+    <value>Bus nature name</value>
+  </data>
+  <data name="Master_Label_brcd" xml:space="preserve">
+    <value>Bringup code</value>
+  </data>
+  <data name="Master_Label_brnm" xml:space="preserve">
+    <value>Bringup name</value>
+  </data>
+  <data name="Master_Label_bscd" xml:space="preserve">
+    <value>Business code</value>
+  </data>
+  <data name="Master_Label_bsnm" xml:space="preserve">
+    <value>Business name</value>
+  </data>
+  <data name="Master_Label_cccd" xml:space="preserve">
+    <value>Cost center code</value>
+  </data>
+  <data name="Master_Label_ccnm" xml:space="preserve">
+    <value>Cost center name</value>
+  </data>
+  <data name="Master_Label_cedt" xml:space="preserve">
+    <value>conexpiredate</value>
+  </data>
+  <data name="Master_Label_cidt" xml:space="preserve">
+    <value>conissuedate</value>
+  </data>
+  <data name="Master_Label_ckcd" xml:space="preserve">
+    <value>Check code</value>
+  </data>
+  <data name="Master_Label_clad" xml:space="preserve">
+    <value>Club address</value>
+  </data>
+  <data name="Master_Label_clat" xml:space="preserve">
+    <value>Club At</value>
+  </data>
+  <data name="Master_Label_clcd" xml:space="preserve">
+    <value>Club code</value>
+  </data>
+  <data name="Master_Label_clnm" xml:space="preserve">
+    <value>Club name</value>
+  </data>
+  <data name="Master_Label_clph" xml:space="preserve">
+    <value>Club phone</value>
+  </data>
+  <data name="Master_Label_cmad" xml:space="preserve">
+    <value>Company address</value>
+  </data>
+  <data name="Master_Label_cmph" xml:space="preserve">
+    <value>Company phone</value>
+  </data>
+  <data name="Master_Label_cocd" xml:space="preserve">
+    <value>Country code</value>
+  </data>
+  <data name="Master_Label_conm" xml:space="preserve">
+    <value>Country name</value>
+  </data>
+  <data name="Master_Label_cpad" xml:space="preserve">
+    <value>Company address</value>
+  </data>
+  <data name="Master_Label_cpcd" xml:space="preserve">
+    <value>Company code</value>
+  </data>
+  <data name="Master_Label_cpnm" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="Master_Label_cpph" xml:space="preserve">
+    <value>Company phone</value>
+  </data>
+  <data name="Master_Label_crcd" xml:space="preserve">
+    <value>Currency code</value>
+  </data>
+  <data name="Master_Label_crnb" xml:space="preserve">
+    <value>currentnum</value>
+  </data>
+  <data name="Master_Label_crnm" xml:space="preserve">
+    <value>Currency name</value>
+  </data>
+  <data name="Master_Label_crno" xml:space="preserve">
+    <value>Contract No</value>
+  </data>
+  <data name="Master_Label_ctcd" xml:space="preserve">
+    <value>Certifitype code</value>
+  </data>
+  <data name="Master_Label_ctnm" xml:space="preserve">
+    <value>Certifitype name</value>
+  </data>
+  <data name="Master_Label_dfcu" xml:space="preserve">
+    <value>Default currency</value>
+  </data>
+  <data name="Master_Label_dgcd" xml:space="preserve">
+    <value>Degree code</value>
+  </data>
+  <data name="Master_Label_dgnm" xml:space="preserve">
+    <value>Degree name</value>
+  </data>
+  <data name="Master_Label_dkcd" xml:space="preserve">
+    <value>Disk code</value>
+  </data>
+  <data name="Master_Label_dmnm" xml:space="preserve">
+    <value>dorname</value>
+  </data>
+  <data name="Master_Label_dmno" xml:space="preserve">
+    <value>dorno</value>
+  </data>
+  <data name="Master_Label_dmty" xml:space="preserve">
+    <value>dortype</value>
+  </data>
+  <data name="Master_Label_dpcd" xml:space="preserve">
+    <value>Department code</value>
+  </data>
+  <data name="Master_Label_dpnm" xml:space="preserve">
+    <value>Department name</value>
+  </data>
+  <data name="Master_Label_dtcd" xml:space="preserve">
+    <value>Dom type</value>
+  </data>
+  <data name="Master_Label_dtnm" xml:space="preserve">
+    <value>Dom name</value>
+  </data>
+  <data name="Master_Label_dvcd" xml:space="preserve">
+    <value>Division code</value>
+  </data>
+  <data name="Master_Label_dvnm" xml:space="preserve">
+    <value>Division name</value>
+  </data>
+  <data name="Master_Label_eafe" xml:space="preserve">
+    <value>eafee</value>
+  </data>
+  <data name="Master_Label_elcd" xml:space="preserve">
+    <value>Edu level code</value>
+  </data>
+  <data name="Master_Label_elnm" xml:space="preserve">
+    <value>Edu level name</value>
+  </data>
+  <data name="Master_Label_evcd" xml:space="preserve">
+    <value>Event code</value>
+  </data>
+  <data name="Master_Label_evnm" xml:space="preserve">
+    <value>Event name</value>
+  </data>
+  <data name="Master_Label_exrt" xml:space="preserve">
+    <value>Exchange rate</value>
+  </data>
+  <data name="Master_Label_fiva" xml:space="preserve">
+    <value>fieldvalue</value>
+  </data>
+  <data name="Master_Label_flag" xml:space="preserve">
+    <value>flag</value>
+  </data>
+  <data name="Master_Label_flor" xml:space="preserve">
+    <value>floor</value>
+  </data>
+  <data name="Master_Label_fxnb" xml:space="preserve">
+    <value>Fax Nbr</value>
+  </data>
+  <data name="Master_Label_glcd" xml:space="preserve">
+    <value>Grade level code</value>
+  </data>
+  <data name="Master_Label_glnm" xml:space="preserve">
+    <value>Grade level name</value>
+  </data>
+  <data name="Master_Label_grcd" xml:space="preserve">
+    <value>Grade code</value>
+  </data>
+  <data name="Master_Label_grnm" xml:space="preserve">
+    <value>Grade name</value>
+  </data>
+  <data name="Master_Label_hacd" xml:space="preserve">
+    <value>code</value>
+  </data>
+  <data name="Master_Label_halv" xml:space="preserve">
+    <value>lowval</value>
+  </data>
+  <data name="Master_Label_hauv" xml:space="preserve">
+    <value>upperval</value>
+  </data>
+  <data name="Master_Label_hdct" xml:space="preserve">
+    <value>headcount</value>
+  </data>
+  <data name="Master_Label_iccd" xml:space="preserve">
+    <value>Ins cmp code</value>
+  </data>
+  <data name="Master_Label_icnm" xml:space="preserve">
+    <value>Ins cmp name</value>
+  </data>
+  <data name="Master_Label_inty" xml:space="preserve">
+    <value>Insurance type</value>
+  </data>
+  <data name="Master_Label_iscd" xml:space="preserve">
+    <value>Ins schema code</value>
+  </data>
+  <data name="Master_Label_isdf" xml:space="preserve">
+    <value>Is default</value>
+  </data>
+  <data name="Master_Label_isnm" xml:space="preserve">
+    <value>Ins schema name</value>
+  </data>
+  <data name="Master_Label_isst" xml:space="preserve">
+    <value>Is system type</value>
+  </data>
+  <data name="Master_Label_itcd" xml:space="preserve">
+    <value>Ins type code</value>
+  </data>
+  <data name="Master_Label_itnm" xml:space="preserve">
+    <value>Ins type name</value>
+  </data>
+  <data name="Master_Label_itno" xml:space="preserve">
+    <value>itno</value>
+  </data>
+  <data name="Master_Label_jccd" xml:space="preserve">
+    <value>Job class code</value>
+  </data>
+  <data name="Master_Label_jcnm" xml:space="preserve">
+    <value>Job class name</value>
+  </data>
+  <data name="Master_Label_jtcd" xml:space="preserve">
+    <value>Job type cod</value>
+  </data>
+  <data name="Master_Label_jtnm" xml:space="preserve">
+    <value>Job type name</value>
+  </data>
+  <data name="Master_Label_lmtm" xml:space="preserve">
+    <value>Last modified time</value>
+  </data>
+  <data name="Master_Label_lmur" xml:space="preserve">
+    <value>Last modifier</value>
+  </data>
+  <data name="Master_Label_madd" xml:space="preserve">
+    <value>maddress</value>
+  </data>
+  <data name="Master_Label_mcmp" xml:space="preserve">
+    <value>mcompany</value>
+  </data>
+  <data name="Master_Label_misa" xml:space="preserve">
+    <value>Min salary</value>
+  </data>
+  <data name="Master_Label_mtel" xml:space="preserve">
+    <value>mtel</value>
+  </data>
+  <data name="Master_Label_mvfe" xml:space="preserve">
+    <value>movefee</value>
+  </data>
+  <data name="Master_Label_mxnb" xml:space="preserve">
+    <value>maxnum</value>
+  </data>
+  <data name="Master_Label_mxsa" xml:space="preserve">
+    <value>Max salary</value>
+  </data>
+  <data name="Master_Label_nacd" xml:space="preserve">
+    <value>Nation Code</value>
+  </data>
+  <data name="Master_Label_nanm" xml:space="preserve">
+    <value>Nation Name</value>
+  </data>
+  <data name="Master_Label_opda" xml:space="preserve">
+    <value>otperiodday</value>
+  </data>
+  <data name="Master_Label_otfe" xml:space="preserve">
+    <value>otherfee</value>
+  </data>
+  <data name="Master_Label_pacd" xml:space="preserve">
+    <value>paycode</value>
+  </data>
+  <data name="Master_Label_pbcm" xml:space="preserve">
+    <value>paybycompany</value>
+  </data>
+  <data name="Master_Label_pbfe" xml:space="preserve">
+    <value>pubfee</value>
+  </data>
+  <data name="Master_Label_pbps" xml:space="preserve">
+    <value>paybypersonal</value>
+  </data>
+  <data name="Master_Label_peda" xml:space="preserve">
+    <value>Period day</value>
+  </data>
+  <data name="Master_Label_perd" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Master_Label_pkfe" xml:space="preserve">
+    <value>parkingfee</value>
+  </data>
+  <data name="Master_Label_plcd" xml:space="preserve">
+    <value>Polity code</value>
+  </data>
+  <data name="Master_Label_plnm" xml:space="preserve">
+    <value>Polity name</value>
+  </data>
+  <data name="Master_Label_pmcd" xml:space="preserve">
+    <value>Pay code</value>
+  </data>
+  <data name="Master_Label_pmnm" xml:space="preserve">
+    <value>Pay name</value>
+  </data>
+  <data name="Master_Label_pscd" xml:space="preserve">
+    <value>Position code</value>
+  </data>
+  <data name="Master_Label_psnm" xml:space="preserve">
+    <value>Position name</value>
+  </data>
+  <data name="Master_Label_pswd" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Master_Label_ptcd" xml:space="preserve">
+    <value>Pay type code</value>
+  </data>
+  <data name="Master_Label_ptnm" xml:space="preserve">
+    <value>Pay type name</value>
+  </data>
+  <data name="Master_Label_qfcd" xml:space="preserve">
+    <value>Qual type code</value>
+  </data>
+  <data name="Master_Label_qfnm" xml:space="preserve">
+    <value>Qual type name</value>
+  </data>
+  <data name="Master_Label_racd" xml:space="preserve">
+    <value>Rating code</value>
+  </data>
+  <data name="Master_Label_ranm" xml:space="preserve">
+    <value>Rating name</value>
+  </data>
+  <data name="Master_Label_remk" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Master_Label_rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="Master_Label_rfcm" xml:space="preserve">
+    <value>refundcompany</value>
+  </data>
+  <data name="Master_Label_rfps" xml:space="preserve">
+    <value>refundpersonal</value>
+  </data>
+  <data name="Master_Label_rgcd" xml:space="preserve">
+    <value>Religion code</value>
+  </data>
+  <data name="Master_Label_rgnm" xml:space="preserve">
+    <value>Religion name</value>
+  </data>
+  <data name="Master_Label_rmct" xml:space="preserve">
+    <value>roomman</value>
+  </data>
+  <data name="Master_Label_rsid" xml:space="preserve">
+    <value>resid</value>
+  </data>
+  <data name="Master_Label_rtcd" xml:space="preserve">
+    <value>Relationship code</value>
+  </data>
+  <data name="Master_Label_rtnm" xml:space="preserve">
+    <value>Relationship name</value>
+  </data>
+  <data name="Master_Label_rwrd" xml:space="preserve">
+    <value>reward</value>
+  </data>
+  <data name="Master_Label_sccd" xml:space="preserve">
+    <value>SC code</value>
+  </data>
+  <data name="Master_Label_scnm" xml:space="preserve">
+    <value>SC name</value>
+  </data>
+  <data name="Master_Label_sicd" xml:space="preserve">
+    <value>Skill item code</value>
+  </data>
+  <data name="Master_Label_sinm" xml:space="preserve">
+    <value>Skill item name</value>
+  </data>
+  <data name="Master_Label_stcd" xml:space="preserve">
+    <value>Skill type code</value>
+  </data>
+  <data name="Master_Label_stnm" xml:space="preserve">
+    <value>Skill type name</value>
+  </data>
+  <data name="Master_Label_tfno" xml:space="preserve">
+    <value>taxfileno</value>
+  </data>
+  <data name="Master_Label_tlnb" xml:space="preserve">
+    <value>tel</value>
+  </data>
+  <data name="Master_Label_trcd" xml:space="preserve">
+    <value>Term reason code</value>
+  </data>
+  <data name="Master_Label_trdt" xml:space="preserve">
+    <value>transferdate</value>
+  </data>
+  <data name="Master_Label_trnm" xml:space="preserve">
+    <value>Term reason name</value>
+  </data>
+  <data name="Master_Label_ttcd" xml:space="preserve">
+    <value>Term type code</value>
+  </data>
+  <data name="Master_Label_ttnm" xml:space="preserve">
+    <value>Term type name</value>
+  </data>
+  <data name="Master_Label_updt" xml:space="preserve">
+    <value>updatedate</value>
+  </data>
+  <data name="Master_Label_wgcd" xml:space="preserve">
+    <value>Work group code</value>
+  </data>
+  <data name="Master_Label_wgnm" xml:space="preserve">
+    <value>Work group name</value>
+  </data>
+  <data name="Master_Label_wscd" xml:space="preserve">
+    <value>Work site code</value>
+  </data>
+  <data name="Master_Label_wsnm" xml:space="preserve">
+    <value>Work site name</value>
+  </data>
+  <data name="Master_Label_wtcd" xml:space="preserve">
+    <value>Welfare type code</value>
+  </data>
+  <data name="Master_Label_wtnm" xml:space="preserve">
+    <value>Welfare type name</value>
+  </data>
+  <data name="Personal_Label_addr" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Personal_Label_pscd" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Public_Label_remk" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Public_Label_From" xml:space="preserve">
+    <value> From</value>
+  </data>
+  <data name="Public_Label_isdf" xml:space="preserve">
+    <value>Is default</value>
+  </data>
+  <data name="Public_Label_sfid" xml:space="preserve">
+    <value>Staff Id</value>
+  </data>
+  <data name="Public_Label_sftn" xml:space="preserve">
+    <value>Staff name</value>
+  </data>
+  <data name="Public_Label_sqno" xml:space="preserve">
+    <value>Seq No</value>
+  </data>
+  <data name="Public_Label_staff" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="Public_Label_To" xml:space="preserve">
+    <value> To</value>
+  </data>
+  <data name="Personal_Label_acno" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="Personal_Label_bfnm" xml:space="preserve">
+    <value>Beneficiary</value>
+  </data>
+  <data name="Personal_Label_ftyp" xml:space="preserve">
+    <value>Pay Type</value>
+  </data>
+  <data name="Personal_Label_funm" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Personal_Label_fval" xml:space="preserve">
+    <value>Pay Value</value>
+  </data>
+  <data name="Personal_Label_icno" xml:space="preserve">
+    <value>ID No</value>
+  </data>
+  <data name="Personal_Label_idno" xml:space="preserve">
+    <value>ID No</value>
+  </data>
+  <data name="Personal_Label_ifot" xml:space="preserve">
+    <value>If Other</value>
+  </data>
+  <data name="Personal_Label_ifpe" xml:space="preserve">
+    <value>Is Percentage</value>
+  </data>
+  <data name="Personal_Label_perc" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Personal_Label_cfnm" xml:space="preserve">
+    <value>Certif Name</value>
+  </data>
+  <data name="Personal_Label_cfno" xml:space="preserve">
+    <value>Certif No</value>
+  </data>
+  <data name="Personal_Label_isnm" xml:space="preserve">
+    <value>Institution Name</value>
+  </data>
+  <data name="Public_Label_efdt" xml:space="preserve">
+    <value>Effect Date</value>
+  </data>
+  <data name="Public_Label_exdt" xml:space="preserve">
+    <value>Expired Date</value>
+  </data>
+  <data name="Public_Label_isdt" xml:space="preserve">
+    <value>Issued Date</value>
+  </data>
+  <data name="Personal_Label_finm" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Personal_Label_frva" xml:space="preserve">
+    <value>From Value</value>
+  </data>
+  <data name="Personal_Label_tova" xml:space="preserve">
+    <value>To Value</value>
+  </data>
+  <data name="Public_Label_isby" xml:space="preserve">
+    <value>Issued By</value>
+  </data>
+  <data name="Master_Label_chcd" xml:space="preserve">
+    <value>Change Type Code</value>
+  </data>
+  <data name="Master_Label_chnm" xml:space="preserve">
+    <value>Change Type Name</value>
+  </data>
+  <data name="Master_Label_cncd" xml:space="preserve">
+    <value>Contact Type Code</value>
+  </data>
+  <data name="Master_Label_cnnm" xml:space="preserve">
+    <value>Contact Type Name</value>
+  </data>
+  <data name="Master_Label_ctrd" xml:space="preserve">
+    <value>Contract Type Name</value>
+  </data>
+  <data name="Master_Label_ctrm" xml:space="preserve">
+    <value>Contract Type Code</value>
+  </data>
+  <data name="Personal_Label_adte" xml:space="preserve">
+    <value>Add-Term</value>
+  </data>
+  <data name="Personal_Label_clna" xml:space="preserve">
+    <value>Club Nature</value>
+  </data>
+  <data name="Personal_Label_cmfe" xml:space="preserve">
+    <value>Comfee</value>
+  </data>
+  <data name="Personal_Label_cota1" xml:space="preserve">
+    <value>Contact 1</value>
+  </data>
+  <data name="Personal_Label_cota2" xml:space="preserve">
+    <value>Contact 2</value>
+  </data>
+  <data name="Personal_Label_crde" xml:space="preserve">
+    <value>Contract Desc</value>
+  </data>
+  <data name="Personal_Label_crnm" xml:space="preserve">
+    <value>Contract Name</value>
+  </data>
+  <data name="Personal_Label_dest" xml:space="preserve">
+    <value>Detain Stuff</value>
+  </data>
+  <data name="Personal_Label_fbte" xml:space="preserve">
+    <value>Fellback Term</value>
+  </data>
+  <data name="Personal_Label_jodt" xml:space="preserve">
+    <value>Join Date</value>
+  </data>
+  <data name="Personal_Label_jofe" xml:space="preserve">
+    <value>Join Fee</value>
+  </data>
+  <data name="Personal_Label_mbty" xml:space="preserve">
+    <value>Member Type</value>
+  </data>
+  <data name="Personal_Label_ssfe" xml:space="preserve">
+    <value>Subscription Fee</value>
+  </data>
+  <data name="Master_Label_tmcd" xml:space="preserve">
+    <value>Training type code</value>
+  </data>
+  <data name="Master_Label_tmnm" xml:space="preserve">
+    <value>Training type name</value>
+  </data>
+  <data name="Personal_Label_acad" xml:space="preserve">
+    <value>Academy</value>
+  </data>
+  <data name="Personal_Label_amnt" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Personal_Label_bnag" xml:space="preserve">
+    <value>Agreement</value>
+  </data>
+  <data name="Personal_Label_bott" xml:space="preserve">
+    <value>Report-to title</value>
+  </data>
+  <data name="Personal_Label_ckhp" xml:space="preserve">
+    <value>Check hospital</value>
+  </data>
+  <data name="Personal_Label_ckty" xml:space="preserve">
+    <value>Check type</value>
+  </data>
+  <data name="Personal_Label_cmnm" xml:space="preserve">
+    <value>Comp name</value>
+  </data>
+  <data name="Personal_Label_cmsc" xml:space="preserve">
+    <value>Comp scale</value>
+  </data>
+  <data name="Personal_Label_comp" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Personal_Label_ctno" xml:space="preserve">
+    <value>Contact no</value>
+  </data>
+  <data name="Personal_Label_ctpw" xml:space="preserve">
+    <value>Hours/week</value>
+  </data>
+  <data name="Personal_Label_cufe" xml:space="preserve">
+    <value>Course fee</value>
+  </data>
+  <data name="Personal_Label_cunm" xml:space="preserve">
+    <value>Course name</value>
+  </data>
+  <data name="Personal_Label_dept" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Personal_Label_dtre" xml:space="preserve">
+    <value>Detain reason</value>
+  </data>
+  <data name="Personal_Label_emnm" xml:space="preserve">
+    <value>Employer name</value>
+  </data>
+  <data name="Personal_Label_evdt" xml:space="preserve">
+    <value>Event date</value>
+  </data>
+  <data name="Personal_Label_flnm" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="Personal_Label_fpos" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Personal_Label_frdt" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="Personal_Label_hmte" xml:space="preserve">
+    <value>Home phone</value>
+  </data>
+  <data name="Personal_Label_imbo" xml:space="preserve">
+    <value>Report-to</value>
+  </data>
+  <data name="Personal_Label_incm" xml:space="preserve">
+    <value>In company</value>
+  </data>
+  <data name="Personal_Label_indt" xml:space="preserve">
+    <value>Insurance date</value>
+  </data>
+  <data name="Personal_Label_innm" xml:space="preserve">
+    <value>Insurance name</value>
+  </data>
+  <data name="Personal_Label_iscm" xml:space="preserve">
+    <value>Is commended</value>
+  </data>
+  <data name="Personal_Label_ishi" xml:space="preserve">
+    <value>Is highest</value>
+  </data>
+  <data name="Personal_Label_jbds" xml:space="preserve">
+    <value>Job desc</value>
+  </data>
+  <data name="Personal_Label_loca" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Personal_Label_momn" xml:space="preserve">
+    <value>Amount/month</value>
+  </data>
+  <data name="Personal_Label_natu" xml:space="preserve">
+    <value>Nature</value>
+  </data>
+  <data name="Personal_Label_obyr" xml:space="preserve">
+    <value>Obtaining Date</value>
+  </data>
+  <data name="Personal_Label_occu" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Personal_Label_orga" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Personal_Label_paby" xml:space="preserve">
+    <value>Pay by</value>
+  </data>
+  <data name="Personal_Label_qucd" xml:space="preserve">
+    <value>Qual code</value>
+  </data>
+  <data name="Personal_Label_qunm" xml:space="preserve">
+    <value>Qual name</value>
+  </data>
+  <data name="Personal_Label_rcdt" xml:space="preserve">
+    <value>Recheck date</value>
+  </data>
+  <data name="Personal_Label_rchp" xml:space="preserve">
+    <value>Recheck hospital</value>
+  </data>
+  <data name="Personal_Label_rcre" xml:space="preserve">
+    <value>Recheck result</value>
+  </data>
+  <data name="Personal_Label_redt" xml:space="preserve">
+    <value>Result date</value>
+  </data>
+  <data name="Personal_Label_resn" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Personal_Label_resu" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Personal_Label_rldt" xml:space="preserve">
+    <value>Real end date</value>
+  </data>
+  <data name="Personal_Label_rtby" xml:space="preserve">
+    <value>Return by</value>
+  </data>
+  <data name="Personal_Label_rtdt" xml:space="preserve">
+    <value>Return date</value>
+  </data>
+  <data name="Personal_Label_rtfl" xml:space="preserve">
+    <value>Return flag</value>
+  </data>
+  <data name="Personal_Label_rtre" xml:space="preserve">
+    <value>Return reason</value>
+  </data>
+  <data name="Personal_Label_saly" xml:space="preserve">
+    <value>End salary</value>
+  </data>
+  <data name="Personal_Label_scho" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="Personal_Label_spec" xml:space="preserve">
+    <value>Specialty</value>
+  </data>
+  <data name="Personal_Label_stds" xml:space="preserve">
+    <value>Symptom desc</value>
+  </data>
+  <data name="Personal_Label_stge" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="Personal_Label_stnm" xml:space="preserve">
+    <value>Stuff</value>
+  </data>
+  <data name="Personal_Label_stsa" xml:space="preserve">
+    <value>Start salary</value>
+  </data>
+  <data name="Personal_Label_stwa" xml:space="preserve">
+    <value>Study way</value>
+  </data>
+  <data name="Personal_Label_subj" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="Personal_Label_teph" xml:space="preserve">
+    <value>Telphone</value>
+  </data>
+  <data name="Personal_Label_tmpe" xml:space="preserve">
+    <value>Term Penalty</value>
+  </data>
+  <data name="Personal_Label_todt" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Personal_Label_trcd" xml:space="preserve">
+    <value>Training code</value>
+  </data>
+  <data name="Personal_Label_ttmo" xml:space="preserve">
+    <value>Total amount</value>
+  </data>
+  <data name="Personal_Label_tttm" xml:space="preserve">
+    <value>Total hours</value>
+  </data>
+  <data name="Personal_Label_wima" xml:space="preserve">
+    <value>Beneficiary</value>
+  </data>
+  <data name="Personal_Label_wkyr" xml:space="preserve">
+    <value>Work years</value>
+  </data>
+  <data name="Public_Label_desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Personal_Label_Basis" xml:space="preserve">
+    <value>Basis</value>
+  </data>
+  <data name="Personal_Label_blty" xml:space="preserve">
+    <value>Blood type</value>
+  </data>
+  <data name="Personal_Label_brdt" xml:space="preserve">
+    <value>Birth date</value>
+  </data>
+  <data name="Personal_Label_brpl" xml:space="preserve">
+    <value>Birth place</value>
+  </data>
+  <data name="Personal_Label_deds" xml:space="preserve">
+    <value>Disease desc</value>
+  </data>
+  <data name="Personal_Label_dred" xml:space="preserve">
+    <value>Driver lic ex.dt</value>
+  </data>
+  <data name="Personal_Label_drno" xml:space="preserve">
+    <value>Driver lic no</value>
+  </data>
+  <data name="Personal_Label_drty" xml:space="preserve">
+    <value>Driver lic type</value>
+  </data>
+  <data name="Personal_Label_emno" xml:space="preserve">
+    <value>Employment No</value>
+  </data>
+  <data name="Personal_Label_ennm" xml:space="preserve">
+    <value>English name</value>
+  </data>
+  <data name="Personal_Label_frnm" xml:space="preserve">
+    <value>Foreign name</value>
+  </data>
+  <data name="Personal_Label_Health" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="Personal_Label_hfty" xml:space="preserve">
+    <value>Howff type</value>
+  </data>
+  <data name="Personal_Label_hght" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Personal_Label_Identity" xml:space="preserve">
+    <value>Identity</value>
+  </data>
+  <data name="Personal_Label_idsd" xml:space="preserve">
+    <value>Id issued date</value>
+  </data>
+  <data name="Personal_Label_isdi" xml:space="preserve">
+    <value>Is disease</value>
+  </data>
+  <data name="Personal_Label_itst" xml:space="preserve">
+    <value>Interest</value>
+  </data>
+  <data name="Personal_Label_madt" xml:space="preserve">
+    <value>Married date</value>
+  </data>
+  <data name="Personal_Label_mast" xml:space="preserve">
+    <value>Marital status</value>
+  </data>
+  <data name="Personal_Label_napl" xml:space="preserve">
+    <value>Native place</value>
+  </data>
+  <data name="Personal_Label_nknm" xml:space="preserve">
+    <value>Nich name</value>
+  </data>
+  <data name="Personal_Label_ntnm" xml:space="preserve">
+    <value>Native name</value>
+  </data>
+  <data name="Personal_Label_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Personal_Label_otnm" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Personal_Label_pped" xml:space="preserve">
+    <value>Pass expired date</value>
+  </data>
+  <data name="Personal_Label_ppid" xml:space="preserve">
+    <value>Pass issued date</value>
+  </data>
+  <data name="Personal_Label_ppip" xml:space="preserve">
+    <value>Pass issued Place</value>
+  </data>
+  <data name="Personal_Label_ppno" xml:space="preserve">
+    <value>Passport no</value>
+  </data>
+  <data name="Personal_Label_salu" xml:space="preserve">
+    <value>Salutation</value>
+  </data>
+  <data name="Personal_Label_sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Personal_Label_sfid" xml:space="preserve">
+    <value>Staff Id</value>
+  </data>
+  <data name="Personal_Label_sunm" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="Personal_Label_visi" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="Personal_Label_wght" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="Personal_Label_wped" xml:space="preserve">
+    <value>Work permis ex.dt</value>
+  </data>
+  <data name="Personal_Label_wpno" xml:space="preserve">
+    <value>Work permis no</value>
+  </data>
+  <data name="Public_Label_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Public_Label_Bigamous" xml:space="preserve">
+    <value>Bigamous</value>
+  </data>
+  <data name="Public_Label_Divorced" xml:space="preserve">
+    <value>Divorced</value>
+  </data>
+  <data name="Public_Label_Invalid" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="Public_Label_Married" xml:space="preserve">
+    <value>Married</value>
+  </data>
+  <data name="Public_Label_MonthLimit" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Public_Label_Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="Public_Label_Single" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="Public_Label_Unapproved" xml:space="preserve">
+    <value>Unapproved</value>
+  </data>
+  <data name="Public_Label_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Public_Label_Valid" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="Public_Label_WeekLimit" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Public_Label_YearLimit" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Public_Toolbar_Related" xml:space="preserve">
+    <value>Related Functions</value>
+  </data>
+  <data name="Personal_Label_occd" xml:space="preserve">
+    <value>Original Country</value>
+  </data>
+  <data name="Public_Label_Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Public_Label_Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Public_Label_Mr" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+  <data name="Public_Label_Ms" xml:space="preserve">
+    <value>Ms</value>
+  </data>
+  <data name="Public_Menu_bsaddtyp" xml:space="preserve">
+    <value>Address Type</value>
+  </data>
+  <data name="Public_Menu_bsarea" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Public_Menu_bsbanitm" xml:space="preserve">
+    <value>Bank Item</value>
+  </data>
+  <data name="Public_Menu_bsbank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="Public_Menu_bsbusnes" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="Public_Menu_bsbusntr" xml:space="preserve">
+    <value>Business Nature</value>
+  </data>
+  <data name="Public_Menu_bscertyp" xml:space="preserve">
+    <value>Certificate Type</value>
+  </data>
+  <data name="Public_Menu_bschgtyp" xml:space="preserve">
+    <value>Change Type</value>
+  </data>
+  <data name="Public_Menu_bsclub" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="Public_Menu_bscompny" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Public_Menu_bscontry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Public_Menu_bscosctr" xml:space="preserve">
+    <value>Cost Centre</value>
+  </data>
+  <data name="Public_Menu_bsctatyp" xml:space="preserve">
+    <value>Contact Type</value>
+  </data>
+  <data name="Public_Menu_bsctrtyp" xml:space="preserve">
+    <value>Contract Type</value>
+  </data>
+  <data name="Public_Menu_bscurncy" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Public_Menu_bsdegree" xml:space="preserve">
+    <value>Degree</value>
+  </data>
+  <data name="Public_Menu_bsdepmnt" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Public_Menu_bsdivion" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="Public_Menu_bsdomtry" xml:space="preserve">
+    <value>Dormitory</value>
+  </data>
+  <data name="Public_Menu_bsdomtyp" xml:space="preserve">
+    <value>Dormitory Type</value>
+  </data>
+  <data name="Public_Menu_bsdskcls" xml:space="preserve">
+    <value>Disk Class</value>
+  </data>
+  <data name="Public_Menu_bsedulev" xml:space="preserve">
+    <value>Education Level</value>
+  </data>
+  <data name="Public_Menu_bsevttyp" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="Public_Menu_bsgrade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="Public_Menu_bsgrdlev" xml:space="preserve">
+    <value>Grade Level</value>
+  </data>
+  <data name="Public_Menu_athldtyp" xml:space="preserve">
+    <value>Holiday Type</value>
+  </data>
+  <data name="Public_Menu_bsinscmp" xml:space="preserve">
+    <value>Insurance Company</value>
+  </data>
+  <data name="Public_Menu_bsinsscm" xml:space="preserve">
+    <value>Insurance Schema</value>
+  </data>
+  <data name="Public_Menu_bsinstyp" xml:space="preserve">
+    <value>Insurance Type</value>
+  </data>
+  <data name="Public_Menu_bsjobcls" xml:space="preserve">
+    <value>Job Class</value>
+  </data>
+  <data name="Public_Menu_bsjobtyp" xml:space="preserve">
+    <value>Job Type</value>
+  </data>
+  <data name="Public_Menu_bsklitm" xml:space="preserve">
+    <value>Skill Item</value>
+  </data>
+  <data name="Public_Menu_bsnation" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="Public_Menu_bspaymtd" xml:space="preserve">
+    <value>Pay Method</value>
+  </data>
+  <data name="Public_Menu_bspaytyp" xml:space="preserve">
+    <value>Pay Type</value>
+  </data>
+  <data name="Public_Menu_bspolity" xml:space="preserve">
+    <value>Polity</value>
+  </data>
+  <data name="Public_Menu_bsposlev" xml:space="preserve">
+    <value>Position Level</value>
+  </data>
+  <data name="Public_Menu_bspstion" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Public_Menu_bsqlfctn" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="Public_Menu_bsratdtl" xml:space="preserve">
+    <value>Rating Detail</value>
+  </data>
+  <data name="Public_Menu_bsrating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="Public_Menu_bsrligon" xml:space="preserve">
+    <value>Religion</value>
+  </data>
+  <data name="Public_Menu_bssc" xml:space="preserve">
+    <value>S.Company</value>
+  </data>
+  <data name="Public_Menu_bsscact" xml:space="preserve">
+    <value>S.C Account</value>
+  </data>
+  <data name="Public_Menu_bsscdepo" xml:space="preserve">
+    <value>S.C Deposit</value>
+  </data>
+  <data name="Public_Menu_bsskltyp" xml:space="preserve">
+    <value>Skill Type</value>
+  </data>
+  <data name="Public_Menu_bsstftyp" xml:space="preserve">
+    <value>Staff Type</value>
+  </data>
+  <data name="Public_Menu_bsterrsn" xml:space="preserve">
+    <value>Termination Reason</value>
+  </data>
+  <data name="Public_Menu_bstertyp" xml:space="preserve">
+    <value>Termination Type</value>
+  </data>
+  <data name="Public_Menu_bstranig" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="Public_Menu_bstratyp" xml:space="preserve">
+    <value>Training Type</value>
+  </data>
+  <data name="Public_Menu_bswrkgrp" xml:space="preserve">
+    <value>Work Group</value>
+  </data>
+  <data name="Public_Menu_bswrkste" xml:space="preserve">
+    <value>Work Site</value>
+  </data>
+  <data name="Public_Menu_psaccont" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="Public_Menu_psaddres" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Public_Menu_pscertfc" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="Public_Menu_pschghis" xml:space="preserve">
+    <value>Emp Change History</value>
+  </data>
+  <data name="Public_Menu_psclub" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="Public_Menu_pscontct" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Public_Menu_pscontrt" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="Public_Menu_psdepost" xml:space="preserve">
+    <value>Depost</value>
+  </data>
+  <data name="Public_Menu_psdetain" xml:space="preserve">
+    <value>Detain Stuff</value>
+  </data>
+  <data name="Public_Menu_pseductn" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="Public_Menu_psempfuture" xml:space="preserve">
+    <value>Emp Future Action</value>
+  </data>
+  <data name="Public_Menu_psemplym" xml:space="preserve">
+    <value>Employment</value>
+  </data>
+  <data name="Public_Menu_psevent" xml:space="preserve">
+    <value>Employment Event</value>
+  </data>
+  <data name="Public_Menu_psexprnc" xml:space="preserve">
+    <value>Working Experience</value>
+  </data>
+  <data name="Public_Menu_pshltrec" xml:space="preserve">
+    <value>Health Record</value>
+  </data>
+  <data name="Public_Menu_psinsurn" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="Public_Menu_psperson" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="Public_Menu_psquafca" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="Public_Menu_psquarter" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="Public_Menu_psrelshp" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Public_Menu_pstraing" xml:space="preserve">
+    <value>Training Record</value>
+  </data>
+  <data name="Public_Menu_pswelfre" xml:space="preserve">
+    <value>Welfare</value>
+  </data>
+  <data name="Public_Menu_tbsbrptyp" xml:space="preserve">
+    <value>Bringup Type</value>
+  </data>
+  <data name="Master_Label_psld" xml:space="preserve">
+    <value>Position level code</value>
+  </data>
+  <data name="Master_Label_pslm" xml:space="preserve">
+    <value>Position level name</value>
+  </data>
+  <data name="Personal_Label_assc" xml:space="preserve">
+    <value>Assignedsc</value>
+  </data>
+  <data name="Personal_Label_cbno" xml:space="preserve">
+    <value>Cabinet No</value>
+  </data>
+  <data name="Personal_Label_chfi" xml:space="preserve">
+    <value>Change field</value>
+  </data>
+  <data name="Personal_Label_chre" xml:space="preserve">
+    <value>Change reason</value>
+  </data>
+  <data name="Personal_Label_emst" xml:space="preserve">
+    <value>Employment state</value>
+  </data>
+  <data name="Personal_Label_gpid" xml:space="preserve">
+    <value>Group id</value>
+  </data>
+  <data name="Personal_Label_isbl" xml:space="preserve">
+    <value>Is black list</value>
+  </data>
+  <data name="Personal_Label_isim" xml:space="preserve">
+    <value>Is immediate</value>
+  </data>
+  <data name="Personal_Label_isrh" xml:space="preserve">
+    <value>Is rehired</value>
+  </data>
+  <data name="Personal_Label_issu" xml:space="preserve">
+    <value>Is issued</value>
+  </data>
+  <data name="Personal_Label_jidt" xml:space="preserve">
+    <value>Join date</value>
+  </data>
+  <data name="Personal_Label_neva" xml:space="preserve">
+    <value>New value</value>
+  </data>
+  <data name="Personal_Label_prdt" xml:space="preserve">
+    <value>Probation date</value>
+  </data>
+  <data name="Personal_Label_reto" xml:space="preserve">
+    <value>Report to</value>
+  </data>
+  <data name="Personal_Label_rrdt" xml:space="preserve">
+    <value>Retire date</value>
+  </data>
+  <data name="Personal_Label_rsid" xml:space="preserve">
+    <value>Rehired staff Id</value>
+  </data>
+  <data name="Personal_Label_sftd" xml:space="preserve">
+    <value>Staff type code</value>
+  </data>
+  <data name="Personal_Label_sftm" xml:space="preserve">
+    <value>Staff type name</value>
+  </data>
+  <data name="Personal_Label_ssdt" xml:space="preserve">
+    <value>Stop salary date</value>
+  </data>
+  <data name="Personal_Label_termination" xml:space="preserve">
+    <value>Termination</value>
+  </data>
+  <data name="Personal_Label_titl" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Personal_Label_tmdt" xml:space="preserve">
+    <value>Termination date</value>
+  </data>
+  <data name="Personal_Label_tmrm" xml:space="preserve">
+    <value>Termination remark</value>
+  </data>
+  <data name="Public_Label_OTJ" xml:space="preserve">
+    <value>On Job</value>
+  </data>
+  <data name="Public_Label_Terminated" xml:space="preserve">
+    <value>Terminated</value>
+  </data>
+  <data name="Personal_Label_agad" xml:space="preserve">
+    <value>Agent addr</value>
+  </data>
+  <data name="Personal_Label_agcn" xml:space="preserve">
+    <value>Agent contact no</value>
+  </data>
+  <data name="Personal_Label_agem" xml:space="preserve">
+    <value>Agent email</value>
+  </data>
+  <data name="Personal_Label_agfe" xml:space="preserve">
+    <value>Agent fee</value>
+  </data>
+  <data name="Personal_Label_apag" xml:space="preserve">
+    <value>Apartment agent</value>
+  </data>
+  <data name="Personal_Label_dpam" xml:space="preserve">
+    <value>Deposit Amt</value>
+  </data>
+  <data name="Personal_Label_mafe" xml:space="preserve">
+    <value>Mgt fee</value>
+  </data>
+  <data name="Personal_Label_otfe" xml:space="preserve">
+    <value>Others fee</value>
+  </data>
+  <data name="Personal_Label_owad" xml:space="preserve">
+    <value>Owner addr</value>
+  </data>
+  <data name="Personal_Label_owcn" xml:space="preserve">
+    <value>Owner contact no</value>
+  </data>
+  <data name="Personal_Label_ownr" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Personal_Label_pbcm" xml:space="preserve">
+    <value>Pay by comp</value>
+  </data>
+  <data name="Personal_Label_pbem" xml:space="preserve">
+    <value>Pay by emp</value>
+  </data>
+  <data name="Personal_Label_pkfe" xml:space="preserve">
+    <value>Parking fee</value>
+  </data>
+  <data name="Personal_Label_rnfe" xml:space="preserve">
+    <value>Rental fee</value>
+  </data>
+  <data name="Personal_Label_ratn" xml:space="preserve">
+    <value>Rating Name</value>
+  </data>
+  <data name="Personal_Label_skit" xml:space="preserve">
+    <value>Skill Item</value>
+  </data>
+  <data name="Personal_Label_skle" xml:space="preserve">
+    <value>Skill level</value>
+  </data>
+  <data name="Personal_Label_sknm" xml:space="preserve">
+    <value>Skill name</value>
+  </data>
+  <data name="Public_Toolbar_Rehire" xml:space="preserve">
+    <value>Rehire</value>
+  </data>
+  <data name="Public_Toolbar_Terminate" xml:space="preserve">
+    <value>Terminate</value>
+  </data>
+  <data name="Public_Toolbar_Checkout" xml:space="preserve">
+    <value>Check out</value>
+  </data>
+  <data name="System_Label_cfde" xml:space="preserve">
+    <value>Config description</value>
+  </data>
+  <data name="System_Label_cfnm" xml:space="preserve">
+    <value>Config name</value>
+  </data>
+  <data name="System_Label_cfva" xml:space="preserve">
+    <value>Config value</value>
+  </data>
+  <data name="Attendance_Label_cddt" xml:space="preserve">
+    <value>Calendar date</value>
+  </data>
+  <data name="Attendance_Label_cdnm" xml:space="preserve">
+    <value>Calendar name</value>
+  </data>
+  <data name="Attendance_Label_clcd" xml:space="preserve">
+    <value>Calendar code</value>
+  </data>
+  <data name="Attendance_Label_eact" xml:space="preserve">
+    <value>Early count</value>
+  </data>
+  <data name="Attendance_Label_eotm" xml:space="preserve">
+    <value>Early minutes</value>
+  </data>
+  <data name="Attendance_Label_frdt" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="Attendance_Label_htcd" xml:space="preserve">
+    <value>Holiday type code</value>
+  </data>
+  <data name="Attendance_Label_htnm" xml:space="preserve">
+    <value>Holiday type name</value>
+  </data>
+  <data name="Attendance_Label_lact" xml:space="preserve">
+    <value>Late count</value>
+  </data>
+  <data name="Attendance_Label_letm" xml:space="preserve">
+    <value>Late minutes</value>
+  </data>
+  <data name="Attendance_Label_otcd" xml:space="preserve">
+    <value>Overtime code</value>
+  </data>
+  <data name="Attendance_Label_otnm" xml:space="preserve">
+    <value>Overtime name</value>
+  </data>
+  <data name="Attendance_Label_otst" xml:space="preserve">
+    <value>OT start time</value>
+  </data>
+  <data name="Attendance_Label_retm" xml:space="preserve">
+    <value>Record time</value>
+  </data>
+  <data name="Attendance_Label_sfcd" xml:space="preserve">
+    <value>Shift code</value>
+  </data>
+  <data name="Attendance_Label_sfnm" xml:space="preserve">
+    <value>Shift name</value>
+  </data>
+  <data name="Attendance_Label_todt" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Public_Toolbar_AutoGen" xml:space="preserve">
+    <value>Auto Gen</value>
+  </data>
+  <data name="Attendance_Label_altm" xml:space="preserve">
+    <value>Allow late min(s)</value>
+  </data>
+  <data name="Attendance_Label_aotm" xml:space="preserve">
+    <value>Allow early min(s)</value>
+  </data>
+  <data name="Attendance_Label_bked" xml:space="preserve">
+    <value>Break end time</value>
+  </data>
+  <data name="Attendance_Label_bken" xml:space="preserve">
+    <value>Break enabled</value>
+  </data>
+  <data name="Attendance_Label_bker" xml:space="preserve">
+    <value>Anal.break end</value>
+  </data>
+  <data name="Attendance_Label_bser" xml:space="preserve">
+    <value>Anal.break start</value>
+  </data>
+  <data name="Attendance_Label_btst" xml:space="preserve">
+    <value>Break start time</value>
+  </data>
+  <data name="Attendance_Label_eati" xml:space="preserve">
+    <value>First in time</value>
+  </data>
+  <data name="Attendance_Label_eatm" xml:space="preserve">
+    <value>Early start min(s)</value>
+  </data>
+  <data name="Attendance_Label_ecty" xml:space="preserve">
+    <value>Early stat.type</value>
+  </data>
+  <data name="Attendance_Label_ifio" xml:space="preserve">
+    <value>Only anal.In/Out</value>
+  </data>
+  <data name="Attendance_Label_igbl" xml:space="preserve">
+    <value>Break in W/T</value>
+  </data>
+  <data name="Attendance_Label_igrl" xml:space="preserve">
+    <value>Rest in W/T</value>
+  </data>
+  <data name="Attendance_Label_latm" xml:space="preserve">
+    <value>Late start min(s)</value>
+  </data>
+  <data name="Attendance_Label_lato" xml:space="preserve">
+    <value>Last out time</value>
+  </data>
+  <data name="Attendance_Label_lcty" xml:space="preserve">
+    <value>Late stat.type</value>
+  </data>
+  <data name="Attendance_Label_miot" xml:space="preserve">
+    <value>Min OT min(s)</value>
+  </data>
+  <data name="Attendance_Label_nots" xml:space="preserve">
+    <value>Std.OT.Start Time</value>
+  </data>
+  <data name="Attendance_Label_ontm" xml:space="preserve">
+    <value>One time</value>
+  </data>
+  <data name="Attendance_Label_otun" xml:space="preserve">
+    <value>OT unit min(s)</value>
+  </data>
+  <data name="Attendance_Label_r1ed" xml:space="preserve">
+    <value>Std rest1 end tm</value>
+  </data>
+  <data name="Attendance_Label_r1st" xml:space="preserve">
+    <value>Std rest1 start tm</value>
+  </data>
+  <data name="Attendance_Label_r2ed" xml:space="preserve">
+    <value>Std rest2 end tm</value>
+  </data>
+  <data name="Attendance_Label_r2st" xml:space="preserve">
+    <value>Std rest2 start tm</value>
+  </data>
+  <data name="Attendance_Label_rttm1" xml:space="preserve">
+    <value>Std rest1 min(s)</value>
+  </data>
+  <data name="Attendance_Label_rttm2" xml:space="preserve">
+    <value>Std rest2 min(s)</value>
+  </data>
+  <data name="Attendance_Label_tmin" xml:space="preserve">
+    <value>Std time in</value>
+  </data>
+  <data name="Attendance_Label_tmot" xml:space="preserve">
+    <value>Std time out</value>
+  </data>
+  <data name="Attendance_Label_wegh" xml:space="preserve">
+    <value>By weight</value>
+  </data>
+  <data name="Attendance_Label_wkda" xml:space="preserve">
+    <value>Work day(s)</value>
+  </data>
+  <data name="Attendance_Label_wkhr" xml:space="preserve">
+    <value>Work hour(s)</value>
+  </data>
+  <data name="Public_Menu_atoridat" xml:space="preserve">
+    <value>Original Smartcard Data</value>
+  </data>
+  <data name="Public_Menu_atpvtcld" xml:space="preserve">
+    <value>Private Calendar</value>
+  </data>
+  <data name="Public_Menu_atshfely" xml:space="preserve">
+    <value>Early Stat Weight</value>
+  </data>
+  <data name="Public_Menu_atshflat" xml:space="preserve">
+    <value>Late Stat Weight</value>
+  </data>
+  <data name="Public_Menu_atshfott" xml:space="preserve">
+    <value>OT Stat Weight</value>
+  </data>
+  <data name="Public_Menu_atshift" xml:space="preserve">
+    <value>Shift Settings</value>
+  </data>
+  <data name="Attendance_Label_both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="Attendance_Label_caon" xml:space="preserve">
+    <value>Calendar Only</value>
+  </data>
+  <data name="Attendance_Label_dasq" xml:space="preserve">
+    <value>Day seq</value>
+  </data>
+  <data name="Attendance_Label_iaod" xml:space="preserve">
+    <value>Anal.Orig smartcard data</value>
+  </data>
+  <data name="Attendance_Label_isrt" xml:space="preserve">
+    <value>Is rest day</value>
+  </data>
+  <data name="Attendance_Label_rscd" xml:space="preserve">
+    <value>Roster code</value>
+  </data>
+  <data name="Attendance_Label_rsnm" xml:space="preserve">
+    <value>Roster name</value>
+  </data>
+  <data name="Attendance_Label_rson" xml:space="preserve">
+    <value>Roster Only</value>
+  </data>
+  <data name="Attendance_Label_rtty" xml:space="preserve">
+    <value>Rest day type</value>
+  </data>
+  <data name="Public_Menu_atabsdtl" xml:space="preserve">
+    <value>Absence Details</value>
+  </data>
+  <data name="Public_Menu_atabssum" xml:space="preserve">
+    <value>Absence Summary</value>
+  </data>
+  <data name="Public_Menu_atanarst" xml:space="preserve">
+    <value>Attendance Anal. Result</value>
+  </data>
+  <data name="Public_Menu_atcaldar" xml:space="preserve">
+    <value>Company Calendar</value>
+  </data>
+  <data name="Public_Menu_atdatmnu" xml:space="preserve">
+    <value>Manual Attendance Data</value>
+  </data>
+  <data name="Public_Menu_atroshis" xml:space="preserve">
+    <value>Emp Roster History</value>
+  </data>
+  <data name="Public_Menu_atroster" xml:space="preserve">
+    <value>Roster settings</value>
+  </data>
+  <data name="Attendance_Label_abda" xml:space="preserve">
+    <value>Absence day(s)</value>
+  </data>
+  <data name="Attendance_Label_abhr" xml:space="preserve">
+    <value>Absence hour(s)</value>
+  </data>
+  <data name="Attendance_Label_adam" xml:space="preserve">
+    <value>M Absence day(s)</value>
+  </data>
+  <data name="Attendance_Label_ahrm" xml:space="preserve">
+    <value>M Absence hour(s)</value>
+  </data>
+  <data name="Attendance_Label_ahrr" xml:space="preserve">
+    <value>Absence hour(s) real</value>
+  </data>
+  <data name="Attendance_Label_atdt" xml:space="preserve">
+    <value>Attendance date</value>
+  </data>
+  <data name="Attendance_Label_betm" xml:space="preserve">
+    <value>M Break end time</value>
+  </data>
+  <data name="Attendance_Label_bstm" xml:space="preserve">
+    <value>M Break start time</value>
+  </data>
+  <data name="Attendance_Label_eahr" xml:space="preserve">
+    <value>Early hour(s)</value>
+  </data>
+  <data name="Attendance_Label_ectm" xml:space="preserve">
+    <value>M Early count</value>
+  </data>
+  <data name="Attendance_Label_ehrm" xml:space="preserve">
+    <value>M Early hour(s)</value>
+  </data>
+  <data name="Attendance_Label_ittm" xml:space="preserve">
+    <value>In time</value>
+  </data>
+  <data name="Attendance_Label_lahr" xml:space="preserve">
+    <value>Late hour(s)</value>
+  </data>
+  <data name="Attendance_Label_lctm" xml:space="preserve">
+    <value>M Late count</value>
+  </data>
+  <data name="Attendance_Label_lhrm" xml:space="preserve">
+    <value>M Late hour(s)</value>
+  </data>
+  <data name="Attendance_Label_ottm" xml:space="preserve">
+    <value>Out time</value>
+  </data>
+  <data name="Attendance_Label_scdm" xml:space="preserve">
+    <value>Shift code</value>
+  </data>
+  <data name="Public_Label_perd" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Public_Message_ABR" xml:space="preserve">
+    <value>Abnormal records</value>
+  </data>
+  <data name="Public_Message_ADR" xml:space="preserve">
+    <value>Attendance Date Range</value>
+  </data>
+  <data name="Public_Message_ALT" xml:space="preserve">
+    <value>Analyze leave together</value>
+  </data>
+  <data name="Public_Message_Analyzing" xml:space="preserve">
+    <value>Analyzing...,do not close it.</value>
+  </data>
+  <data name="Public_Message_AOT" xml:space="preserve">
+    <value>Analyze Overtime together</value>
+  </data>
+  <data name="Public_Message_AR" xml:space="preserve">
+    <value>All records</value>
+  </data>
+  <data name="Public_Message_AS" xml:space="preserve">
+    <value>Analyze scope</value>
+  </data>
+  <data name="Public_Message_CA" xml:space="preserve">
+    <value>Check analysis</value>
+  </data>
+  <data name="Public_Message_CLR" xml:space="preserve">
+    <value>Check leave records</value>
+  </data>
+  <data name="Public_Message_CMAD" xml:space="preserve">
+    <value>Check manual attendance data</value>
+  </data>
+  <data name="Public_Message_COSD" xml:space="preserve">
+    <value>Check original smartcard data</value>
+  </data>
+  <data name="Public_Message_COTR" xml:space="preserve">
+    <value>Check OT records</value>
+  </data>
+  <data name="Public_Message_CRH" xml:space="preserve">
+    <value>Check roster history</value>
+  </data>
+  <data name="Public_Message_DA" xml:space="preserve">
+    <value>Do analyze</value>
+  </data>
+  <data name="Public_Message_EF" xml:space="preserve">
+    <value>Employment Filter</value>
+  </data>
+  <data name="Public_Message_HA" xml:space="preserve">
+    <value>Fix abnormal records</value>
+  </data>
+  <data name="Public_Message_NC" xml:space="preserve">
+    <value>Nothing changed.</value>
+  </data>
+  <data name="Public_Message_RI" xml:space="preserve">
+    <value>Related Info</value>
+  </data>
+  <data name="Public_Message_TATL" xml:space="preserve">
+    <value>Transfer absence to leave</value>
+  </data>
+  <data name="Attendance_Label_iscf" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="Public_Message_APE" xml:space="preserve">
+    <value>Analyze parameters error</value>
+  </data>
+  <data name="Attendance_Label_athr" xml:space="preserve">
+    <value>Attendance Hours</value>
+  </data>
+  <data name="Attendance_Label_atst" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Attendance_Label_betm1" xml:space="preserve">
+    <value>M Break end time</value>
+  </data>
+  <data name="Attendance_Label_bret" xml:space="preserve">
+    <value>Break end time</value>
+  </data>
+  <data name="Attendance_Label_brst" xml:space="preserve">
+    <value>Break start time</value>
+  </data>
+  <data name="Attendance_Label_bstm1" xml:space="preserve">
+    <value>M Break start time</value>
+  </data>
+  <data name="Attendance_Label_ifma" xml:space="preserve">
+    <value>Is Manual</value>
+  </data>
+  <data name="Attendance_Label_intm" xml:space="preserve">
+    <value>In time</value>
+  </data>
+  <data name="Attendance_Label_itmm" xml:space="preserve">
+    <value>M In time</value>
+  </data>
+  <data name="Attendance_Label_otmm" xml:space="preserve">
+    <value>M Out time</value>
+  </data>
+  <data name="Public_Menu_atanaatt" xml:space="preserve">
+    <value>Analyze Attendance Data</value>
+  </data>
+  <data name="Public_Message_NoAnalDate" xml:space="preserve">
+    <value>Please choose date range to analyze first.</value>
+  </data>
+  <data name="Leave_Label_daro" xml:space="preserve">
+    <value>Date runout</value>
+  </data>
+  <data name="Leave_Label_days" xml:space="preserve">
+    <value>Days to carryforward</value>
+  </data>
+  <data name="Leave_Label_hors" xml:space="preserve">
+    <value>Hours to carryforward</value>
+  </data>
+  <data name="Leave_Label_hrcs" xml:space="preserve">
+    <value>Hours consumed</value>
+  </data>
+  <data name="Leave_Label_ltcd" xml:space="preserve">
+    <value>Leave type code</value>
+  </data>
+  <data name="Leave_Label_ltnm" xml:space="preserve">
+    <value>Leave type name</value>
+  </data>
+  <data name="Leave_Label_year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Public_Message_AYSCTC" xml:space="preserve">
+    <value>Are you sure to continue to carryforward?</value>
+  </data>
+  <data name="Public_Message_Carryforwarding" xml:space="preserve">
+    <value>Carryforwarding...,do not close it.</value>
+  </data>
+  <data name="Public_Message_CDR" xml:space="preserve">
+    <value>Carryforward date range</value>
+  </data>
+  <data name="Public_Message_CS" xml:space="preserve">
+    <value>Carryforward scope</value>
+  </data>
+  <data name="Public_Message_DCF" xml:space="preserve">
+    <value>Do carryforward</value>
+  </data>
+  <data name="Public_Message_NoCarryYear" xml:space="preserve">
+    <value>Please choose year range to carryforward first.</value>
+  </data>
+  <data name="Public_Processing_WindowTitle" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Leave_Label_apdt" xml:space="preserve">
+    <value>Apply date</value>
+  </data>
+  <data name="Leave_Label_apno" xml:space="preserve">
+    <value>Leave app no</value>
+  </data>
+  <data name="Leave_Label_baaf" xml:space="preserve">
+    <value>Balance after</value>
+  </data>
+  <data name="Leave_Label_csaf" xml:space="preserve">
+    <value>Consume after</value>
+  </data>
+  <data name="Leave_Label_dfby" xml:space="preserve">
+    <value>Define by</value>
+  </data>
+  <data name="Leave_Label_dfno" xml:space="preserve">
+    <value>Define No</value>
+  </data>
+  <data name="Leave_Label_dftx" xml:space="preserve">
+    <value>Define text</value>
+  </data>
+  <data name="Leave_Label_dfva" xml:space="preserve">
+    <value>Define value</value>
+  </data>
+  <data name="Leave_Label_frtm" xml:space="preserve">
+    <value>From time</value>
+  </data>
+  <data name="Leave_Label_fryr" xml:space="preserve">
+    <value>From year</value>
+  </data>
+  <data name="Leave_Label_hurs" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Leave_Label_lmby" xml:space="preserve">
+    <value>Limit by</value>
+  </data>
+  <data name="Leave_Label_lmno" xml:space="preserve">
+    <value>Limit No</value>
+  </data>
+  <data name="Leave_Label_lmsp" xml:space="preserve">
+    <value>Limit scope</value>
+  </data>
+  <data name="Leave_Label_lmtx" xml:space="preserve">
+    <value>Limit text</value>
+  </data>
+  <data name="Leave_Label_lmva" xml:space="preserve">
+    <value>Limit value</value>
+  </data>
+  <data name="Leave_Label_lvst" xml:space="preserve">
+    <value>Leave status</value>
+  </data>
+  <data name="Leave_Label_mnba" xml:space="preserve">
+    <value>Month Balance</value>
+  </data>
+  <data name="Leave_Label_mxch" xml:space="preserve">
+    <value>Max carryforward hrs</value>
+  </data>
+  <data name="Leave_Label_mxlh" xml:space="preserve">
+    <value>Max leave hours</value>
+  </data>
+  <data name="Leave_Label_retm" xml:space="preserve">
+    <value>Return time</value>
+  </data>
+  <data name="Leave_Label_totm" xml:space="preserve">
+    <value>To time</value>
+  </data>
+  <data name="Leave_Label_toyr" xml:space="preserve">
+    <value>To year</value>
+  </data>
+  <data name="Leave_Label_unli" xml:space="preserve">
+    <value>Unlimit</value>
+  </data>
+  <data name="Leave_Label_wkba" xml:space="preserve">
+    <value>Week Balance</value>
+  </data>
+  <data name="Leave_Label_yrba" xml:space="preserve">
+    <value>Year Balance</value>
+  </data>
+  <data name="Master_Label_isat" xml:space="preserve">
+    <value>Is attendance</value>
+  </data>
+  <data name="Master_Label_isct" xml:space="preserve">
+    <value>Is count rest</value>
+  </data>
+  <data name="Master_Label_lrcd" xml:space="preserve">
+    <value>Leave reason code</value>
+  </data>
+  <data name="Master_Label_lrnm" xml:space="preserve">
+    <value>Leave reason name</value>
+  </data>
+  <data name="Master_Label_ltcd" xml:space="preserve">
+    <value>Leave type code</value>
+  </data>
+  <data name="Master_Label_ltnm" xml:space="preserve">
+    <value>Leave type name</value>
+  </data>
+  <data name="Public_Menu_lvcryfwd" xml:space="preserve">
+    <value>Leave Carryforward</value>
+  </data>
+  <data name="Public_Menu_lvdfbyem" xml:space="preserve">
+    <value>Leave Entitlement(Employment)</value>
+  </data>
+  <data name="Public_Menu_lvdfbyot" xml:space="preserve">
+    <value>Leave Entitlement(Custom)</value>
+  </data>
+  <data name="Public_Menu_lvdfbyyr" xml:space="preserve">
+    <value>Leave Entitlement(Serv Years)</value>
+  </data>
+  <data name="Public_Menu_lvleaapp" xml:space="preserve">
+    <value>Leave Application</value>
+  </data>
+  <data name="Public_Menu_lvlealmt" xml:space="preserve">
+    <value>Leave Limit</value>
+  </data>
+  <data name="Public_Menu_tlvlearsn" xml:space="preserve">
+    <value>Leave reason</value>
+  </data>
+  <data name="Public_Menu_tlvleatyp" xml:space="preserve">
+    <value>Leave type</value>
+  </data>
+  <data name="Public_Message_BALANCE" xml:space="preserve">
+    <value>Balance:</value>
+  </data>
+  <data name="Public_Message_CLS" xml:space="preserve">
+    <value>Check Leave Setting</value>
+  </data>
+  <data name="Public_Message_LVST" xml:space="preserve">
+    <value>Leave Settings</value>
+  </data>
+  <data name="Public_Message_NEBFYAA" xml:space="preserve">
+    <value>No enough balance for you applying.You cannot apply a new leave.</value>
+  </data>
+  <data name="Public_Message_NEBFYAC" xml:space="preserve">
+    <value>No enough balance for you applying.Are you want to continue?</value>
+  </data>
+  <data name="Public_Message_NLSF" xml:space="preserve">
+    <value>No leave summary found.</value>
+  </data>
+  <data name="Public_Message_YCWBL" xml:space="preserve">
+    <value>Your change will be lost, are you sure to continue? </value>
+  </data>
+  <data name="Master_Label_autr" xml:space="preserve">
+    <value>Auto transfer</value>
+  </data>
+  <data name="Master_Label_otcd" xml:space="preserve">
+    <value>Overtime type code</value>
+  </data>
+  <data name="Master_Label_otnm" xml:space="preserve">
+    <value>Overtime type name</value>
+  </data>
+  <data name="Master_Label_ttlv" xml:space="preserve">
+    <value>Transfer to leave</value>
+  </data>
+  <data name="Overtime_Label_days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Overtime_Label_edtm" xml:space="preserve">
+    <value>To time</value>
+  </data>
+  <data name="Overtime_Label_istr" xml:space="preserve">
+    <value>Is transfer to leave</value>
+  </data>
+  <data name="Overtime_Label_lmby" xml:space="preserve">
+    <value>Limit by</value>
+  </data>
+  <data name="Overtime_Label_lmno" xml:space="preserve">
+    <value>Limit no</value>
+  </data>
+  <data name="Overtime_Label_lmsc" xml:space="preserve">
+    <value>Limit scope</value>
+  </data>
+  <data name="Overtime_Label_lmtx" xml:space="preserve">
+    <value>Limit text</value>
+  </data>
+  <data name="Overtime_Label_lmva" xml:space="preserve">
+    <value>Limit value</value>
+  </data>
+  <data name="Overtime_Label_mnba" xml:space="preserve">
+    <value>Month Balance</value>
+  </data>
+  <data name="Overtime_Label_mxoh" xml:space="preserve">
+    <value>Max OT hours</value>
+  </data>
+  <data name="Overtime_Label_mxth" xml:space="preserve">
+    <value>Max TTLV hours</value>
+  </data>
+  <data name="Overtime_Label_otcd" xml:space="preserve">
+    <value>Overtime type code</value>
+  </data>
+  <data name="Overtime_Label_otdt" xml:space="preserve">
+    <value>Overtime date</value>
+  </data>
+  <data name="Overtime_Label_othm" xml:space="preserve">
+    <value>M OT hours</value>
+  </data>
+  <data name="Overtime_Label_othr" xml:space="preserve">
+    <value>R OT hours</value>
+  </data>
+  <data name="Overtime_Label_oths" xml:space="preserve">
+    <value>OT hours</value>
+  </data>
+  <data name="Overtime_Label_otnm" xml:space="preserve">
+    <value>Overtime type name</value>
+  </data>
+  <data name="Overtime_Label_rfno" xml:space="preserve">
+    <value>App ref.no</value>
+  </data>
+  <data name="Overtime_Label_sttm" xml:space="preserve">
+    <value>From time</value>
+  </data>
+  <data name="Overtime_Label_tlhr" xml:space="preserve">
+    <value>Transfer hours</value>
+  </data>
+  <data name="Overtime_Label_tlrf" xml:space="preserve">
+    <value>Transfer ref.no</value>
+  </data>
+  <data name="Overtime_Label_ttlv" xml:space="preserve">
+    <value>Transfer to</value>
+  </data>
+  <data name="Overtime_Label_unli" xml:space="preserve">
+    <value>Unlimit</value>
+  </data>
+  <data name="Overtime_Label_wkba" xml:space="preserve">
+    <value>Week Balance</value>
+  </data>
+  <data name="Overtime_Label_yrba" xml:space="preserve">
+    <value>Year Balance</value>
+  </data>
+  <data name="Public_Message_AYSTCTTO" xml:space="preserve">
+    <value>Are you sure to continue to transfer overtime to leave entitlement?</value>
+  </data>
+  <data name="Public_Message_calcwin" xml:space="preserve">
+    <value>Calculation Window</value>
+  </data>
+  <data name="Public_Message_COS" xml:space="preserve">
+    <value>Check Overtime Setting</value>
+  </data>
+  <data name="Public_Message_DOTR" xml:space="preserve">
+    <value>Do transfer</value>
+  </data>
+  <data name="Public_Message_NEBFYAAS" xml:space="preserve">
+    <value>No enough balance for you applying.You cannot apply a new overtime.</value>
+  </data>
+  <data name="Public_Message_NOSF" xml:space="preserve">
+    <value>No overtime summary found.</value>
+  </data>
+  <data name="Public_Message_OTST" xml:space="preserve">
+    <value>Overtime Settings</value>
+  </data>
+  <data name="Public_Message_TDR" xml:space="preserve">
+    <value>Transfer Date Range</value>
+  </data>
+  <data name="Public_Message_transfering" xml:space="preserve">
+    <value>Transfering...,do not close it.</value>
+  </data>
+  <data name="Public_Message_TS" xml:space="preserve">
+    <value>Transfer scope</value>
+  </data>
+  <data name="Public_Menu_otaplctn" xml:space="preserve">
+    <value>Overtime Application</value>
+  </data>
+  <data name="Public_Menu_otdetail" xml:space="preserve">
+    <value>Overtime Details</value>
+  </data>
+  <data name="Public_Menu_otlimit" xml:space="preserve">
+    <value>Overtime Limit</value>
+  </data>
+  <data name="Public_Menu_otsetting" xml:space="preserve">
+    <value>Overtime Settings</value>
+  </data>
+  <data name="Public_Menu_otsummry" xml:space="preserve">
+    <value>Overtime Summary</value>
+  </data>
+  <data name="Public_Menu_otttlv" xml:space="preserve">
+    <value>Transfer to Leave</value>
+  </data>
+  <data name="Public_Menu_ottype" xml:space="preserve">
+    <value>Overtime Type</value>
+  </data>
+  <data name="Public_Menu_psempchg" xml:space="preserve">
+    <value>Employment Change</value>
+  </data>
+  <data name="Public_Menu_psqurter" xml:space="preserve">
+    <value>Quarter</value>
+  </data>
+  <data name="Public_Menu_Attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="Public_Menu_Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="Public_Menu_OpenQuery" xml:space="preserve">
+    <value>Open Query</value>
+  </data>
+  <data name="Public_Menu_Overtime" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="Public_Menu_Payroll" xml:space="preserve">
+    <value>Payroll</value>
+  </data>
+  <data name="Public_Menu_Skill" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="Public_Menu_Staff" xml:space="preserve">
+    <value>Personnel</value>
+  </data>
+  <data name="Public_Menu_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Public_Menu_tstsyscfg" xml:space="preserve">
+    <value>System Config</value>
+  </data>
+  <data name="Master_Label_dscr" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Master_Label_padt" xml:space="preserve">
+    <value>Pay day</value>
+  </data>
+  <data name="Master_Label_pdcd" xml:space="preserve">
+    <value>Pay day code</value>
+  </data>
+  <data name="Master_Label_sltd" xml:space="preserve">
+    <value>Salary type code</value>
+  </data>
+  <data name="Master_Label_sltn" xml:space="preserve">
+    <value>Salary type name</value>
+  </data>
+  <data name="Master_Label_sifg" xml:space="preserve">
+    <value>Salary item flag</value>
+  </data>
+  <data name="Payroll_Label_csal" xml:space="preserve">
+    <value>Do CC allocation</value>
+  </data>
+  <data name="Payroll_Label_irim" xml:space="preserve">
+    <value>Is rel item</value>
+  </data>
+  <data name="Payroll_Label_iscu" xml:space="preserve">
+    <value>Is cumulate item</value>
+  </data>
+  <data name="Payroll_Label_itcd" xml:space="preserve">
+    <value>Salary item code</value>
+  </data>
+  <data name="Payroll_Label_itnm" xml:space="preserve">
+    <value>Salary item name</value>
+  </data>
+  <data name="Payroll_Label_opty" xml:space="preserve">
+    <value>Operation type</value>
+  </data>
+  <data name="Payroll_Label_sifg" xml:space="preserve">
+    <value>Salary item flag</value>
+  </data>
+  <data name="Payroll_Label_vapc" xml:space="preserve">
+    <value>Value precision</value>
+  </data>
+  <data name="Payroll_Label_burl" xml:space="preserve">
+    <value>Business URL</value>
+  </data>
+  <data name="Payroll_Label_isst" xml:space="preserve">
+    <value>Is system</value>
+  </data>
+  <data name="Payroll_Label_rsid" xml:space="preserve">
+    <value>Resource Id</value>
+  </data>
+  <data name="Payroll_Label_vacd" xml:space="preserve">
+    <value>Variable code</value>
+  </data>
+  <data name="Payroll_Label_vanm" xml:space="preserve">
+    <value>Variable name</value>
+  </data>
+  <data name="Payroll_Label_vlty" xml:space="preserve">
+    <value>Value type</value>
+  </data>
+  <data name="Payroll_Label_vlva" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Payroll_Label_cdtl" xml:space="preserve">
+    <value>For condition</value>
+  </data>
+  <data name="Payroll_Label_cdtx" xml:space="preserve">
+    <value>Condition text</value>
+  </data>
+  <data name="Payroll_Label_cdva" xml:space="preserve">
+    <value>Condition Value</value>
+  </data>
+  <data name="Payroll_Label_chfn" xml:space="preserve">
+    <value>How to calc details</value>
+  </data>
+  <data name="Payroll_Label_crcd" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Payroll_Label_cred" xml:space="preserve">
+    <value>ccrelcode</value>
+  </data>
+  <data name="Payroll_Label_dscr" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Payroll_Label_frcd" xml:space="preserve">
+    <value>Formula code</value>
+  </data>
+  <data name="Payroll_Label_frnm" xml:space="preserve">
+    <value>Formula name</value>
+  </data>
+  <data name="Payroll_Label_func" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="Payroll_Label_isca" xml:space="preserve">
+    <value>CostAlloc</value>
+  </data>
+  <data name="Payroll_Label_rlcd" xml:space="preserve">
+    <value>Summary Code</value>
+  </data>
+  <data name="Payroll_Label_rscd" xml:space="preserve">
+    <value>Rule set code</value>
+  </data>
+  <data name="Payroll_Label_rsit" xml:space="preserve">
+    <value>Rule Set Item</value>
+  </data>
+  <data name="Payroll_Label_rsnm" xml:space="preserve">
+    <value>Rule set name</value>
+  </data>
+  <data name="Payroll_Label_sait" xml:space="preserve">
+    <value>Salary Items</value>
+  </data>
+  <data name="Payroll_Label_sfat" xml:space="preserve">
+    <value>Staff attributes</value>
+  </data>
+  <data name="Payroll_Label_srno" xml:space="preserve">
+    <value>Sort no</value>
+  </data>
+  <data name="Payroll_Label_ssty" xml:space="preserve">
+    <value>sumseltype</value>
+  </data>
+  <data name="Payroll_Label_valu" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Payroll_Label_vari" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="Payroll_Label_vatx" xml:space="preserve">
+    <value>Value text</value>
+  </data>
+  <data name="Payroll_Label_vtyp" xml:space="preserve">
+    <value>Value type</value>
+  </data>
+  <data name="Public_Title_exbu" xml:space="preserve">
+    <value>Expression Builder</value>
+  </data>
+  <data name="Public_Toolbar_Down" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="Public_Toolbar_Up" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="Public_Message_NoSelectedRecords" xml:space="preserve">
+    <value>Please select records first.</value>
+  </data>
+  <data name="System_Label_cdnm" xml:space="preserve">
+    <value>Condition name</value>
+  </data>
+  <data name="System_Label_cdno" xml:space="preserve">
+    <value>Condition No</value>
+  </data>
+  <data name="System_Label_cdtx" xml:space="preserve">
+    <value>Condition text</value>
+  </data>
+  <data name="System_Label_dscr" xml:space="preserve">
+    <value>Descrption</value>
+  </data>
+  <data name="System_Label_ownr" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Payroll_Label_acno" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="Payroll_Label_amnt" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Payroll_Label_condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Payroll_Label_custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="Payroll_Label_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Payroll_Label_docalculate" xml:space="preserve">
+    <value>Do calculate</value>
+  </data>
+  <data name="Payroll_Label_rnno" xml:space="preserve">
+    <value>Payroll Calculation No</value>
+  </data>
+  <data name="Payroll_Label_summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Public_Toolbar_Calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="Public_Message_VILT100" xml:space="preserve">
+    <value>Value is larger than 100.</value>
+  </data>
+  <data name="Payroll_Label_rndt" xml:space="preserve">
+    <value>Run date</value>
+  </data>
+  <data name="Payroll_Label_rnty" xml:space="preserve">
+    <value>Payroll Calculation type</value>
+  </data>
+  <data name="Payroll_Label_tmat" xml:space="preserve">
+    <value>Total amount</value>
+  </data>
+  <data name="Payroll_Label_tsct" xml:space="preserve">
+    <value>Staff count</value>
+  </data>
+  <data name="Payroll_Label_ajva" xml:space="preserve">
+    <value>Adjusted Value</value>
+  </data>
+  <data name="Public_Button_HROpen" xml:space="preserve">
+    <value>My HRMS</value>
+  </data>
+  <data name="Public_Button_HRMS" xml:space="preserve">
+    <value>HRMS</value>
+  </data>
+  <data name="Public_Toolbar_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Overtime_Label_apdt" xml:space="preserve">
+    <value>Apply date</value>
+  </data>
+  <data name="Overtime_Label_apno" xml:space="preserve">
+    <value>OT app no</value>
+  </data>
+  <data name="Overtime_Label_frtm" xml:space="preserve">
+    <value>From time</value>
+  </data>
+  <data name="Overtime_Label_otst" xml:space="preserve">
+    <value>OT status</value>
+  </data>
+  <data name="Overtime_Label_totm" xml:space="preserve">
+    <value>To time</value>
+  </data>
+  <data name="Public_Label_rest" xml:space="preserve">
+    <value>Record Status</value>
+  </data>
+  <data name="Public_Label_actn" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Public_Label_lgtm" xml:space="preserve">
+    <value>Log time</value>
+  </data>
+  <data name="Public_Label_lgtx" xml:space="preserve">
+    <value>Log text</value>
+  </data>
+  <data name="Public_Label_lgur" xml:space="preserve">
+    <value>Log user</value>
+  </data>
+  <data name="Public_Toolbar_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Public_Message_AnalSuccess" xml:space="preserve">
+    <value>Analyze success</value>
+  </data>
+  <data name="Leavel_Label_days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Leavel_Label_dfby" xml:space="preserve">
+    <value>Def By</value>
+  </data>
+  <data name="Leavel_Label_dfno" xml:space="preserve">
+    <value>Def No</value>
+  </data>
+  <data name="Leavel_Label_dfva" xml:space="preserve">
+    <value>Def Value</value>
+  </data>
+  <data name="Leavel_Label_fryr" xml:space="preserve">
+    <value>From year</value>
+  </data>
+  <data name="Leavel_Label_toyr" xml:space="preserve">
+    <value>To year</value>
+  </data>
+  <data name="Leave_Label_iscf" xml:space="preserve">
+    <value>Is Carryforward</value>
+  </data>
+  <data name="Leave_Label_lmsc" xml:space="preserve">
+    <value>Limit Scope</value>
+  </data>
+  <data name="Personal_Label_hccd" xml:space="preserve">
+    <value>HeadCount CFG No</value>
+  </data>
+  <data name="Personal_Label_hcnm" xml:space="preserve">
+    <value>HeadCount Name</value>
+  </data>
+  <data name="Personal_Label_xdef" xml:space="preserve">
+    <value>X axis</value>
+  </data>
+  <data name="Personal_Label_ydef" xml:space="preserve">
+    <value>Y axis</value>
+  </data>
+  <data name="Public_Menu_HeadCountCfg" xml:space="preserve">
+    <value>HeadCount Config</value>
+  </data>
+  <data name="Report_Label_isme" xml:space="preserve">
+    <value>Merge?</value>
+  </data>
+  <data name="Report_Label_isor" xml:space="preserve">
+    <value>Order?</value>
+  </data>
+  <data name="Report_Label_isqr" xml:space="preserve">
+    <value>Query?</value>
+  </data>
+  <data name="Report_Label_issu" xml:space="preserve">
+    <value>Summary?</value>
+  </data>
+  <data name="Report_Label_itnm" xml:space="preserve">
+    <value>Item Name</value>
+  </data>
+  <data name="Report_Label_rpcd" xml:space="preserve">
+    <value>Report No</value>
+  </data>
+  <data name="Report_Label_rpnm" xml:space="preserve">
+    <value>Report Name</value>
+  </data>
+  <data name="Report_Label_rptt" xml:space="preserve">
+    <value>Report Title</value>
+  </data>
+  <data name="Report_Label_rpty" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="er_label_age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="er_label_arcd" xml:space="preserve">
+    <value>Area Code</value>
+  </data>
+  <data name="er_label_arnm" xml:space="preserve">
+    <value>Area Name</value>
+  </data>
+  <data name="er_label_brdt" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="er_label_bscd" xml:space="preserve">
+    <value>Business Code</value>
+  </data>
+  <data name="er_label_bsnm" xml:space="preserve">
+    <value>Business Name</value>
+  </data>
+  <data name="er_label_cccd" xml:space="preserve">
+    <value>Cost Center Code</value>
+  </data>
+  <data name="er_label_ccnm" xml:space="preserve">
+    <value>Cost Center Name</value>
+  </data>
+  <data name="er_label_cdcd" xml:space="preserve">
+    <value>Cost Center Code</value>
+  </data>
+  <data name="er_label_clcd" xml:space="preserve">
+    <value>Calendar Code</value>
+  </data>
+  <data name="er_label_conm" xml:space="preserve">
+    <value>Country Name</value>
+  </data>
+  <data name="er_label_dayservice" xml:space="preserve">
+    <value>Days of Service</value>
+  </data>
+  <data name="er_label_dpcd" xml:space="preserve">
+    <value>Department Code</value>
+  </data>
+  <data name="er_label_dpnm" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="er_label_dvcd" xml:space="preserve">
+    <value>Division Code</value>
+  </data>
+  <data name="er_label_dvnm" xml:space="preserve">
+    <value>Division Name</value>
+  </data>
+  <data name="er_label_elcd" xml:space="preserve">
+    <value>Education Level Code</value>
+  </data>
+  <data name="er_label_elnm" xml:space="preserve">
+    <value>Education Level</value>
+  </data>
+  <data name="er_label_emno" xml:space="preserve">
+    <value>Employee No</value>
+  </data>
+  <data name="er_label_emst" xml:space="preserve">
+    <value>Employee State</value>
+  </data>
+  <data name="er_label_ennm" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="er_label_frnm" xml:space="preserve">
+    <value>Foreign name</value>
+  </data>
+  <data name="er_label_grcd" xml:space="preserve">
+    <value>Grade Code</value>
+  </data>
+  <data name="er_label_grnm" xml:space="preserve">
+    <value>Grade Name</value>
+  </data>
+  <data name="er_label_idno" xml:space="preserve">
+    <value>Id No</value>
+  </data>
+  <data name="er_label_jccd" xml:space="preserve">
+    <value>Job Class Code</value>
+  </data>
+  <data name="er_label_jcnm" xml:space="preserve">
+    <value>Job Class Name</value>
+  </data>
+  <data name="er_label_jidt" xml:space="preserve">
+    <value>Join Date</value>
+  </data>
+  <data name="er_label_jtcd" xml:space="preserve">
+    <value>Job Type Code</value>
+  </data>
+  <data name="er_label_jtnm" xml:space="preserve">
+    <value>Job Type Name</value>
+  </data>
+  <data name="er_label_mast" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="er_label_monthservice" xml:space="preserve">
+    <value>Months of Service</value>
+  </data>
+  <data name="er_label_napl" xml:space="preserve">
+    <value>Native Place</value>
+  </data>
+  <data name="er_label_ntnm" xml:space="preserve">
+    <value>Native Name</value>
+  </data>
+  <data name="er_label_otnm" xml:space="preserve">
+    <value>Other Name</value>
+  </data>
+  <data name="er_label_prdt" xml:space="preserve">
+    <value>Probation date</value>
+  </data>
+  <data name="er_label_pscd" xml:space="preserve">
+    <value>Position Code</value>
+  </data>
+  <data name="er_label_psnm" xml:space="preserve">
+    <value>Position Name</value>
+  </data>
+  <data name="er_label_ptcd" xml:space="preserve">
+    <value>Paryment Type Code</value>
+  </data>
+  <data name="er_label_ptnm" xml:space="preserve">
+    <value>Payment Type Name</value>
+  </data>
+  <data name="er_label_remk" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="er_label_rscd" xml:space="preserve">
+    <value>Roster Code</value>
+  </data>
+  <data name="er_label_rsnm" xml:space="preserve">
+    <value>Roster Name</value>
+  </data>
+  <data name="er_label_salu" xml:space="preserve">
+    <value>Salutation</value>
+  </data>
+  <data name="er_label_sccd" xml:space="preserve">
+    <value>SC Code</value>
+  </data>
+  <data name="er_label_scnm" xml:space="preserve">
+    <value>SC Name</value>
+  </data>
+  <data name="er_label_sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="er_label_sfid" xml:space="preserve">
+    <value>Staff Id</value>
+  </data>
+  <data name="er_label_stcd" xml:space="preserve">
+    <value>Staff Type Code</value>
+  </data>
+  <data name="er_label_stnm" xml:space="preserve">
+    <value>Staff Type Name</value>
+  </data>
+  <data name="er_label_sunm" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="er_label_tmdt" xml:space="preserve">
+    <value>Terminate Date</value>
+  </data>
+  <data name="er_label_tmst" xml:space="preserve">
+    <value>Terminate State</value>
+  </data>
+  <data name="er_label_trcd" xml:space="preserve">
+    <value>Terminate Reason Code</value>
+  </data>
+  <data name="er_label_trnm" xml:space="preserve">
+    <value>Terminate Reason Name</value>
+  </data>
+  <data name="er_label_ttcd" xml:space="preserve">
+    <value>Terminate Type Code</value>
+  </data>
+  <data name="er_label_ttnm" xml:space="preserve">
+    <value>Terminate Type Name</value>
+  </data>
+  <data name="er_label_wgcd" xml:space="preserve">
+    <value>Work Group Code</value>
+  </data>
+  <data name="er_label_wgnm" xml:space="preserve">
+    <value>Work Group Name</value>
+  </data>
+  <data name="er_label_wscd" xml:space="preserve">
+    <value>Work Site Code</value>
+  </data>
+  <data name="er_label_wsnm" xml:space="preserve">
+    <value>Work Site Name</value>
+  </data>
+  <data name="er_label_yearservice" xml:space="preserve">
+    <value>Years of Service</value>
+  </data>
+  <data name="Report_Label_ittx" xml:space="preserve">
+    <value>Item Text</value>
+  </data>
+  <data name="erp_acno" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="erp_amnt" xml:space="preserve">
+    <value>Bank Account Amount</value>
+  </data>
+  <data name="er_label_perd" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Training_Label_ceed" xml:space="preserve">
+    <value>Effective Date</value>
+  </data>
+  <data name="Training_Label_ceid" xml:space="preserve">
+    <value>Issue Date</value>
+  </data>
+  <data name="Training_Label_cenm" xml:space="preserve">
+    <value>Certificate Name</value>
+  </data>
+  <data name="Training_Label_cexd" xml:space="preserve">
+    <value>Expired Date</value>
+  </data>
+  <data name="Training_Label_isce" xml:space="preserve">
+    <value>Is Certificate</value>
+  </data>
+  <data name="Training_Label_isnm" xml:space="preserve">
+    <value>Institute Name</value>
+  </data>
+  <data name="Training_Label_ispb" xml:space="preserve">
+    <value>Is Published</value>
+  </data>
+  <data name="Training_Label_issk" xml:space="preserve">
+    <value>Is Skill</value>
+  </data>
+  <data name="Training_Label_skle" xml:space="preserve">
+    <value>Skill Level</value>
+  </data>
+  <data name="Training_Label_sknm" xml:space="preserve">
+    <value>Skill Name</value>
+  </data>
+  <data name="Training_Label_trnm" xml:space="preserve">
+    <value>Training Name</value>
+  </data>
+  <data name="Training_Label_tchr" xml:space="preserve">
+    <value>Teacher</value>
+  </data>
+  <data name="Training_Label_tget" xml:space="preserve">
+    <value>Training Target</value>
+  </data>
+  <data name="Training_Label_abrs" xml:space="preserve">
+    <value>Absence Hours</value>
+  </data>
+  <data name="Training_Label_isrg" xml:space="preserve">
+    <value>Is Registered</value>
+  </data>
+  <data name="Training_Label_rgtm" xml:space="preserve">
+    <value>Register Time</value>
+  </data>
+  <data name="Training_Label_rgur" xml:space="preserve">
+    <value>Register By</value>
+  </data>
+  <data name="Training_Label_isat" xml:space="preserve">
+    <value>Is Attendance</value>
+  </data>
+  <data name="Public_Message_Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Training_Label_ispa" xml:space="preserve">
+    <value>Is Pass</value>
+  </data>
+  <data name="Training_Label_scor" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Public_Toolbar_ApplyToAll" xml:space="preserve">
+    <value>Apply to All</value>
+  </data>
+  <data name="Public_Toolbar_Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="Training_Label_athr" xml:space="preserve">
+    <value>Att.Hours</value>
+  </data>
+  <data name="Public_Confirm_Clear" xml:space="preserve">
+    <value>Are you sure you want to clear?</value>
+  </data>
+  <data name="Public_Menu_MUF" xml:space="preserve">
+    <value>Most Used</value>
+  </data>
+  <data name="Public_Message_GridDefaultText" xml:space="preserve">
+    <value>Click [Query] to view data(s).</value>
+  </data>
+  <data name="Public_Toolbar_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Public_Toolbar_ClearAll" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="Public_Menu_atwrdset" xml:space="preserve">
+    <value>Workday Setting</value>
+  </data>
+  <data name="Public_Menu_bsreltyp" xml:space="preserve">
+    <value>Relationship Type</value>
+  </data>
+  <data name="Public_Menu_praccalc" xml:space="preserve">
+    <value>Bank Account Allocation</value>
+  </data>
+  <data name="Public_Menu_praddrst" xml:space="preserve">
+    <value>Additional Calc Rules</value>
+  </data>
+  <data name="Public_Menu_prbaalcr" xml:space="preserve">
+    <value>Bank Account Allocation Rule</value>
+  </data>
+  <data name="Public_Menu_prcalcul" xml:space="preserve">
+    <value>Payroll Calculation</value>
+  </data>
+  <data name="Public_Menu_prccalcr" xml:space="preserve">
+    <value>Cost Center Allocation Rule</value>
+  </data>
+  <data name="Public_Menu_prcstalc" xml:space="preserve">
+    <value>Cost Center Allocation</value>
+  </data>
+  <data name="Public_Menu_prcumitm" xml:space="preserve">
+    <value>Calculate Cumulation Items</value>
+  </data>
+  <data name="Public_Menu_prexrpdp" xml:space="preserve">
+    <value>Report Display</value>
+  </data>
+  <data name="Public_Menu_prfmular" xml:space="preserve">
+    <value>Formula</value>
+  </data>
+  <data name="Public_Menu_prpayday" xml:space="preserve">
+    <value>Pay Day</value>
+  </data>
+  <data name="Public_Menu_prpbrhis" xml:space="preserve">
+    <value>Employee PCR History</value>
+  </data>
+  <data name="Public_Menu_prprirst" xml:space="preserve">
+    <value>Private Calc Rules</value>
+  </data>
+  <data name="Public_Menu_prpubrst" xml:space="preserve">
+    <value>Publish Calc Rules(PCR)</value>
+  </data>
+  <data name="Public_Menu_prrun" xml:space="preserve">
+    <value>Calculation Management</value>
+  </data>
+  <data name="Public_Menu_prsaitfg" xml:space="preserve">
+    <value>Salary Item Flag</value>
+  </data>
+  <data name="Public_Menu_prsalhis" xml:space="preserve">
+    <value>Salary History</value>
+  </data>
+  <data name="Public_Menu_prsalitm" xml:space="preserve">
+    <value>Salary Item</value>
+  </data>
+  <data name="Public_Menu_prsaltyp" xml:space="preserve">
+    <value>Salary Type</value>
+  </data>
+  <data name="Public_Menu_prvarble" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="Public_Menu_rpexrpdf" xml:space="preserve">
+    <value>Report Definition</value>
+  </data>
+  <data name="Public_Menu_rphctctl" xml:space="preserve">
+    <value>Headcount Report</value>
+  </data>
+  <data name="Public_Menu_stcondtn" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Public_Menu_stpubmsg" xml:space="preserve">
+    <value>Publish Message</value>
+  </data>
+  <data name="Public_Menu_Traing" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="Public_Menu_trtraatt" xml:space="preserve">
+    <value>Training Attendance List</value>
+  </data>
+  <data name="Public_Menu_trtraing" xml:space="preserve">
+    <value>Company Training</value>
+  </data>
+  <data name="Public_Menu_trtrarst" xml:space="preserve">
+    <value>Training Result</value>
+  </data>
+  <data name="Attendance_Label_lvhr" xml:space="preserve">
+    <value>Leave Hours</value>
+  </data>
+  <data name="Attendance_Label_othr" xml:space="preserve">
+    <value>O/T Hours</value>
+  </data>
+  <data name="Public_Message_WrongIDFormat" xml:space="preserve">
+    <value>ID format is ILLEGAL.</value>
+  </data>
+  <data name="Public_Menu_bsxcgrat" xml:space="preserve">
+    <value>Exchange Rate</value>
+  </data>
+  <data name="TabDef_Label_frcr" xml:space="preserve">
+    <value>From currency</value>
+  </data>
+  <data name="TabDef_Label_rate" xml:space="preserve">
+    <value>Exchange rate</value>
+  </data>
+  <data name="TabDef_Label_tocr" xml:space="preserve">
+    <value>To currency</value>
+  </data>
+  <data name="TabDef_Label_efdt" xml:space="preserve">
+    <value>Effect date</value>
+  </data>
+  <data name="TabDef_Label_exdt" xml:space="preserve">
+    <value>Expired date</value>
+  </data>
+  <data name="Master_Label_htcd" xml:space="preserve">
+    <value>Holiday Type Code</value>
+  </data>
+  <data name="Master_Label_htnm" xml:space="preserve">
+    <value>Holiday Type Name</value>
+  </data>
+  <data name="Public_Menu_stperiod" xml:space="preserve">
+    <value>Payroll Period</value>
+  </data>
+  <data name="Public_Message_SelectPeriodFirst" xml:space="preserve">
+    <value>Please select a period first.</value>
+  </data>
+  <data name="Public_Button_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Public_Menu_stusrinf" xml:space="preserve">
+    <value>Logon User Information</value>
+  </data>
+  <data name="Public_Label_cfnpwd" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="Public_Label_changepwd" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Public_Label_newpwd" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="Public_Label_oldpwd" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="Public_Message_alcp" xml:space="preserve">
+    <value>You are allowed to change your logon password.</value>
+  </data>
+  <data name="Public_Message_nalcp" xml:space="preserve">
+    <value>You are NOT ALLOWED to change your logon password(AD based authorization).</value>
+  </data>
+  <data name="Public_Message_Notequal" xml:space="preserve">
+    <value>is not equal to</value>
+  </data>
+  <data name="Public_Label_usrinfo" xml:space="preserve">
+    <value>User Information</value>
+  </data>
+  <data name="Public_Menu_stsearch" xml:space="preserve">
+    <value>Seach</value>
+  </data>
+  <data name="Public_Menu_stcheckr" xml:space="preserve">
+    <value>System Check</value>
+  </data>
+  <data name="Public_Label_ispb" xml:space="preserve">
+    <value>Is Published</value>
+  </data>
+  <data name="Public_Label_pbby" xml:space="preserve">
+    <value>Published By</value>
+  </data>
+  <data name="Public_Label_pbtm" xml:space="preserve">
+    <value>Published Time</value>
+  </data>
+  <data name="Public_Label_smid" xml:space="preserve">
+    <value>SM Id</value>
+  </data>
+  <data name="Public_Label_subj" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Public_Message_cfpm" xml:space="preserve">
+    <value>Are you sure you want to publish the message?</value>
+  </data>
+  <data name="Public_Menu_stalconf" xml:space="preserve">
+    <value>Alarm Setting</value>
+  </data>
+  <data name="TabDef_Label_alde" xml:space="preserve">
+    <value>Alarm Type Desc</value>
+  </data>
+  <data name="TabDef_Label_alty" xml:space="preserve">
+    <value>Alarm Type ID</value>
+  </data>
+  <data name="TabDef_Label_clsn" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="TabDef_Label_isbk" xml:space="preserve">
+    <value>Book Alarm</value>
+  </data>
+  <data name="TabDef_Label_lwva" xml:space="preserve">
+    <value>Lower(Left) Value</value>
+  </data>
+  <data name="TabDef_Label_upva" xml:space="preserve">
+    <value>Upper(Right) Value</value>
+  </data>
+  <data name="TabDef_Label_usby" xml:space="preserve">
+    <value>Used By</value>
+  </data>
+  <data name="Personal_Label_crno" xml:space="preserve">
+    <value>Contract No</value>
+  </data>
+  <data name="Personal_Label_ided" xml:space="preserve">
+    <value>Id expired date</value>
+  </data>
+  <data name="TabDef_Label_aitv" xml:space="preserve">
+    <value>Re-alarm interval</value>
+  </data>
+  <data name="Public_Menu_rcrcttyp" xml:space="preserve">
+    <value>Recruitment Type</value>
+  </data>
+  <data name="Public_Menu_Recruitment" xml:space="preserve">
+    <value>Recruitment</value>
+  </data>
+  <data name="Recruitment_Label_apdt" xml:space="preserve">
+    <value>Application date</value>
+  </data>
+  <data name="Recruitment_Label_apno" xml:space="preserve">
+    <value>Application no</value>
+  </data>
+  <data name="Recruitment_Label_hcnt" xml:space="preserve">
+    <value>Current headcount</value>
+  </data>
+  <data name="Recruitment_Label_hctl" xml:space="preserve">
+    <value>Headcount control</value>
+  </data>
+  <data name="Recruitment_Label_jbcd" xml:space="preserve">
+    <value>Job code</value>
+  </data>
+  <data name="Recruitment_Label_jbde" xml:space="preserve">
+    <value>Job desc</value>
+  </data>
+  <data name="Recruitment_Label_jbnm" xml:space="preserve">
+    <value>Job name</value>
+  </data>
+  <data name="Recruitment_Label_jbre" xml:space="preserve">
+    <value>Job requirements</value>
+  </data>
+  <data name="Recruitment_Label_stus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Recruitment_Label_vacn" xml:space="preserve">
+    <value>Vacancy count</value>
+  </data>
+  <data name="Recruitment_Label_whhi" xml:space="preserve">
+    <value>Where hiring</value>
+  </data>
+  <data name="TableDef_Label_rtcd" xml:space="preserve">
+    <value>Recruitment type code</value>
+  </data>
+  <data name="TableDef_Label_rtnm" xml:space="preserve">
+    <value>Recruitment type name</value>
+  </data>
+  <data name="Recruitment_Label_any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="Recruitment_Label_approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Recruitment_Label_cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="Recruitment_Label_completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Recruitment_Label_created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Recruitment_Label_expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="Recruitment_Label_external" xml:space="preserve">
+    <value>External</value>
+  </data>
+  <data name="Recruitment_Label_ihcnt" xml:space="preserve">
+    <value>In headcount</value>
+  </data>
+  <data name="Recruitment_Label_internal" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="Recruitment_Label_ohcnt" xml:space="preserve">
+    <value>Over headcount</value>
+  </data>
+  <data name="Recruitment_Label_processing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Recruitment_Label_rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="Recruitment_Label_unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Public_Menu_rcapplic" xml:space="preserve">
+    <value>Recruitment Application</value>
+  </data>
+  <data name="Recruitment_Label_aino" xml:space="preserve">
+    <value>Applicant No</value>
+  </data>
+  <data name="Recruitment_Label_brdt" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Recruitment_Label_cnnm" xml:space="preserve">
+    <value>Chinese name</value>
+  </data>
+  <data name="Recruitment_Label_doav" xml:space="preserve">
+    <value>Day of availability</value>
+  </data>
+  <data name="Recruitment_Label_emad" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Recruitment_Label_emal" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Recruitment_Label_emergency" xml:space="preserve">
+    <value>Person to Be Notified in Case of Emergency</value>
+  </data>
+  <data name="Recruitment_Label_emnm" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Recruitment_Label_emrl" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Recruitment_Label_emtp" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Recruitment_Label_ennm" xml:space="preserve">
+    <value>English name</value>
+  </data>
+  <data name="Recruitment_Label_exsa" xml:space="preserve">
+    <value>Expectation Salary</value>
+  </data>
+  <data name="Recruitment_Label_hmad" xml:space="preserve">
+    <value>Home address</value>
+  </data>
+  <data name="Recruitment_Label_hmtp" xml:space="preserve">
+    <value>Home phone</value>
+  </data>
+  <data name="Recruitment_Label_inho" xml:space="preserve">
+    <value>Interests &amp; Hobbies</value>
+  </data>
+  <data name="Recruitment_Label_jbty" xml:space="preserve">
+    <value>Type of Job</value>
+  </data>
+  <data name="Recruitment_Label_long" xml:space="preserve">
+    <value>Long</value>
+  </data>
+  <data name="Recruitment_Label_mobi" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Recruitment_Label_oth1" xml:space="preserve">
+    <value>Have you ever been dismissed because your conduct or unsatisfactory performance?</value>
+  </data>
+  <data name="Recruitment_Label_oth2" xml:space="preserve">
+    <value>Have you ever been convict4d of a crime?</value>
+  </data>
+  <data name="Recruitment_Label_oth3" xml:space="preserve">
+    <value>Have you ever suffered any serious injuries, illness or operation?</value>
+  </data>
+  <data name="Recruitment_Label_oth4" xml:space="preserve">
+    <value>Are you willing to obey the rules concerned your appearance?</value>
+  </data>
+  <data name="Recruitment_Label_short" xml:space="preserve">
+    <value>Short</value>
+  </data>
+  <data name="Recruitment_Label_Skll" xml:space="preserve">
+    <value>Skills &amp; Abilities</value>
+  </data>
+  <data name="Recruitment_Label_wktp" xml:space="preserve">
+    <value>Work phone</value>
+  </data>
+  <data name="Public_Menu_rcaplinf" xml:space="preserve">
+    <value>Applicants</value>
+  </data>
+  <data name="Recruitment_Label_Contact" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Recruitment_Label_cpnm" xml:space="preserve">
+    <value>Name of company</value>
+  </data>
+  <data name="Recruitment_Label_dgcd" xml:space="preserve">
+    <value>Degree</value>
+  </data>
+  <data name="Recruitment_Label_education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="Recruitment_Label_elcd" xml:space="preserve">
+    <value>Education level</value>
+  </data>
+  <data name="Recruitment_Label_experience" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="Recruitment_Label_family" xml:space="preserve">
+    <value>Family</value>
+  </data>
+  <data name="Recruitment_Label_frdt" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="Recruitment_Label_isgd" xml:space="preserve">
+    <value>Graduated?</value>
+  </data>
+  <data name="Recruitment_Label_lssa" xml:space="preserve">
+    <value>Last salary</value>
+  </data>
+  <data name="Recruitment_Label_Misc" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="Recruitment_Label_nanm" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Recruitment_Label_occp" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Recruitment_Label_posi" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Recruitment_Label_rlspo" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Recruitment_Label_scnm" xml:space="preserve">
+    <value>Name of school</value>
+  </data>
+  <data name="Recruitment_Label_spec" xml:space="preserve">
+    <value>Specialty</value>
+  </data>
+  <data name="Recruitment_Label_telp" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Recruitment_Label_todti" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Recruitment_Label_trcd" xml:space="preserve">
+    <value>Reason of leave</value>
+  </data>
+  <data name="Recruitment_Label_addr" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Recruitment_Label_lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Recruitment_Label_language" xml:space="preserve">
+    <value>Language Skill</value>
+  </data>
+  <data name="Recruitment_Label_otct" xml:space="preserve">
+    <value>Other Contacts</value>
+  </data>
+  <data name="Recruitment_Label_rdng" xml:space="preserve">
+    <value>Reading</value>
+  </data>
+  <data name="Recruitment_Label_reference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Recruitment_Label_rlsp" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Recruitment_Label_spkn" xml:space="preserve">
+    <value>Spoken</value>
+  </data>
+  <data name="Recruitment_Label_wrtn" xml:space="preserve">
+    <value>Written</value>
+  </data>
+  <data name="Recruitment_Label_hmpc" xml:space="preserve">
+    <value>Postal code</value>
+  </data>
+  <data name="Public_Menu_rcintasm" xml:space="preserve">
+    <value>Interview Assessment</value>
+  </data>
+  <data name="Recruitment_Label_iacd" xml:space="preserve">
+    <value>Interview assessment code</value>
+  </data>
+  <data name="Recruitment_Label_iade" xml:space="preserve">
+    <value>Interview assessment name</value>
+  </data>
+  <data name="Recruitment_Label_itde" xml:space="preserve">
+    <value>Item description</value>
+  </data>
+  <data name="Recruitment_Label_itnm" xml:space="preserve">
+    <value>Item name</value>
+  </data>
+  <data name="Public_Menu_rcintsch" xml:space="preserve">
+    <value>Interview Schedule</value>
+  </data>
+  <data name="Recruitment_Label_frtm" xml:space="preserve">
+    <value>From time</value>
+  </data>
+  <data name="Recruitment_Label_hrof" xml:space="preserve">
+    <value>HR officers</value>
+  </data>
+  <data name="Recruitment_Label_otof" xml:space="preserve">
+    <value>Other officers</value>
+  </data>
+  <data name="Recruitment_Label_totm" xml:space="preserve">
+    <value>To time</value>
+  </data>
+  <data name="Public_Menu_rcintrst" xml:space="preserve">
+    <value>Interview Result</value>
+  </data>
+  <data name="Recruitment_Label_Absent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="Recruitment_Label_assm" xml:space="preserve">
+    <value>Assessment</value>
+  </data>
+  <data name="Recruitment_Label_canc" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="Recruitment_Label_Considerable" xml:space="preserve">
+    <value>Considerable</value>
+  </data>
+  <data name="Recruitment_Label_itrs" xml:space="preserve">
+    <value>Interview result</value>
+  </data>
+  <data name="Recruitment_Label_ovas" xml:space="preserve">
+    <value>Overview assessment</value>
+  </data>
+  <data name="Recruitment_Label_Probational" xml:space="preserve">
+    <value>Probational</value>
+  </data>
+  <data name="Recruitment_Label_recm" xml:space="preserve">
+    <value>Re-interview  comments</value>
+  </data>
+  <data name="Recruitment_Label_Reinterview" xml:space="preserve">
+    <value>Reinterview</value>
+  </data>
+  <data name="Recruitment_Label_rejc" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="Recruitment_Label_Scheduled" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="Recruitment_Label_scty" xml:space="preserve">
+    <value>Schedule type</value>
+  </data>
+  <data name="Recruitment_Label_Unscheduled" xml:space="preserve">
+    <value>Unscheduled</value>
+  </data>
+  <data name="Master_Label_ricd" xml:space="preserve">
+    <value>Item code</value>
+  </data>
+  <data name="Master_Label_rinm" xml:space="preserve">
+    <value>Item name</value>
+  </data>
+</root>

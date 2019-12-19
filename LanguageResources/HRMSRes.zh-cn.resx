@@ -1,0 +1,4134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Public_Button_Chinese" xml:space="preserve">
+    <value>简体</value>
+  </data>
+  <data name="Public_Button_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Public_Button_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Public_Button_English" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="Public_Button_Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Public_Tab_Summary" xml:space="preserve">
+    <value>摘要</value>
+  </data>
+  <data name="Public_Button_User" xml:space="preserve">
+    <value>当前用户</value>
+  </data>
+  <data name="Public_Button_Role" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="Public_Toolbar_Add" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Public_Toolbar_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Public_Toolbar_Edit" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="Public_Menu_Basic" xml:space="preserve">
+    <value>基础设定</value>
+  </data>
+  <data name="Public_Menu_Employee" xml:space="preserve">
+    <value>员工管理</value>
+  </data>
+  <data name="Public_Menu_Department" xml:space="preserve">
+    <value>部门管理</value>
+  </data>
+  <data name="Public_Menu_Information" xml:space="preserve">
+    <value>我的信息</value>
+  </data>
+  <data name="Public_Toolbar_InExcel" xml:space="preserve">
+    <value>导入Excel</value>
+  </data>
+  <data name="Public_Toolbar_Query" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="Public_Toolbar_ToExcel" xml:space="preserve">
+    <value>导出Excel</value>
+  </data>
+  <data name="Public_Add_WindowTitle" xml:space="preserve">
+    <value>新增窗口</value>
+  </data>
+  <data name="Public_Confirm_Delete" xml:space="preserve">
+    <value>确定要删除吗？</value>
+  </data>
+  <data name="Public_Confirm_Title" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Public_Edit_WindowTitle" xml:space="preserve">
+    <value>修改窗口</value>
+  </data>
+  <data name="Public_Message_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Public_Query_WindowTitle" xml:space="preserve">
+    <value>查询窗口</value>
+  </data>
+  <data name="Public_PagingToolbar_EmptyMsg" xml:space="preserve">
+    <value>没有记录</value>
+  </data>
+  <data name="Public_PagingToolbar_Total" xml:space="preserve">
+    <value>总共</value>
+  </data>
+  <data name="Public_Message_AddBad" xml:space="preserve">
+    <value>新增失败</value>
+  </data>
+  <data name="Public_Message_AddWell" xml:space="preserve">
+    <value>新增成功</value>
+  </data>
+  <data name="Public_Message_ImportBad" xml:space="preserve">
+    <value>导入失败</value>
+  </data>
+  <data name="Public_Message_ImportWell" xml:space="preserve">
+    <value>导入成功</value>
+  </data>
+  <data name="Public_Message_DeleteBad" xml:space="preserve">
+    <value>删除失败</value>
+  </data>
+  <data name="Public_Message_DeleteWell" xml:space="preserve">
+    <value>删除成功</value>
+  </data>
+  <data name="Public_Message_EditBad" xml:space="preserve">
+    <value>修改失败</value>
+  </data>
+  <data name="Public_Message_EditWell" xml:space="preserve">
+    <value>修改成功</value>
+  </data>
+  <data name="Public_Message_IsDuplicate" xml:space="preserve">
+    <value>已经存在！</value>
+  </data>
+  <data name="Public_Toolbar_OutExcel" xml:space="preserve">
+    <value>导出Excel</value>
+  </data>
+  <data name="Public_Toolbar_ImportExcelLabel" xml:space="preserve">
+    <value>请选择要导入的Excel文件:</value>
+  </data>
+  <data name="Public_Button_Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Public_Toolbar_Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="Period_Label_Period" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="Period_Label_Remark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="Period_Label_Year" xml:space="preserve">
+    <value>年度</value>
+  </data>
+  <data name="Public_Import_WindowTitle" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="Public_Label_FromDate" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="Public_Label_ToDate" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="Period_Label_ClosedBy" xml:space="preserve">
+    <value>关闭人</value>
+  </data>
+  <data name="Period_Label_ClosedTime" xml:space="preserve">
+    <value>关闭时间</value>
+  </data>
+  <data name="Period_Label_End" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="Period_Label_Start" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="Period_Label_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Period_Label_Month" xml:space="preserve">
+    <value>月份</value>
+  </data>
+  <data name="Public_Message_FileNotEmpty" xml:space="preserve">
+    <value>文件名不能为空或者不是Excel文件</value>
+  </data>
+  <data name="Public_Button_CurrentPeriod" xml:space="preserve">
+    <value>工资期间</value>
+  </data>
+  <data name="Public_Label_Company" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="Public_Label_Period" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="Public_Label_Cca" xml:space="preserve">
+    <value>成本中心</value>
+  </data>
+  <data name="Public_Label_Coel" xml:space="preserve">
+    <value>成本要素</value>
+  </data>
+  <data name="Public_Label_Year" xml:space="preserve">
+    <value>年度</value>
+  </data>
+  <data name="Public_Label_Amount" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="Public_Label_Currency" xml:space="preserve">
+    <value>货币单位</value>
+  </data>
+  <data name="Public_Label_Quantity" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Public_Label_Unit" xml:space="preserve">
+    <value>计量单位</value>
+  </data>
+  <data name="Public_Label_Process" xml:space="preserve">
+    <value>制程</value>
+  </data>
+  <data name="Page_Label_Id" xml:space="preserve">
+    <value>PageId</value>
+  </data>
+  <data name="Public_Label_ImportType" xml:space="preserve">
+    <value>导入类型</value>
+  </data>
+  <data name="Public_Message_CheckPreconditionFail" xml:space="preserve">
+    <value>检查当前计算步骤地前置条件失败</value>
+  </data>
+  <data name="Public_Message_PeriodIsClosed" xml:space="preserve">
+    <value>期间已经关闭</value>
+  </data>
+  <data name="Public_Message_PeriodIsUnused" xml:space="preserve">
+    <value>期间未开启</value>
+  </data>
+  <data name="Public_Message_ImportDenied" xml:space="preserve">
+    <value>禁止导入该区间的数据.</value>
+  </data>
+  <data name="Public_Message_QueryFail" xml:space="preserve">
+    <value>查询失败</value>
+  </data>
+  <data name="Period_Label_CurrencyRate" xml:space="preserve">
+    <value>当期汇率</value>
+  </data>
+  <data name="Public_Message_CheckPeriodStatusFail" xml:space="preserve">
+    <value>期间状态检查失败</value>
+  </data>
+  <data name="Public_Message_CheckPeriodStatusSuccess" xml:space="preserve">
+    <value>期间状态检查成功</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueImport" xml:space="preserve">
+    <value>你是否确定继续导入数据？</value>
+  </data>
+  <data name="Public_Message_ExportExcelFail" xml:space="preserve">
+    <value>导出Excel失败</value>
+  </data>
+  <data name="Public_Message_ExcelNoRecord" xml:space="preserve">
+    <value>没有数据供导出</value>
+  </data>
+  <data name="Public_Message_Wating" xml:space="preserve">
+    <value>正在上传文件，请等待...</value>
+  </data>
+  <data name="Public_Title_Upload" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="Public_Label_Accumulation" xml:space="preserve">
+    <value>累计耗用次数</value>
+  </data>
+  <data name="Public_Label_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Public_Message_OpenPeriodFoundOpenDenied" xml:space="preserve">
+    <value>发现处于[开启]状态的期间，你不能开启另一个期间。</value>
+  </data>
+  <data name="Public_Grid_ImportData" xml:space="preserve">
+    <value>导入时数据错误</value>
+  </data>
+  <data name="Public_Message_ClosePeriodFail" xml:space="preserve">
+    <value>关闭期间失败</value>
+  </data>
+  <data name="Public_Message_ClosePeriodSuccess" xml:space="preserve">
+    <value>关闭期间成功</value>
+  </data>
+  <data name="Public_Message_OpenPeriodFail" xml:space="preserve">
+    <value>开启期间失败</value>
+  </data>
+  <data name="Public_Message_OpenPeriodSuccess" xml:space="preserve">
+    <value>开启期间成功</value>
+  </data>
+  <data name="Public_Message_ConfirmClosePeriod" xml:space="preserve">
+    <value>你确定要关闭此期间吗？</value>
+  </data>
+  <data name="Public_Message_ConfirmOpenPeriod" xml:space="preserve">
+    <value>你确定要开启此期间吗？</value>
+  </data>
+  <data name="Period_Toolbar_ClosePeriod" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Period_Toolbar_OpenPeriod" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="Public_Calculation_WindowTitle" xml:space="preserve">
+    <value>计算窗口</value>
+  </data>
+  <data name="Public_Grid_CalculationData" xml:space="preserve">
+    <value>错误行</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCalculation" xml:space="preserve">
+    <value>你是否确定继续计算?</value>
+  </data>
+  <data name="Public_Toolbar_Calculation" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="Public_Toolbar_CarryForward" xml:space="preserve">
+    <value>结转</value>
+  </data>
+  <data name="Public_CarryForward_WindowTitle" xml:space="preserve">
+    <value>结转窗口</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCarryForward" xml:space="preserve">
+    <value>你是否确定继续结转?</value>
+  </data>
+  <data name="Public_Message_NoDataToCarryForward" xml:space="preserve">
+    <value>没有数据去结转.</value>
+  </data>
+  <data name="Public_Message_StepCompletedCarryForwardDenied" xml:space="preserve">
+    <value>你选的Step已经完成，不允许结转.</value>
+  </data>
+  <data name="Public_Message_CalculationFail" xml:space="preserve">
+    <value>计算失败</value>
+  </data>
+  <data name="Public_Message_CalculationSuccess" xml:space="preserve">
+    <value>计算成功</value>
+  </data>
+  <data name="Public_Message_CarryForwardFail" xml:space="preserve">
+    <value>结转失败</value>
+  </data>
+  <data name="Public_Message_CarryForwardSuccess" xml:space="preserve">
+    <value>结转成功</value>
+  </data>
+  <data name="MasterData_Message_DeleteDuplicate" xml:space="preserve">
+    <value>该记录已被删除，不能再删除！</value>
+  </data>
+  <data name="MasterData_Message_EditDuplicate" xml:space="preserve">
+    <value>该记录已被删除，不能修改！</value>
+  </data>
+  <data name="Public_Button_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="Public_Label_ActQty" xml:space="preserve">
+    <value>实际数量</value>
+  </data>
+  <data name="Public_Label_ActValue" xml:space="preserve">
+    <value>实际值</value>
+  </data>
+  <data name="Public_Label_Capacity" xml:space="preserve">
+    <value>产能</value>
+  </data>
+  <data name="Public_Label_PlanValue" xml:space="preserve">
+    <value>计划值</value>
+  </data>
+  <data name="Public_Label_Account" xml:space="preserve">
+    <value>科目</value>
+  </data>
+  <data name="Public_Label_AssetNo" xml:space="preserve">
+    <value>固定资产</value>
+  </data>
+  <data name="Public_Toolbar_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Public_Toolbar_Split" xml:space="preserve">
+    <value>拆分</value>
+  </data>
+  <data name="Public_Label_QueryType" xml:space="preserve">
+    <value>查询类型</value>
+  </data>
+  <data name="Public_Message_SaveBad" xml:space="preserve">
+    <value>保存失败</value>
+  </data>
+  <data name="Public_Message_SaveWell" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="Public_Toolbar_Preparation" xml:space="preserve">
+    <value>数据准备</value>
+  </data>
+  <data name="Public_Toolbar_Reset" xml:space="preserve">
+    <value>重置上次计算</value>
+  </data>
+  <data name="Public_Message_ConfirmReset1" xml:space="preserve">
+    <value>这个动作将清除所有[Application,P3**]的步骤地状态。</value>
+  </data>
+  <data name="Public_Message_ConfirmReset2" xml:space="preserve">
+    <value>你确定要继续吗？</value>
+  </data>
+  <data name="Public_Message_ResetFail" xml:space="preserve">
+    <value>重置状态失败.</value>
+  </data>
+  <data name="Public_Message_ResetSuccess" xml:space="preserve">
+    <value>重置状态成功.</value>
+  </data>
+  <data name="Public_Message_ResetIsUnnecessary" xml:space="preserve">
+    <value>计算没有开始，不需要重置状态。</value>
+  </data>
+  <data name="Public_Message_SessionTimeOut" xml:space="preserve">
+    <value>登录超时，请重新&lt;a href='/Default.aspx'&gt;&lt;font color=blue&gt;登录&lt;/font&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Public_Message_OpenTabsExceed" xml:space="preserve">
+    <value>打开的tab数超过最大数，请关掉一些tab！(最大数:</value>
+  </data>
+  <data name="Public_Menu_Application" xml:space="preserve">
+    <value>成本计算</value>
+  </data>
+  <data name="Public_Menu_CalculationStatus" xml:space="preserve">
+    <value>计算状态</value>
+  </data>
+  <data name="Public_Menu_Interface" xml:space="preserve">
+    <value>接口数据</value>
+  </data>
+  <data name="Public_Menu_Parameters" xml:space="preserve">
+    <value>参数设置</value>
+  </data>
+  <data name="Public_Menu_CostingPeriod" xml:space="preserve">
+    <value>成本期间</value>
+  </data>
+  <data name="Public_Menu_Adjustment" xml:space="preserve">
+    <value>数据调整</value>
+  </data>
+  <data name="Public_Menu_UploadSAP" xml:space="preserve">
+    <value>上传SAP</value>
+  </data>
+  <data name="Public_Label_PriceUnit" xml:space="preserve">
+    <value>价格单位</value>
+  </data>
+  <data name="Public_Message_CheckFail" xml:space="preserve">
+    <value>条件检查失败</value>
+  </data>
+  <data name="Public_Message_CheckWarning" xml:space="preserve">
+    <value>条件检查警告</value>
+  </data>
+  <data name="Public_Message_CheckTraceFile" xml:space="preserve">
+    <value>请查看文件</value>
+  </data>
+  <data name="Public_Message_DataCheckFail" xml:space="preserve">
+    <value>数据检查失败</value>
+  </data>
+  <data name="Public_Message_DataCheckSuccess" xml:space="preserve">
+    <value>数据检查成功</value>
+  </data>
+  <data name="Public_Message_StepCompleted" xml:space="preserve">
+    <value>此步骤已经计算完成，状态为[Completed]。</value>
+  </data>
+  <data name="Public_Message_NoStdPrice" xml:space="preserve">
+    <value>该物料的标准成本不存在，必须先计算该物料的标准成本！</value>
+  </data>
+  <data name="Public_Label_Credit" xml:space="preserve">
+    <value>贷方</value>
+  </data>
+  <data name="Public_Label_Debit" xml:space="preserve">
+    <value>借方</value>
+  </data>
+  <data name="Public_Label_Docnr" xml:space="preserve">
+    <value>凭证号码</value>
+  </data>
+  <data name="Public_Toolbar_Posting" xml:space="preserve">
+    <value>记帐</value>
+  </data>
+  <data name="Public_Toolbar_Rejecting" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="Public_Label_DocStatus" xml:space="preserve">
+    <value>凭证状态</value>
+  </data>
+  <data name="Public_Menu_TraceViewer" xml:space="preserve">
+    <value>文件查看</value>
+  </data>
+  <data name="Trace_Label_FileName" xml:space="preserve">
+    <value>文件名：</value>
+  </data>
+  <data name="Public_Toolbar_Cancel" xml:space="preserve">
+    <value>冲销</value>
+  </data>
+  <data name="Public_Message_ConfirmCancel" xml:space="preserve">
+    <value>是否确定要冲销反结帐？</value>
+  </data>
+  <data name="Public_Message_FeedBackFromSAP" xml:space="preserve">
+    <value>SAP有反馈信息</value>
+  </data>
+  <data name="Public_Message_NoFeedBackFromSAP" xml:space="preserve">
+    <value>SAP没有反馈信息</value>
+  </data>
+  <data name="Public_Message_PostingFail" xml:space="preserve">
+    <value>记入失败</value>
+  </data>
+  <data name="Public_Message_PostingSuccess" xml:space="preserve">
+    <value>记入成功</value>
+  </data>
+  <data name="Public_Message_RejectingFail" xml:space="preserve">
+    <value>撤销失败</value>
+  </data>
+  <data name="Public_Message_RejectingSuccess" xml:space="preserve">
+    <value>撤销成功</value>
+  </data>
+  <data name="Public_Message_SAPFeedBackError" xml:space="preserve">
+    <value>SAP报错</value>
+  </data>
+  <data name="Public_Message_ConfirmContinuePosting" xml:space="preserve">
+    <value>你是否确定继续记账？</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueRejecting" xml:space="preserve">
+    <value>你是否确定继续冲销？</value>
+  </data>
+  <data name="Public_Message_ConfirmPosting" xml:space="preserve">
+    <value>你是否确定记账？</value>
+  </data>
+  <data name="Public_Message_ConfirmRejecting" xml:space="preserve">
+    <value>你是否确定冲销？</value>
+  </data>
+  <data name="Public_Message_StepLocked" xml:space="preserve">
+    <value>此步骤已锁定.</value>
+  </data>
+  <data name="Public_Button_FileList" xml:space="preserve">
+    <value>文件列表</value>
+  </data>
+  <data name="Public_Message_CheckTrace" xml:space="preserve">
+    <value>请检查Trace信息</value>
+  </data>
+  <data name="Public_Message_ReCalP3" xml:space="preserve">
+    <value>请重新计算所有的P3！</value>
+  </data>
+  <data name="Public_Message_CheckDone" xml:space="preserve">
+    <value>检查完成</value>
+  </data>
+  <data name="Public_Check_WindowTitle" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="Public_Toolbar_Check" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="Public_Message_Excel" xml:space="preserve">
+    <value>请选择Exel文件！</value>
+  </data>
+  <data name="Public_Menu_Reporting" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="Public_Message_ResetAllFail" xml:space="preserve">
+    <value>重置失败！ </value>
+  </data>
+  <data name="Public_Message_ResetAllSuccess" xml:space="preserve">
+    <value>重置成功！</value>
+  </data>
+  <data name="Public_Message_Revise" xml:space="preserve">
+    <value>请先执行反结帐！</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueUploadSAP" xml:space="preserve">
+    <value>你是否确定上传SAP？</value>
+  </data>
+  <data name="Public_Button_Authorization" xml:space="preserve">
+    <value>授权</value>
+  </data>
+  <data name="Public_Toolbar_QueryWithAdj" xml:space="preserve">
+    <value>联合查询</value>
+  </data>
+  <data name="Public_Button_ReportCalculation" xml:space="preserve">
+    <value>报表数据计算</value>
+  </data>
+  <data name="Public_Button_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="Public_Help_WindowTitle" xml:space="preserve">
+    <value>帮助窗口</value>
+  </data>
+  <data name="Public_Button_Calculation" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="Public_Message_CheckSuccess" xml:space="preserve">
+    <value>检查成功！</value>
+  </data>
+  <data name="Public_Lock_WindowTitle" xml:space="preserve">
+    <value>锁定窗口</value>
+  </data>
+  <data name="Public_Message_LockSuccess" xml:space="preserve">
+    <value>锁定成功！</value>
+  </data>
+  <data name="Public_Toolbar_Lock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueCheck" xml:space="preserve">
+    <value>你是否确定继续检查数据?</value>
+  </data>
+  <data name="Public_Message_ConfirmContinueLock" xml:space="preserve">
+    <value>你是否确定继续锁定数据?</value>
+  </data>
+  <data name="Public_Label_Choose" xml:space="preserve">
+    <value>请选择</value>
+  </data>
+  <data name="Public_Label_lmtm" xml:space="preserve">
+    <value>最后修改时间</value>
+  </data>
+  <data name="Public_Label_lmur" xml:space="preserve">
+    <value>最后修改人</value>
+  </data>
+  <data name="Public_Label_Position" xml:space="preserve">
+    <value>职位</value>
+  </data>
+  <data name="Public_Label_pscd" xml:space="preserve">
+    <value>职位编码</value>
+  </data>
+  <data name="Public_Label_psnm" xml:space="preserve">
+    <value>职位名称</value>
+  </data>
+  <data name="Public_Messsage_FormatInCorrect" xml:space="preserve">
+    <value>格式错误</value>
+  </data>
+  <data name="Public_Menu_tbsarea" xml:space="preserve">
+    <value>地区</value>
+  </data>
+  <data name="Public_Menu_tbsasset" xml:space="preserve">
+    <value>固定资产</value>
+  </data>
+  <data name="Public_Menu_tbsassettype" xml:space="preserve">
+    <value>固定资产类型</value>
+  </data>
+  <data name="Public_Menu_tbsbank" xml:space="preserve">
+    <value>银行信息</value>
+  </data>
+  <data name="Public_Menu_tbsbankitem" xml:space="preserve">
+    <value>银行项目</value>
+  </data>
+  <data name="Public_Menu_tbsbringuptype" xml:space="preserve">
+    <value>抚养类型</value>
+  </data>
+  <data name="Public_Menu_tbsbusiness" xml:space="preserve">
+    <value>事业部</value>
+  </data>
+  <data name="Public_Menu_tbsbussinessnature" xml:space="preserve">
+    <value>公司性质</value>
+  </data>
+  <data name="Public_Menu_tbscertifitype" xml:space="preserve">
+    <value>证书类型</value>
+  </data>
+  <data name="Public_Menu_tbschgtyp" xml:space="preserve">
+    <value>变动类型</value>
+  </data>
+  <data name="Public_Menu_tbsclub" xml:space="preserve">
+    <value>俱乐部</value>
+  </data>
+  <data name="Public_Menu_tbscompany" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="Public_Menu_tbsctrtyp" xml:space="preserve">
+    <value>合同类别</value>
+  </data>
+  <data name="Public_Menu_tbscostcentre" xml:space="preserve">
+    <value>成本中心</value>
+  </data>
+  <data name="Public_Menu_tbscountry" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="Public_Menu_tbscurrency" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="Public_Menu_tbsdegree" xml:space="preserve">
+    <value>学位</value>
+  </data>
+  <data name="Public_Menu_tbsdepartment" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="Public_Menu_tbsdiskclass" xml:space="preserve">
+    <value>转帐盘所用类</value>
+  </data>
+  <data name="Public_Menu_tbsdivision" xml:space="preserve">
+    <value>分部</value>
+  </data>
+  <data name="Public_Menu_tbsdormitory" xml:space="preserve">
+    <value>宿舍</value>
+  </data>
+  <data name="Public_Menu_tbsdormtype" xml:space="preserve">
+    <value>宿舍类型</value>
+  </data>
+  <data name="Public_Menu_tbsedulev" xml:space="preserve">
+    <value>教育程度</value>
+  </data>
+  <data name="Public_Menu_tbsevttyp" xml:space="preserve">
+    <value>事件类型</value>
+  </data>
+  <data name="Public_Menu_tbsfamilyrel" xml:space="preserve">
+    <value>社会关系</value>
+  </data>
+  <data name="Public_Menu_tbsgrade" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="Public_Menu_tbsgradelevel" xml:space="preserve">
+    <value>级别细分</value>
+  </data>
+  <data name="Public_Menu_tbsheadcountage" xml:space="preserve">
+    <value>人员配额明细</value>
+  </data>
+  <data name="Public_Menu_tbsheadcountcfg" xml:space="preserve">
+    <value>人员配额设定</value>
+  </data>
+  <data name="Public_Menu_tbshldtyp" xml:space="preserve">
+    <value>节假日类型</value>
+  </data>
+  <data name="Public_Menu_tbsinscmp" xml:space="preserve">
+    <value>保险公司</value>
+  </data>
+  <data name="Public_Menu_tbsinsscm" xml:space="preserve">
+    <value>保险方案</value>
+  </data>
+  <data name="Public_Menu_tbsinstyp" xml:space="preserve">
+    <value>保险类型</value>
+  </data>
+  <data name="Public_Menu_tbsjobclass" xml:space="preserve">
+    <value>工作类别</value>
+  </data>
+  <data name="Public_Menu_tbsjobtype" xml:space="preserve">
+    <value>工种</value>
+  </data>
+  <data name="Public_Menu_tbsnation" xml:space="preserve">
+    <value>民族</value>
+  </data>
+  <data name="Public_Menu_tbspaymethod" xml:space="preserve">
+    <value>支付方法</value>
+  </data>
+  <data name="Public_Menu_tbspaytyp" xml:space="preserve">
+    <value>支付类型</value>
+  </data>
+  <data name="Public_Menu_tbspolity" xml:space="preserve">
+    <value>政治面貌</value>
+  </data>
+  <data name="Public_Menu_tbsposition" xml:space="preserve">
+    <value>职称</value>
+  </data>
+  <data name="Public_Menu_tbspositionlevel" xml:space="preserve">
+    <value>职称细分</value>
+  </data>
+  <data name="Public_Menu_tbsqlfctn" xml:space="preserve">
+    <value>资质</value>
+  </data>
+  <data name="Public_Menu_tbsrating" xml:space="preserve">
+    <value>评价表</value>
+  </data>
+  <data name="Public_Menu_tbsreligion" xml:space="preserve">
+    <value>宗教</value>
+  </data>
+  <data name="Public_Menu_tbsrtdetail" xml:space="preserve">
+    <value>评价明细表</value>
+  </data>
+  <data name="Public_Menu_tbssc" xml:space="preserve">
+    <value>法人公司</value>
+  </data>
+  <data name="Public_Menu_tbsscaccount" xml:space="preserve">
+    <value>公司帐号</value>
+  </data>
+  <data name="Public_Menu_tbsscdeposit" xml:space="preserve">
+    <value>公司保证金</value>
+  </data>
+  <data name="Public_Menu_tbsskillitem" xml:space="preserve">
+    <value>技能项目</value>
+  </data>
+  <data name="Public_Menu_tbsskilltype" xml:space="preserve">
+    <value>技能类型</value>
+  </data>
+  <data name="Public_Menu_tbsstafftype" xml:space="preserve">
+    <value>员工类型</value>
+  </data>
+  <data name="Public_Menu_tbssyscfg" xml:space="preserve">
+    <value>法人公司系统设置</value>
+  </data>
+  <data name="Public_Menu_tbsterrsn" xml:space="preserve">
+    <value>离职原因</value>
+  </data>
+  <data name="Public_Menu_tbstertyp" xml:space="preserve">
+    <value>终止类型</value>
+  </data>
+  <data name="Public_Menu_tbstranig" xml:space="preserve">
+    <value>培训</value>
+  </data>
+  <data name="Public_Menu_tbstratyp" xml:space="preserve">
+    <value>培训类型</value>
+  </data>
+  <data name="Public_Menu_bswlftyp" xml:space="preserve">
+    <value>福利类型</value>
+  </data>
+  <data name="Public_Menu_tbsworkgroup" xml:space="preserve">
+    <value>工作组</value>
+  </data>
+  <data name="Public_Menu_tbsworksite" xml:space="preserve">
+    <value>工作地点</value>
+  </data>
+  <data name="Public_Toolbar_CleanQuery" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Public_Button_ApplyTo" xml:space="preserve">
+    <value>应用到</value>
+  </data>
+  <data name="Public_Message_ApplyFail" xml:space="preserve">
+    <value>应用失败</value>
+  </data>
+  <data name="Public_Message_ApplySuccess" xml:space="preserve">
+    <value>应用成功</value>
+  </data>
+  <data name="Public_Label_DefByEmployment" xml:space="preserve">
+    <value>按员工</value>
+  </data>
+  <data name="Public_Label_DefByGrade" xml:space="preserve">
+    <value>按级别</value>
+  </data>
+  <data name="Public_Label_DefByJobClass" xml:space="preserve">
+    <value>按工种</value>
+  </data>
+  <data name="Public_Label_DefByPosition" xml:space="preserve">
+    <value>按职位</value>
+  </data>
+  <data name="Public_Label_DefByYear" xml:space="preserve">
+    <value>按服务年数</value>
+  </data>
+  <data name="Master_Label_aadd" xml:space="preserve">
+    <value>代理地址</value>
+  </data>
+  <data name="Master_Label_acmp" xml:space="preserve">
+    <value>代理公司</value>
+  </data>
+  <data name="Master_Label_acno" xml:space="preserve">
+    <value>帐号</value>
+  </data>
+  <data name="Master_Label_addr" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Master_Label_amnt" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="Master_Label_apfe" xml:space="preserve">
+    <value>apfe</value>
+  </data>
+  <data name="Master_Label_arcd" xml:space="preserve">
+    <value>区域编号</value>
+  </data>
+  <data name="Master_Label_arnm" xml:space="preserve">
+    <value>区域名称</value>
+  </data>
+  <data name="Master_Label_atcd" xml:space="preserve">
+    <value>地址类型编号</value>
+  </data>
+  <data name="Master_Label_atel" xml:space="preserve">
+    <value>代理电话</value>
+  </data>
+  <data name="Master_Label_atnm" xml:space="preserve">
+    <value>地址类型名称</value>
+  </data>
+  <data name="Master_Label_atno" xml:space="preserve">
+    <value>帐号</value>
+  </data>
+  <data name="Master_Label_bath" xml:space="preserve">
+    <value>批次处理</value>
+  </data>
+  <data name="Master_Label_bicd" xml:space="preserve">
+    <value>银行项目编号</value>
+  </data>
+  <data name="Master_Label_binm" xml:space="preserve">
+    <value>银行项目名称</value>
+  </data>
+  <data name="Master_Label_bkcd" xml:space="preserve">
+    <value>银行编号</value>
+  </data>
+  <data name="Master_Label_bknm" xml:space="preserve">
+    <value>银行名称</value>
+  </data>
+  <data name="Master_Label_bncd" xml:space="preserve">
+    <value>公司性质编号</value>
+  </data>
+  <data name="Master_Label_bnnm" xml:space="preserve">
+    <value>公司性质名称</value>
+  </data>
+  <data name="Master_Label_brcd" xml:space="preserve">
+    <value>抚养类型编号</value>
+  </data>
+  <data name="Master_Label_brnm" xml:space="preserve">
+    <value>抚养类型名称</value>
+  </data>
+  <data name="Master_Label_bscd" xml:space="preserve">
+    <value>事业部编号</value>
+  </data>
+  <data name="Master_Label_bsnm" xml:space="preserve">
+    <value>事业部名称</value>
+  </data>
+  <data name="Master_Label_cccd" xml:space="preserve">
+    <value>成本中心编号</value>
+  </data>
+  <data name="Master_Label_ccnm" xml:space="preserve">
+    <value>成本中心名称</value>
+  </data>
+  <data name="Master_Label_cedt" xml:space="preserve">
+    <value>conexpiredate</value>
+  </data>
+  <data name="Master_Label_cidt" xml:space="preserve">
+    <value>conissuedate</value>
+  </data>
+  <data name="Master_Label_ckcd" xml:space="preserve">
+    <value>检查号</value>
+  </data>
+  <data name="Master_Label_clad" xml:space="preserve">
+    <value>俱乐部地址</value>
+  </data>
+  <data name="Master_Label_clat" xml:space="preserve">
+    <value>俱乐部所在地</value>
+  </data>
+  <data name="Master_Label_clcd" xml:space="preserve">
+    <value>俱乐部编号</value>
+  </data>
+  <data name="Master_Label_clnm" xml:space="preserve">
+    <value>俱乐部名称</value>
+  </data>
+  <data name="Master_Label_clph" xml:space="preserve">
+    <value>俱乐部电话</value>
+  </data>
+  <data name="Master_Label_cmad" xml:space="preserve">
+    <value>公司地址</value>
+  </data>
+  <data name="Master_Label_cmph" xml:space="preserve">
+    <value>公司电话</value>
+  </data>
+  <data name="Master_Label_cocd" xml:space="preserve">
+    <value>国家编号</value>
+  </data>
+  <data name="Master_Label_conm" xml:space="preserve">
+    <value>国家名称</value>
+  </data>
+  <data name="Master_Label_cpad" xml:space="preserve">
+    <value>公司地址</value>
+  </data>
+  <data name="Master_Label_cpcd" xml:space="preserve">
+    <value>公司编号</value>
+  </data>
+  <data name="Master_Label_cpnm" xml:space="preserve">
+    <value>公司名称</value>
+  </data>
+  <data name="Master_Label_cpph" xml:space="preserve">
+    <value>公司电话</value>
+  </data>
+  <data name="Master_Label_crcd" xml:space="preserve">
+    <value>货币编号</value>
+  </data>
+  <data name="Master_Label_crnb" xml:space="preserve">
+    <value>currentnum</value>
+  </data>
+  <data name="Master_Label_crnm" xml:space="preserve">
+    <value>货币名称</value>
+  </data>
+  <data name="Master_Label_crno" xml:space="preserve">
+    <value>合同编号</value>
+  </data>
+  <data name="Master_Label_ctcd" xml:space="preserve">
+    <value>证书类型编号</value>
+  </data>
+  <data name="Master_Label_ctnm" xml:space="preserve">
+    <value>证书类型名称</value>
+  </data>
+  <data name="Master_Label_dfcu" xml:space="preserve">
+    <value>默认货币</value>
+  </data>
+  <data name="Master_Label_dgcd" xml:space="preserve">
+    <value>程度编号</value>
+  </data>
+  <data name="Master_Label_dgnm" xml:space="preserve">
+    <value>程度名称</value>
+  </data>
+  <data name="Master_Label_dkcd" xml:space="preserve">
+    <value>磁盘编号</value>
+  </data>
+  <data name="Master_Label_dmnm" xml:space="preserve">
+    <value>宿舍名</value>
+  </data>
+  <data name="Master_Label_dmno" xml:space="preserve">
+    <value>宿舍编号</value>
+  </data>
+  <data name="Master_Label_dmty" xml:space="preserve">
+    <value>宿舍类型</value>
+  </data>
+  <data name="Master_Label_dpcd" xml:space="preserve">
+    <value>部门编号</value>
+  </data>
+  <data name="Master_Label_dpnm" xml:space="preserve">
+    <value>部门名称</value>
+  </data>
+  <data name="Master_Label_dtcd" xml:space="preserve">
+    <value>宿舍类型</value>
+  </data>
+  <data name="Master_Label_dtnm" xml:space="preserve">
+    <value>宿舍名称</value>
+  </data>
+  <data name="Master_Label_dvcd" xml:space="preserve">
+    <value>分部编号</value>
+  </data>
+  <data name="Master_Label_dvnm" xml:space="preserve">
+    <value>分部名称</value>
+  </data>
+  <data name="Master_Label_eafe" xml:space="preserve">
+    <value>eafee</value>
+  </data>
+  <data name="Master_Label_elcd" xml:space="preserve">
+    <value>教育水平编号</value>
+  </data>
+  <data name="Master_Label_elnm" xml:space="preserve">
+    <value>教育水平名称</value>
+  </data>
+  <data name="Master_Label_evcd" xml:space="preserve">
+    <value>事件类型编号</value>
+  </data>
+  <data name="Master_Label_evnm" xml:space="preserve">
+    <value>事件类型名称</value>
+  </data>
+  <data name="Master_Label_exrt" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="Master_Label_fiva" xml:space="preserve">
+    <value>栏位值</value>
+  </data>
+  <data name="Master_Label_flag" xml:space="preserve">
+    <value>标识</value>
+  </data>
+  <data name="Master_Label_flor" xml:space="preserve">
+    <value>层数</value>
+  </data>
+  <data name="Master_Label_fxnb" xml:space="preserve">
+    <value>传真号</value>
+  </data>
+  <data name="Master_Label_glcd" xml:space="preserve">
+    <value>级别层次编号</value>
+  </data>
+  <data name="Master_Label_glnm" xml:space="preserve">
+    <value>级别层次名称</value>
+  </data>
+  <data name="Master_Label_grcd" xml:space="preserve">
+    <value>级别编号</value>
+  </data>
+  <data name="Master_Label_grnm" xml:space="preserve">
+    <value>级别名称</value>
+  </data>
+  <data name="Master_Label_hacd" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="Master_Label_halv" xml:space="preserve">
+    <value>下限</value>
+  </data>
+  <data name="Master_Label_hauv" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="Master_Label_hdct" xml:space="preserve">
+    <value>职员数</value>
+  </data>
+  <data name="Master_Label_iccd" xml:space="preserve">
+    <value>保险公司编号</value>
+  </data>
+  <data name="Master_Label_icnm" xml:space="preserve">
+    <value>保险公司名称</value>
+  </data>
+  <data name="Master_Label_inty" xml:space="preserve">
+    <value>保险类型</value>
+  </data>
+  <data name="Master_Label_iscd" xml:space="preserve">
+    <value>保险方案编号</value>
+  </data>
+  <data name="Master_Label_isdf" xml:space="preserve">
+    <value>默认？</value>
+  </data>
+  <data name="Master_Label_isnm" xml:space="preserve">
+    <value>保险方案名称</value>
+  </data>
+  <data name="Master_Label_isst" xml:space="preserve">
+    <value>系统类型？</value>
+  </data>
+  <data name="Master_Label_itcd" xml:space="preserve">
+    <value>保险类型编号</value>
+  </data>
+  <data name="Master_Label_itnm" xml:space="preserve">
+    <value>保险类型名称</value>
+  </data>
+  <data name="Master_Label_itno" xml:space="preserve">
+    <value>itno</value>
+  </data>
+  <data name="Master_Label_jccd" xml:space="preserve">
+    <value>工类编号</value>
+  </data>
+  <data name="Master_Label_jcnm" xml:space="preserve">
+    <value>工类名称</value>
+  </data>
+  <data name="Master_Label_jtcd" xml:space="preserve">
+    <value>工种编号</value>
+  </data>
+  <data name="Master_Label_jtnm" xml:space="preserve">
+    <value>工种名称</value>
+  </data>
+  <data name="Master_Label_lmtm" xml:space="preserve">
+    <value>最后修改时间</value>
+  </data>
+  <data name="Master_Label_lmur" xml:space="preserve">
+    <value>最后修改人</value>
+  </data>
+  <data name="Master_Label_madd" xml:space="preserve">
+    <value>maddress</value>
+  </data>
+  <data name="Master_Label_mcmp" xml:space="preserve">
+    <value>mcompany</value>
+  </data>
+  <data name="Master_Label_misa" xml:space="preserve">
+    <value>最低薪水</value>
+  </data>
+  <data name="Master_Label_mtel" xml:space="preserve">
+    <value>mtel</value>
+  </data>
+  <data name="Master_Label_mvfe" xml:space="preserve">
+    <value>movefee</value>
+  </data>
+  <data name="Master_Label_mxnb" xml:space="preserve">
+    <value>maxnum</value>
+  </data>
+  <data name="Master_Label_mxsa" xml:space="preserve">
+    <value>最高薪水</value>
+  </data>
+  <data name="Master_Label_nacd" xml:space="preserve">
+    <value>民族编号</value>
+  </data>
+  <data name="Master_Label_nanm" xml:space="preserve">
+    <value>民族名称</value>
+  </data>
+  <data name="Master_Label_opda" xml:space="preserve">
+    <value>otperiodday</value>
+  </data>
+  <data name="Master_Label_otfe" xml:space="preserve">
+    <value>otherfee</value>
+  </data>
+  <data name="Master_Label_pacd" xml:space="preserve">
+    <value>paycode</value>
+  </data>
+  <data name="Master_Label_pbcm" xml:space="preserve">
+    <value>paybycompany</value>
+  </data>
+  <data name="Master_Label_pbfe" xml:space="preserve">
+    <value>pubfee</value>
+  </data>
+  <data name="Master_Label_pbps" xml:space="preserve">
+    <value>paybypersonal</value>
+  </data>
+  <data name="Master_Label_peda" xml:space="preserve">
+    <value>Period day</value>
+  </data>
+  <data name="Master_Label_perd" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Master_Label_pkfe" xml:space="preserve">
+    <value>parkingfee</value>
+  </data>
+  <data name="Master_Label_plcd" xml:space="preserve">
+    <value>政治面貌编号</value>
+  </data>
+  <data name="Master_Label_plnm" xml:space="preserve">
+    <value>政治面貌名称</value>
+  </data>
+  <data name="Master_Label_pmcd" xml:space="preserve">
+    <value>支付方式编号</value>
+  </data>
+  <data name="Master_Label_pmnm" xml:space="preserve">
+    <value>支付方式名称</value>
+  </data>
+  <data name="Master_Label_pscd" xml:space="preserve">
+    <value>职位编号</value>
+  </data>
+  <data name="Master_Label_psnm" xml:space="preserve">
+    <value>职位名称</value>
+  </data>
+  <data name="Master_Label_pswd" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Master_Label_ptcd" xml:space="preserve">
+    <value>支付类型编号</value>
+  </data>
+  <data name="Master_Label_ptnm" xml:space="preserve">
+    <value>支付类型名称</value>
+  </data>
+  <data name="Master_Label_qfcd" xml:space="preserve">
+    <value>资格类型编号</value>
+  </data>
+  <data name="Master_Label_qfnm" xml:space="preserve">
+    <value>资格类型名称</value>
+  </data>
+  <data name="Master_Label_racd" xml:space="preserve">
+    <value>评价编号</value>
+  </data>
+  <data name="Master_Label_ranm" xml:space="preserve">
+    <value>评价名称</value>
+  </data>
+  <data name="Master_Label_remk" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="Master_Label_rent" xml:space="preserve">
+    <value>出租</value>
+  </data>
+  <data name="Master_Label_rfcm" xml:space="preserve">
+    <value>refundcompany</value>
+  </data>
+  <data name="Master_Label_rfps" xml:space="preserve">
+    <value>refundpersonal</value>
+  </data>
+  <data name="Master_Label_rgcd" xml:space="preserve">
+    <value>宗教bianhao</value>
+  </data>
+  <data name="Master_Label_rgnm" xml:space="preserve">
+    <value>宗教名称</value>
+  </data>
+  <data name="Master_Label_rmct" xml:space="preserve">
+    <value>roomman</value>
+  </data>
+  <data name="Master_Label_rsid" xml:space="preserve">
+    <value>resid</value>
+  </data>
+  <data name="Master_Label_rtcd" xml:space="preserve">
+    <value>社会关系编号</value>
+  </data>
+  <data name="Master_Label_rtnm" xml:space="preserve">
+    <value>社会关系名称</value>
+  </data>
+  <data name="Master_Label_rwrd" xml:space="preserve">
+    <value>reward</value>
+  </data>
+  <data name="Master_Label_sccd" xml:space="preserve">
+    <value>法人公司编号</value>
+  </data>
+  <data name="Master_Label_scnm" xml:space="preserve">
+    <value>法人公司名称</value>
+  </data>
+  <data name="Master_Label_sicd" xml:space="preserve">
+    <value>技能项目编号</value>
+  </data>
+  <data name="Master_Label_sinm" xml:space="preserve">
+    <value>技能项目名称</value>
+  </data>
+  <data name="Master_Label_stcd" xml:space="preserve">
+    <value>技能类型编号</value>
+  </data>
+  <data name="Master_Label_stnm" xml:space="preserve">
+    <value>技能类型名称</value>
+  </data>
+  <data name="Master_Label_tfno" xml:space="preserve">
+    <value>缴税文件号</value>
+  </data>
+  <data name="Master_Label_tlnb" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Master_Label_trcd" xml:space="preserve">
+    <value>离职原因编号</value>
+  </data>
+  <data name="Master_Label_trdt" xml:space="preserve">
+    <value>转换日期</value>
+  </data>
+  <data name="Master_Label_trnm" xml:space="preserve">
+    <value>离职原因名称</value>
+  </data>
+  <data name="Master_Label_ttcd" xml:space="preserve">
+    <value>离职类型编号</value>
+  </data>
+  <data name="Master_Label_ttnm" xml:space="preserve">
+    <value>离职类型名称</value>
+  </data>
+  <data name="Master_Label_updt" xml:space="preserve">
+    <value>更新日期</value>
+  </data>
+  <data name="Master_Label_wgcd" xml:space="preserve">
+    <value>工作组编号</value>
+  </data>
+  <data name="Master_Label_wgnm" xml:space="preserve">
+    <value>工作组名称</value>
+  </data>
+  <data name="Master_Label_wscd" xml:space="preserve">
+    <value>工作地点编号</value>
+  </data>
+  <data name="Master_Label_wsnm" xml:space="preserve">
+    <value>工作地点名称</value>
+  </data>
+  <data name="Master_Label_wtcd" xml:space="preserve">
+    <value>福利类型编号</value>
+  </data>
+  <data name="Master_Label_wtnm" xml:space="preserve">
+    <value>福利类型名称</value>
+  </data>
+  <data name="Personal_Label_addr" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Personal_Label_pscd" xml:space="preserve">
+    <value>邮编</value>
+  </data>
+  <data name="Public_Label_remk" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="Public_Label_From" xml:space="preserve">
+    <value> 从</value>
+  </data>
+  <data name="Public_Label_isdf" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="Public_Label_sfid" xml:space="preserve">
+    <value>职员编号</value>
+  </data>
+  <data name="Public_Label_sftn" xml:space="preserve">
+    <value>职员名称</value>
+  </data>
+  <data name="Public_Label_sqno" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="Public_Label_staff" xml:space="preserve">
+    <value>职员</value>
+  </data>
+  <data name="Public_Label_To" xml:space="preserve">
+    <value> 到</value>
+  </data>
+  <data name="Personal_Label_acno" xml:space="preserve">
+    <value>帐号</value>
+  </data>
+  <data name="Personal_Label_bfnm" xml:space="preserve">
+    <value>受益人</value>
+  </data>
+  <data name="Personal_Label_ftyp" xml:space="preserve">
+    <value>支付类型</value>
+  </data>
+  <data name="Personal_Label_funm" xml:space="preserve">
+    <value>全名</value>
+  </data>
+  <data name="Personal_Label_fval" xml:space="preserve">
+    <value>支付额</value>
+  </data>
+  <data name="Personal_Label_icno" xml:space="preserve">
+    <value>身份证号</value>
+  </data>
+  <data name="Personal_Label_idno" xml:space="preserve">
+    <value>身份证号</value>
+  </data>
+  <data name="Personal_Label_ifot" xml:space="preserve">
+    <value>其他方式</value>
+  </data>
+  <data name="Personal_Label_ifpe" xml:space="preserve">
+    <value>按百分比</value>
+  </data>
+  <data name="Personal_Label_perc" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="Personal_Label_cfnm" xml:space="preserve">
+    <value>证书名称</value>
+  </data>
+  <data name="Personal_Label_cfno" xml:space="preserve">
+    <value>证书编号</value>
+  </data>
+  <data name="Personal_Label_isnm" xml:space="preserve">
+    <value>机构名称</value>
+  </data>
+  <data name="Public_Label_efdt" xml:space="preserve">
+    <value>生效日期</value>
+  </data>
+  <data name="Public_Label_exdt" xml:space="preserve">
+    <value>失效日期</value>
+  </data>
+  <data name="Public_Label_isdt" xml:space="preserve">
+    <value>处理日期</value>
+  </data>
+  <data name="Personal_Label_finm" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Personal_Label_frva" xml:space="preserve">
+    <value>起始值</value>
+  </data>
+  <data name="Personal_Label_tova" xml:space="preserve">
+    <value>To Value</value>
+  </data>
+  <data name="Public_Label_isby" xml:space="preserve">
+    <value>处理人</value>
+  </data>
+  <data name="Master_Label_chcd" xml:space="preserve">
+    <value>变动类型编号</value>
+  </data>
+  <data name="Master_Label_chnm" xml:space="preserve">
+    <value>变动类型名称</value>
+  </data>
+  <data name="Master_Label_cncd" xml:space="preserve">
+    <value>联系方式编号</value>
+  </data>
+  <data name="Master_Label_cnnm" xml:space="preserve">
+    <value>联系方式名称</value>
+  </data>
+  <data name="Master_Label_ctrd" xml:space="preserve">
+    <value>合同类型名称</value>
+  </data>
+  <data name="Master_Label_ctrm" xml:space="preserve">
+    <value>合同类型编号</value>
+  </data>
+  <data name="Personal_Label_adte" xml:space="preserve">
+    <value>附加条款</value>
+  </data>
+  <data name="Personal_Label_clna" xml:space="preserve">
+    <value>俱乐部类别</value>
+  </data>
+  <data name="Personal_Label_cmfe" xml:space="preserve">
+    <value>Comfee</value>
+  </data>
+  <data name="Personal_Label_cota1" xml:space="preserve">
+    <value>第一联系方式</value>
+  </data>
+  <data name="Personal_Label_cota2" xml:space="preserve">
+    <value>第二联系方式</value>
+  </data>
+  <data name="Personal_Label_crde" xml:space="preserve">
+    <value>合同描述</value>
+  </data>
+  <data name="Personal_Label_crnm" xml:space="preserve">
+    <value>合同名称</value>
+  </data>
+  <data name="Personal_Label_dest" xml:space="preserve">
+    <value>抵押物品</value>
+  </data>
+  <data name="Personal_Label_fbte" xml:space="preserve">
+    <value>违约条款</value>
+  </data>
+  <data name="Personal_Label_jodt" xml:space="preserve">
+    <value>入职日期</value>
+  </data>
+  <data name="Personal_Label_jofe" xml:space="preserve">
+    <value>加入费</value>
+  </data>
+  <data name="Personal_Label_mbty" xml:space="preserve">
+    <value>成员类型</value>
+  </data>
+  <data name="Personal_Label_ssfe" xml:space="preserve">
+    <value>处方费</value>
+  </data>
+  <data name="Master_Label_tmcd" xml:space="preserve">
+    <value>培训类型编号</value>
+  </data>
+  <data name="Master_Label_tmnm" xml:space="preserve">
+    <value>培训类型名称</value>
+  </data>
+  <data name="Personal_Label_acad" xml:space="preserve">
+    <value>学院</value>
+  </data>
+  <data name="Personal_Label_amnt" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="Personal_Label_bnag" xml:space="preserve">
+    <value>协议</value>
+  </data>
+  <data name="Personal_Label_bott" xml:space="preserve">
+    <value>报告人头衔</value>
+  </data>
+  <data name="Personal_Label_ckhp" xml:space="preserve">
+    <value>检查医院</value>
+  </data>
+  <data name="Personal_Label_ckty" xml:space="preserve">
+    <value>检查类型</value>
+  </data>
+  <data name="Personal_Label_cmnm" xml:space="preserve">
+    <value>公司名称</value>
+  </data>
+  <data name="Personal_Label_cmsc" xml:space="preserve">
+    <value>公司规模</value>
+  </data>
+  <data name="Personal_Label_comp" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="Personal_Label_ctno" xml:space="preserve">
+    <value>联系号码</value>
+  </data>
+  <data name="Personal_Label_ctpw" xml:space="preserve">
+    <value>每周课时</value>
+  </data>
+  <data name="Personal_Label_cufe" xml:space="preserve">
+    <value>课程费</value>
+  </data>
+  <data name="Personal_Label_cunm" xml:space="preserve">
+    <value>课程名称</value>
+  </data>
+  <data name="Personal_Label_dept" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="Personal_Label_dtre" xml:space="preserve">
+    <value>抵押原因</value>
+  </data>
+  <data name="Personal_Label_emnm" xml:space="preserve">
+    <value>雇主名称</value>
+  </data>
+  <data name="Personal_Label_evdt" xml:space="preserve">
+    <value>事件发生日</value>
+  </data>
+  <data name="Personal_Label_flnm" xml:space="preserve">
+    <value>全名</value>
+  </data>
+  <data name="Personal_Label_fpos" xml:space="preserve">
+    <value>职位</value>
+  </data>
+  <data name="Personal_Label_frdt" xml:space="preserve">
+    <value>起始日期</value>
+  </data>
+  <data name="Personal_Label_hmte" xml:space="preserve">
+    <value>家庭电话</value>
+  </data>
+  <data name="Personal_Label_imbo" xml:space="preserve">
+    <value>报告人</value>
+  </data>
+  <data name="Personal_Label_incm" xml:space="preserve">
+    <value>在公司内部</value>
+  </data>
+  <data name="Personal_Label_indt" xml:space="preserve">
+    <value>保险日期</value>
+  </data>
+  <data name="Personal_Label_innm" xml:space="preserve">
+    <value>保险名称</value>
+  </data>
+  <data name="Personal_Label_iscm" xml:space="preserve">
+    <value>是否被推荐</value>
+  </data>
+  <data name="Personal_Label_ishi" xml:space="preserve">
+    <value>是否是最高学历</value>
+  </data>
+  <data name="Personal_Label_jbds" xml:space="preserve">
+    <value>工作描述</value>
+  </data>
+  <data name="Personal_Label_loca" xml:space="preserve">
+    <value>所在地</value>
+  </data>
+  <data name="Personal_Label_momn" xml:space="preserve">
+    <value>每月金额</value>
+  </data>
+  <data name="Personal_Label_natu" xml:space="preserve">
+    <value>国别</value>
+  </data>
+  <data name="Personal_Label_obyr" xml:space="preserve">
+    <value>获得日期</value>
+  </data>
+  <data name="Personal_Label_occu" xml:space="preserve">
+    <value>职业</value>
+  </data>
+  <data name="Personal_Label_orga" xml:space="preserve">
+    <value>组织</value>
+  </data>
+  <data name="Personal_Label_paby" xml:space="preserve">
+    <value>支付者</value>
+  </data>
+  <data name="Personal_Label_qucd" xml:space="preserve">
+    <value>资格类型编号</value>
+  </data>
+  <data name="Personal_Label_qunm" xml:space="preserve">
+    <value>资格类型名称</value>
+  </data>
+  <data name="Personal_Label_rcdt" xml:space="preserve">
+    <value>复查日期</value>
+  </data>
+  <data name="Personal_Label_rchp" xml:space="preserve">
+    <value>复查医院</value>
+  </data>
+  <data name="Personal_Label_rcre" xml:space="preserve">
+    <value>复查结论</value>
+  </data>
+  <data name="Personal_Label_redt" xml:space="preserve">
+    <value>结论日期</value>
+  </data>
+  <data name="Personal_Label_resn" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="Personal_Label_resu" xml:space="preserve">
+    <value>结论</value>
+  </data>
+  <data name="Personal_Label_rldt" xml:space="preserve">
+    <value>实际结束日期</value>
+  </data>
+  <data name="Personal_Label_rtby" xml:space="preserve">
+    <value>返还人</value>
+  </data>
+  <data name="Personal_Label_rtdt" xml:space="preserve">
+    <value>返还日期</value>
+  </data>
+  <data name="Personal_Label_rtfl" xml:space="preserve">
+    <value>返还标识</value>
+  </data>
+  <data name="Personal_Label_rtre" xml:space="preserve">
+    <value>返还原因</value>
+  </data>
+  <data name="Personal_Label_saly" xml:space="preserve">
+    <value>最后薪金</value>
+  </data>
+  <data name="Personal_Label_scho" xml:space="preserve">
+    <value>学校</value>
+  </data>
+  <data name="Personal_Label_spec" xml:space="preserve">
+    <value>专业</value>
+  </data>
+  <data name="Personal_Label_stds" xml:space="preserve">
+    <value>症兆描述</value>
+  </data>
+  <data name="Personal_Label_stge" xml:space="preserve">
+    <value>阶段</value>
+  </data>
+  <data name="Personal_Label_stnm" xml:space="preserve">
+    <value>材料</value>
+  </data>
+  <data name="Personal_Label_stsa" xml:space="preserve">
+    <value>起始工资</value>
+  </data>
+  <data name="Personal_Label_stwa" xml:space="preserve">
+    <value>学习方式</value>
+  </data>
+  <data name="Personal_Label_subj" xml:space="preserve">
+    <value>专业</value>
+  </data>
+  <data name="Personal_Label_teph" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Personal_Label_tmpe" xml:space="preserve">
+    <value>离职赔款</value>
+  </data>
+  <data name="Personal_Label_todt" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="Personal_Label_ttmo" xml:space="preserve">
+    <value>合计金额</value>
+  </data>
+  <data name="Personal_Label_tttm" xml:space="preserve">
+    <value>合计小时数</value>
+  </data>
+  <data name="Personal_Label_wima" xml:space="preserve">
+    <value>受益人</value>
+  </data>
+  <data name="Personal_Label_wkyr" xml:space="preserve">
+    <value>工作年限</value>
+  </data>
+  <data name="Public_Label_desc" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Personal_Label_Basis" xml:space="preserve">
+    <value>基础</value>
+  </data>
+  <data name="Personal_Label_blty" xml:space="preserve">
+    <value>血型</value>
+  </data>
+  <data name="Personal_Label_brdt" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="Personal_Label_brpl" xml:space="preserve">
+    <value>出生地</value>
+  </data>
+  <data name="Personal_Label_deds" xml:space="preserve">
+    <value>疾病描述</value>
+  </data>
+  <data name="Personal_Label_dred" xml:space="preserve">
+    <value>驾照失效日</value>
+  </data>
+  <data name="Personal_Label_drno" xml:space="preserve">
+    <value>驾照号</value>
+  </data>
+  <data name="Personal_Label_drty" xml:space="preserve">
+    <value>驾照类型</value>
+  </data>
+  <data name="Personal_Label_emno" xml:space="preserve">
+    <value>雇员编号</value>
+  </data>
+  <data name="Personal_Label_ennm" xml:space="preserve">
+    <value>英文名</value>
+  </data>
+  <data name="Personal_Label_frnm" xml:space="preserve">
+    <value>外国名</value>
+  </data>
+  <data name="Personal_Label_Health" xml:space="preserve">
+    <value>健康状况</value>
+  </data>
+  <data name="Personal_Label_hfty" xml:space="preserve">
+    <value>家住类型</value>
+  </data>
+  <data name="Personal_Label_hght" xml:space="preserve">
+    <value>身高</value>
+  </data>
+  <data name="Personal_Label_Identity" xml:space="preserve">
+    <value>身份</value>
+  </data>
+  <data name="Personal_Label_idsd" xml:space="preserve">
+    <value>身份证发放日期</value>
+  </data>
+  <data name="Personal_Label_isdi" xml:space="preserve">
+    <value>是否有疾病</value>
+  </data>
+  <data name="Personal_Label_itst" xml:space="preserve">
+    <value>兴趣爱好</value>
+  </data>
+  <data name="Personal_Label_madt" xml:space="preserve">
+    <value>结婚日期</value>
+  </data>
+  <data name="Personal_Label_mast" xml:space="preserve">
+    <value>婚姻状态</value>
+  </data>
+  <data name="Personal_Label_napl" xml:space="preserve">
+    <value>出生地</value>
+  </data>
+  <data name="Personal_Label_nknm" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="Personal_Label_ntnm" xml:space="preserve">
+    <value>籍贯</value>
+  </data>
+  <data name="Personal_Label_Others" xml:space="preserve">
+    <value>其他信息</value>
+  </data>
+  <data name="Personal_Label_otnm" xml:space="preserve">
+    <value>其他名称</value>
+  </data>
+  <data name="Personal_Label_pped" xml:space="preserve">
+    <value>护照失效日期</value>
+  </data>
+  <data name="Personal_Label_ppid" xml:space="preserve">
+    <value>护照发放日期</value>
+  </data>
+  <data name="Personal_Label_ppip" xml:space="preserve">
+    <value>护照发放地</value>
+  </data>
+  <data name="Personal_Label_ppno" xml:space="preserve">
+    <value>护照编号</value>
+  </data>
+  <data name="Personal_Label_salu" xml:space="preserve">
+    <value>称呼</value>
+  </data>
+  <data name="Personal_Label_sex" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="Personal_Label_sfid" xml:space="preserve">
+    <value>职员编号</value>
+  </data>
+  <data name="Personal_Label_sunm" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="Personal_Label_visi" xml:space="preserve">
+    <value>视力</value>
+  </data>
+  <data name="Personal_Label_wght" xml:space="preserve">
+    <value>体重</value>
+  </data>
+  <data name="Personal_Label_wped" xml:space="preserve">
+    <value>工作许可证失效日期</value>
+  </data>
+  <data name="Personal_Label_wpno" xml:space="preserve">
+    <value>工作许可证编号</value>
+  </data>
+  <data name="Public_Label_Approved" xml:space="preserve">
+    <value>已批准</value>
+  </data>
+  <data name="Public_Label_Bigamous" xml:space="preserve">
+    <value>重婚</value>
+  </data>
+  <data name="Public_Label_Divorced" xml:space="preserve">
+    <value>离异</value>
+  </data>
+  <data name="Public_Label_Invalid" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="Public_Label_Married" xml:space="preserve">
+    <value>已婚</value>
+  </data>
+  <data name="Public_Label_MonthLimit" xml:space="preserve">
+    <value>月度</value>
+  </data>
+  <data name="Public_Label_Rejected" xml:space="preserve">
+    <value>被拒绝</value>
+  </data>
+  <data name="Public_Label_Single" xml:space="preserve">
+    <value>单身</value>
+  </data>
+  <data name="Public_Label_Unapproved" xml:space="preserve">
+    <value>未批准</value>
+  </data>
+  <data name="Public_Label_Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="Public_Label_Valid" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="Public_Label_WeekLimit" xml:space="preserve">
+    <value>星期</value>
+  </data>
+  <data name="Public_Label_YearLimit" xml:space="preserve">
+    <value>年度</value>
+  </data>
+  <data name="Public_Toolbar_Related" xml:space="preserve">
+    <value>关联功能</value>
+  </data>
+  <data name="Personal_Label_occd" xml:space="preserve">
+    <value>原国家</value>
+  </data>
+  <data name="Public_Label_Female" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="Public_Label_Male" xml:space="preserve">
+    <value>男性</value>
+  </data>
+  <data name="Public_Label_Mr" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+  <data name="Public_Label_Ms" xml:space="preserve">
+    <value>Ms</value>
+  </data>
+  <data name="Public_Menu_bsaddtyp" xml:space="preserve">
+    <value>地址类型</value>
+  </data>
+  <data name="Public_Menu_bsarea" xml:space="preserve">
+    <value>地区</value>
+  </data>
+  <data name="Public_Menu_bsbanitm" xml:space="preserve">
+    <value>银行项目</value>
+  </data>
+  <data name="Public_Menu_bsbank" xml:space="preserve">
+    <value>银行信息</value>
+  </data>
+  <data name="Public_Menu_bsbusnes" xml:space="preserve">
+    <value>事业部</value>
+  </data>
+  <data name="Public_Menu_bsbusntr" xml:space="preserve">
+    <value>公司性质</value>
+  </data>
+  <data name="Public_Menu_bscertyp" xml:space="preserve">
+    <value>证书类型</value>
+  </data>
+  <data name="Public_Menu_bschgtyp" xml:space="preserve">
+    <value>变动类型</value>
+  </data>
+  <data name="Public_Menu_bsclub" xml:space="preserve">
+    <value>俱乐部</value>
+  </data>
+  <data name="Public_Menu_bscompny" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="Public_Menu_bscontry" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="Public_Menu_bscosctr" xml:space="preserve">
+    <value>成本中心</value>
+  </data>
+  <data name="Public_Menu_bsctatyp" xml:space="preserve">
+    <value>联系方式类型</value>
+  </data>
+  <data name="Public_Menu_bsctrtyp" xml:space="preserve">
+    <value>合同类别</value>
+  </data>
+  <data name="Public_Menu_bscurncy" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="Public_Menu_bsdegree" xml:space="preserve">
+    <value>学位</value>
+  </data>
+  <data name="Public_Menu_bsdepmnt" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="Public_Menu_bsdivion" xml:space="preserve">
+    <value>分部</value>
+  </data>
+  <data name="Public_Menu_bsdomtry" xml:space="preserve">
+    <value>宿舍</value>
+  </data>
+  <data name="Public_Menu_bsdomtyp" xml:space="preserve">
+    <value>宿舍类型</value>
+  </data>
+  <data name="Public_Menu_bsdskcls" xml:space="preserve">
+    <value>转帐盘所用类</value>
+  </data>
+  <data name="Public_Menu_bsedulev" xml:space="preserve">
+    <value>教育程度</value>
+  </data>
+  <data name="Public_Menu_bsevttyp" xml:space="preserve">
+    <value>事件类型</value>
+  </data>
+  <data name="Public_Menu_bsgrade" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="Public_Menu_bsgrdlev" xml:space="preserve">
+    <value>级别细分</value>
+  </data>
+  <data name="Public_Menu_athldtyp" xml:space="preserve">
+    <value>节假日类型</value>
+  </data>
+  <data name="Public_Menu_bsinscmp" xml:space="preserve">
+    <value>保险公司</value>
+  </data>
+  <data name="Public_Menu_bsinsscm" xml:space="preserve">
+    <value>保险方案</value>
+  </data>
+  <data name="Public_Menu_bsinstyp" xml:space="preserve">
+    <value>保险类型</value>
+  </data>
+  <data name="Public_Menu_bsjobcls" xml:space="preserve">
+    <value>工作类别</value>
+  </data>
+  <data name="Public_Menu_bsjobtyp" xml:space="preserve">
+    <value>工种</value>
+  </data>
+  <data name="Public_Menu_bsklitm" xml:space="preserve">
+    <value>技能项目</value>
+  </data>
+  <data name="Public_Menu_bsnation" xml:space="preserve">
+    <value>民族</value>
+  </data>
+  <data name="Public_Menu_bspaymtd" xml:space="preserve">
+    <value>支付方法</value>
+  </data>
+  <data name="Public_Menu_bspaytyp" xml:space="preserve">
+    <value>支付类型</value>
+  </data>
+  <data name="Public_Menu_bspolity" xml:space="preserve">
+    <value>政治面貌</value>
+  </data>
+  <data name="Public_Menu_bsposlev" xml:space="preserve">
+    <value>职称细分</value>
+  </data>
+  <data name="Public_Menu_bspstion" xml:space="preserve">
+    <value>职称</value>
+  </data>
+  <data name="Public_Menu_bsqlfctn" xml:space="preserve">
+    <value>资质</value>
+  </data>
+  <data name="Public_Menu_bsratdtl" xml:space="preserve">
+    <value>评价明细表</value>
+  </data>
+  <data name="Public_Menu_bsrating" xml:space="preserve">
+    <value>评价表</value>
+  </data>
+  <data name="Public_Menu_bsrligon" xml:space="preserve">
+    <value>宗教</value>
+  </data>
+  <data name="Public_Menu_bssc" xml:space="preserve">
+    <value>法人公司</value>
+  </data>
+  <data name="Public_Menu_bsscact" xml:space="preserve">
+    <value>公司帐号</value>
+  </data>
+  <data name="Public_Menu_bsscdepo" xml:space="preserve">
+    <value>公司保证金</value>
+  </data>
+  <data name="Public_Menu_bsskltyp" xml:space="preserve">
+    <value>技能类型</value>
+  </data>
+  <data name="Public_Menu_bsstftyp" xml:space="preserve">
+    <value>员工类型</value>
+  </data>
+  <data name="Public_Menu_bsterrsn" xml:space="preserve">
+    <value>离职原因</value>
+  </data>
+  <data name="Public_Menu_bstertyp" xml:space="preserve">
+    <value>终止类型</value>
+  </data>
+  <data name="Public_Menu_bstranig" xml:space="preserve">
+    <value>培训</value>
+  </data>
+  <data name="Public_Menu_bstratyp" xml:space="preserve">
+    <value>培训类型</value>
+  </data>
+  <data name="Public_Menu_bswrkgrp" xml:space="preserve">
+    <value>工作组</value>
+  </data>
+  <data name="Public_Menu_bswrkste" xml:space="preserve">
+    <value>工作地点</value>
+  </data>
+  <data name="Public_Menu_psaccont" xml:space="preserve">
+    <value>银行信息</value>
+  </data>
+  <data name="Public_Menu_psaddres" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Public_Menu_pscertfc" xml:space="preserve">
+    <value>证书</value>
+  </data>
+  <data name="Public_Menu_pschghis" xml:space="preserve">
+    <value>变动历史</value>
+  </data>
+  <data name="Public_Menu_psclub" xml:space="preserve">
+    <value>俱乐部</value>
+  </data>
+  <data name="Public_Menu_pscontct" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="Public_Menu_pscontrt" xml:space="preserve">
+    <value>合同管理</value>
+  </data>
+  <data name="Public_Menu_psdepost" xml:space="preserve">
+    <value>生成转帐盘的金额</value>
+  </data>
+  <data name="Public_Menu_psdetain" xml:space="preserve">
+    <value>抵押物</value>
+  </data>
+  <data name="Public_Menu_pseductn" xml:space="preserve">
+    <value>教育情况</value>
+  </data>
+  <data name="Public_Menu_psempfuture" xml:space="preserve">
+    <value>预约变动</value>
+  </data>
+  <data name="Public_Menu_psemplym" xml:space="preserve">
+    <value>雇佣信息</value>
+  </data>
+  <data name="Public_Menu_psevent" xml:space="preserve">
+    <value>发生事件</value>
+  </data>
+  <data name="Public_Menu_psexprnc" xml:space="preserve">
+    <value>工作经验</value>
+  </data>
+  <data name="Public_Menu_pshltrec" xml:space="preserve">
+    <value>健康记录</value>
+  </data>
+  <data name="Public_Menu_psinsurn" xml:space="preserve">
+    <value>保险</value>
+  </data>
+  <data name="Public_Menu_psperson" xml:space="preserve">
+    <value>职员信息</value>
+  </data>
+  <data name="Public_Menu_psquafca" xml:space="preserve">
+    <value>专业资格</value>
+  </data>
+  <data name="Public_Menu_psquarter" xml:space="preserve">
+    <value>居住信息</value>
+  </data>
+  <data name="Public_Menu_psrelshp" xml:space="preserve">
+    <value>社会关系</value>
+  </data>
+  <data name="Public_Menu_pstraing" xml:space="preserve">
+    <value>培训记录</value>
+  </data>
+  <data name="Public_Menu_pswelfre" xml:space="preserve">
+    <value>福利</value>
+  </data>
+  <data name="Public_Menu_tbsbrptyp" xml:space="preserve">
+    <value>抚养类型</value>
+  </data>
+  <data name="Master_Label_psld" xml:space="preserve">
+    <value>职位层次编号</value>
+  </data>
+  <data name="Master_Label_pslm" xml:space="preserve">
+    <value>职位层次名称</value>
+  </data>
+  <data name="Personal_Label_assc" xml:space="preserve">
+    <value>担保描述</value>
+  </data>
+  <data name="Personal_Label_cbno" xml:space="preserve">
+    <value>储藏柜编号</value>
+  </data>
+  <data name="Personal_Label_chfi" xml:space="preserve">
+    <value>变动属性</value>
+  </data>
+  <data name="Personal_Label_chre" xml:space="preserve">
+    <value>变动原因</value>
+  </data>
+  <data name="Personal_Label_emst" xml:space="preserve">
+    <value>雇员状态</value>
+  </data>
+  <data name="Personal_Label_gpid" xml:space="preserve">
+    <value>分组编号</value>
+  </data>
+  <data name="Personal_Label_isbl" xml:space="preserve">
+    <value>是否在黑名单</value>
+  </data>
+  <data name="Personal_Label_isim" xml:space="preserve">
+    <value>是否立即生效</value>
+  </data>
+  <data name="Personal_Label_isrh" xml:space="preserve">
+    <value>是否是重雇</value>
+  </data>
+  <data name="Personal_Label_issu" xml:space="preserve">
+    <value>是否已处理</value>
+  </data>
+  <data name="Personal_Label_jidt" xml:space="preserve">
+    <value>加入日期</value>
+  </data>
+  <data name="Personal_Label_neva" xml:space="preserve">
+    <value>新值</value>
+  </data>
+  <data name="Personal_Label_prdt" xml:space="preserve">
+    <value>试用期截止</value>
+  </data>
+  <data name="Personal_Label_reto" xml:space="preserve">
+    <value>汇报人</value>
+  </data>
+  <data name="Personal_Label_rrdt" xml:space="preserve">
+    <value>重雇日期</value>
+  </data>
+  <data name="Personal_Label_rsid" xml:space="preserve">
+    <value>重雇职员编号</value>
+  </data>
+  <data name="Personal_Label_sftd" xml:space="preserve">
+    <value>职员类型编号</value>
+  </data>
+  <data name="Personal_Label_sftm" xml:space="preserve">
+    <value>职员类型名称</value>
+  </data>
+  <data name="Personal_Label_ssdt" xml:space="preserve">
+    <value>停薪日期</value>
+  </data>
+  <data name="Personal_Label_termination" xml:space="preserve">
+    <value>离职信息</value>
+  </data>
+  <data name="Personal_Label_titl" xml:space="preserve">
+    <value>头衔</value>
+  </data>
+  <data name="Personal_Label_tmdt" xml:space="preserve">
+    <value>离职日期</value>
+  </data>
+  <data name="Personal_Label_tmrm" xml:space="preserve">
+    <value>离职说明</value>
+  </data>
+  <data name="Public_Label_OTJ" xml:space="preserve">
+    <value>在职</value>
+  </data>
+  <data name="Public_Label_Terminated" xml:space="preserve">
+    <value>离职</value>
+  </data>
+  <data name="Personal_Label_agad" xml:space="preserve">
+    <value>中介地址</value>
+  </data>
+  <data name="Personal_Label_agcn" xml:space="preserve">
+    <value>中介联系方式</value>
+  </data>
+  <data name="Personal_Label_agem" xml:space="preserve">
+    <value>中介邮件</value>
+  </data>
+  <data name="Personal_Label_agfe" xml:space="preserve">
+    <value>中介费</value>
+  </data>
+  <data name="Personal_Label_apag" xml:space="preserve">
+    <value>中介名称</value>
+  </data>
+  <data name="Personal_Label_dpam" xml:space="preserve">
+    <value>押金金额</value>
+  </data>
+  <data name="Personal_Label_mafe" xml:space="preserve">
+    <value>管理费用</value>
+  </data>
+  <data name="Personal_Label_otfe" xml:space="preserve">
+    <value>其他费用</value>
+  </data>
+  <data name="Personal_Label_owad" xml:space="preserve">
+    <value>房主地址</value>
+  </data>
+  <data name="Personal_Label_owcn" xml:space="preserve">
+    <value>房主联系方式</value>
+  </data>
+  <data name="Personal_Label_ownr" xml:space="preserve">
+    <value>房主姓名</value>
+  </data>
+  <data name="Personal_Label_pbcm" xml:space="preserve">
+    <value>公司支付</value>
+  </data>
+  <data name="Personal_Label_pbem" xml:space="preserve">
+    <value>职员支付</value>
+  </data>
+  <data name="Personal_Label_pkfe" xml:space="preserve">
+    <value>停车费</value>
+  </data>
+  <data name="Personal_Label_rnfe" xml:space="preserve">
+    <value>租金</value>
+  </data>
+  <data name="Personal_Label_ratn" xml:space="preserve">
+    <value>评级名称</value>
+  </data>
+  <data name="Personal_Label_skit" xml:space="preserve">
+    <value>技能项目</value>
+  </data>
+  <data name="Personal_Label_skle" xml:space="preserve">
+    <value>技能级别</value>
+  </data>
+  <data name="Personal_Label_sknm" xml:space="preserve">
+    <value>技能名称</value>
+  </data>
+  <data name="Public_Toolbar_Rehire" xml:space="preserve">
+    <value>重雇</value>
+  </data>
+  <data name="Public_Toolbar_Terminate" xml:space="preserve">
+    <value>离职</value>
+  </data>
+  <data name="Public_Toolbar_Checkout" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="System_Label_cfde" xml:space="preserve">
+    <value>条件描述</value>
+  </data>
+  <data name="System_Label_cfnm" xml:space="preserve">
+    <value>配置名称</value>
+  </data>
+  <data name="System_Label_cfva" xml:space="preserve">
+    <value>配置值</value>
+  </data>
+  <data name="Attendance_Label_cddt" xml:space="preserve">
+    <value>日历日期</value>
+  </data>
+  <data name="Attendance_Label_cdnm" xml:space="preserve">
+    <value>日历名称</value>
+  </data>
+  <data name="Attendance_Label_clcd" xml:space="preserve">
+    <value>日历编号</value>
+  </data>
+  <data name="Attendance_Label_eact" xml:space="preserve">
+    <value>早退次数</value>
+  </data>
+  <data name="Attendance_Label_eotm" xml:space="preserve">
+    <value>早退分钟数</value>
+  </data>
+  <data name="Attendance_Label_frdt" xml:space="preserve">
+    <value>起始日期</value>
+  </data>
+  <data name="Attendance_Label_htcd" xml:space="preserve">
+    <value>假期类型编号</value>
+  </data>
+  <data name="Attendance_Label_htnm" xml:space="preserve">
+    <value>假期类型名横</value>
+  </data>
+  <data name="Attendance_Label_lact" xml:space="preserve">
+    <value>迟到次数</value>
+  </data>
+  <data name="Attendance_Label_letm" xml:space="preserve">
+    <value>迟到分钟数</value>
+  </data>
+  <data name="Attendance_Label_otcd" xml:space="preserve">
+    <value>加班类型编号</value>
+  </data>
+  <data name="Attendance_Label_otnm" xml:space="preserve">
+    <value>加班类型名称</value>
+  </data>
+  <data name="Attendance_Label_otst" xml:space="preserve">
+    <value>加班开始时间</value>
+  </data>
+  <data name="Attendance_Label_retm" xml:space="preserve">
+    <value>打开时间</value>
+  </data>
+  <data name="Attendance_Label_sfcd" xml:space="preserve">
+    <value>班次编号</value>
+  </data>
+  <data name="Attendance_Label_sfnm" xml:space="preserve">
+    <value>班次名称</value>
+  </data>
+  <data name="Attendance_Label_todt" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="Public_Toolbar_AutoGen" xml:space="preserve">
+    <value>自动生成</value>
+  </data>
+  <data name="Attendance_Label_altm" xml:space="preserve">
+    <value>允许迟到(分钟)</value>
+  </data>
+  <data name="Attendance_Label_aotm" xml:space="preserve">
+    <value>允许早退(分钟)</value>
+  </data>
+  <data name="Attendance_Label_bked" xml:space="preserve">
+    <value>间休结束时间</value>
+  </data>
+  <data name="Attendance_Label_bken" xml:space="preserve">
+    <value>开启午休</value>
+  </data>
+  <data name="Attendance_Label_bker" xml:space="preserve">
+    <value>Anal.break end</value>
+  </data>
+  <data name="Attendance_Label_bser" xml:space="preserve">
+    <value>Anal.break start</value>
+  </data>
+  <data name="Attendance_Label_btst" xml:space="preserve">
+    <value>间休开始时间</value>
+  </data>
+  <data name="Attendance_Label_eati" xml:space="preserve">
+    <value>第一打卡时间</value>
+  </data>
+  <data name="Attendance_Label_eatm" xml:space="preserve">
+    <value>早退开始时间</value>
+  </data>
+  <data name="Attendance_Label_ecty" xml:space="preserve">
+    <value>早退统计方式</value>
+  </data>
+  <data name="Attendance_Label_ifio" xml:space="preserve">
+    <value>只分析上下班</value>
+  </data>
+  <data name="Attendance_Label_igbl" xml:space="preserve">
+    <value>间休计入工时</value>
+  </data>
+  <data name="Attendance_Label_igrl" xml:space="preserve">
+    <value>小休计入工时</value>
+  </data>
+  <data name="Attendance_Label_latm" xml:space="preserve">
+    <value>迟到开始时间</value>
+  </data>
+  <data name="Attendance_Label_lato" xml:space="preserve">
+    <value>最后下班打卡时间</value>
+  </data>
+  <data name="Attendance_Label_lcty" xml:space="preserve">
+    <value>迟到统计类型</value>
+  </data>
+  <data name="Attendance_Label_miot" xml:space="preserve">
+    <value>最小加班时间(分钟)</value>
+  </data>
+  <data name="Attendance_Label_nots" xml:space="preserve">
+    <value>正常加班开始时间</value>
+  </data>
+  <data name="Attendance_Label_ontm" xml:space="preserve">
+    <value>一次</value>
+  </data>
+  <data name="Attendance_Label_otun" xml:space="preserve">
+    <value>加班统计单位(分钟)</value>
+  </data>
+  <data name="Attendance_Label_r1ed" xml:space="preserve">
+    <value>正常首次小休结束时间</value>
+  </data>
+  <data name="Attendance_Label_r1st" xml:space="preserve">
+    <value>正常首次小休开始时间</value>
+  </data>
+  <data name="Attendance_Label_r2ed" xml:space="preserve">
+    <value>正常二次小休结束时间</value>
+  </data>
+  <data name="Attendance_Label_r2st" xml:space="preserve">
+    <value>正常二次小休开始时间</value>
+  </data>
+  <data name="Attendance_Label_rttm1" xml:space="preserve">
+    <value>正常首次小休时间(分钟)</value>
+  </data>
+  <data name="Attendance_Label_rttm2" xml:space="preserve">
+    <value>正常二次小休时间(分钟)</value>
+  </data>
+  <data name="Attendance_Label_tmin" xml:space="preserve">
+    <value>正常上班时间</value>
+  </data>
+  <data name="Attendance_Label_tmot" xml:space="preserve">
+    <value>正常下班时间</value>
+  </data>
+  <data name="Attendance_Label_wegh" xml:space="preserve">
+    <value>按权重</value>
+  </data>
+  <data name="Attendance_Label_wkda" xml:space="preserve">
+    <value>工作天数</value>
+  </data>
+  <data name="Attendance_Label_wkhr" xml:space="preserve">
+    <value>工作时数</value>
+  </data>
+  <data name="Public_Menu_atoridat" xml:space="preserve">
+    <value>原始考勤记录</value>
+  </data>
+  <data name="Public_Menu_atpvtcld" xml:space="preserve">
+    <value>员工私有日历</value>
+  </data>
+  <data name="Public_Menu_atshfely" xml:space="preserve">
+    <value>早退统计权重</value>
+  </data>
+  <data name="Public_Menu_atshflat" xml:space="preserve">
+    <value>迟到统计权重</value>
+  </data>
+  <data name="Public_Menu_atshfott" xml:space="preserve">
+    <value>加班统计权重</value>
+  </data>
+  <data name="Public_Menu_atshift" xml:space="preserve">
+    <value>班次设定</value>
+  </data>
+  <data name="Attendance_Label_both" xml:space="preserve">
+    <value>两者任意</value>
+  </data>
+  <data name="Attendance_Label_caon" xml:space="preserve">
+    <value>只按日历</value>
+  </data>
+  <data name="Attendance_Label_dasq" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="Attendance_Label_iaod" xml:space="preserve">
+    <value>分析原始打卡记录</value>
+  </data>
+  <data name="Attendance_Label_isrt" xml:space="preserve">
+    <value>休息日？</value>
+  </data>
+  <data name="Attendance_Label_rscd" xml:space="preserve">
+    <value>轮班编号</value>
+  </data>
+  <data name="Attendance_Label_rsnm" xml:space="preserve">
+    <value>轮班名称</value>
+  </data>
+  <data name="Attendance_Label_rson" xml:space="preserve">
+    <value>只按轮班</value>
+  </data>
+  <data name="Attendance_Label_rtty" xml:space="preserve">
+    <value>休息日类型</value>
+  </data>
+  <data name="Public_Menu_atabsdtl" xml:space="preserve">
+    <value>缺勤明细</value>
+  </data>
+  <data name="Public_Menu_atabssum" xml:space="preserve">
+    <value>缺勤汇总</value>
+  </data>
+  <data name="Public_Menu_atanarst" xml:space="preserve">
+    <value>出勤分析结果</value>
+  </data>
+  <data name="Public_Menu_atcaldar" xml:space="preserve">
+    <value>公司公共日历</value>
+  </data>
+  <data name="Public_Menu_atdatmnu" xml:space="preserve">
+    <value>手工考勤数据</value>
+  </data>
+  <data name="Public_Menu_atroshis" xml:space="preserve">
+    <value>员工轮班历史</value>
+  </data>
+  <data name="Public_Menu_atroster" xml:space="preserve">
+    <value>轮班设定</value>
+  </data>
+  <data name="Attendance_Label_abda" xml:space="preserve">
+    <value>缺勤天数</value>
+  </data>
+  <data name="Attendance_Label_abhr" xml:space="preserve">
+    <value>缺勤小时</value>
+  </data>
+  <data name="Attendance_Label_adam" xml:space="preserve">
+    <value>缺勤天数(手)</value>
+  </data>
+  <data name="Attendance_Label_ahrm" xml:space="preserve">
+    <value>缺勤小时数(手)</value>
+  </data>
+  <data name="Attendance_Label_ahrr" xml:space="preserve">
+    <value>缺勤小时数(实)</value>
+  </data>
+  <data name="Attendance_Label_atdt" xml:space="preserve">
+    <value>出勤日期</value>
+  </data>
+  <data name="Attendance_Label_betm" xml:space="preserve">
+    <value>间休结束时间(手)</value>
+  </data>
+  <data name="Attendance_Label_bstm" xml:space="preserve">
+    <value>间休开始时间(手)</value>
+  </data>
+  <data name="Attendance_Label_eahr" xml:space="preserve">
+    <value>早退时数</value>
+  </data>
+  <data name="Attendance_Label_ectm" xml:space="preserve">
+    <value>早退次数(手)</value>
+  </data>
+  <data name="Attendance_Label_ehrm" xml:space="preserve">
+    <value>早退时数(手)</value>
+  </data>
+  <data name="Attendance_Label_ittm" xml:space="preserve">
+    <value>上班打卡时间</value>
+  </data>
+  <data name="Attendance_Label_lahr" xml:space="preserve">
+    <value>迟到时数</value>
+  </data>
+  <data name="Attendance_Label_lctm" xml:space="preserve">
+    <value>迟到次数(手)</value>
+  </data>
+  <data name="Attendance_Label_lhrm" xml:space="preserve">
+    <value>迟到时数(手)</value>
+  </data>
+  <data name="Attendance_Label_ottm" xml:space="preserve">
+    <value>下班打卡时间</value>
+  </data>
+  <data name="Attendance_Label_scdm" xml:space="preserve">
+    <value>班次编号</value>
+  </data>
+  <data name="Public_Label_perd" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="Public_Message_ABR" xml:space="preserve">
+    <value>异常记录</value>
+  </data>
+  <data name="Public_Message_ADR" xml:space="preserve">
+    <value>出勤日期范围</value>
+  </data>
+  <data name="Public_Message_ALT" xml:space="preserve">
+    <value>同时分析请假情况</value>
+  </data>
+  <data name="Public_Message_Analyzing" xml:space="preserve">
+    <value>分析中...，请勿关闭</value>
+  </data>
+  <data name="Public_Message_AOT" xml:space="preserve">
+    <value>同时分析加班情况</value>
+  </data>
+  <data name="Public_Message_AR" xml:space="preserve">
+    <value>所有记录</value>
+  </data>
+  <data name="Public_Message_AS" xml:space="preserve">
+    <value>分析范围</value>
+  </data>
+  <data name="Public_Message_CA" xml:space="preserve">
+    <value>Check analysis</value>
+  </data>
+  <data name="Public_Message_CLR" xml:space="preserve">
+    <value>查看请假记录</value>
+  </data>
+  <data name="Public_Message_CMAD" xml:space="preserve">
+    <value>查看手工出勤记录</value>
+  </data>
+  <data name="Public_Message_COSD" xml:space="preserve">
+    <value>查看原始打卡记录</value>
+  </data>
+  <data name="Public_Message_COTR" xml:space="preserve">
+    <value>查看加班记录</value>
+  </data>
+  <data name="Public_Message_CRH" xml:space="preserve">
+    <value>查看轮班历史</value>
+  </data>
+  <data name="Public_Message_DA" xml:space="preserve">
+    <value>开始分析</value>
+  </data>
+  <data name="Public_Message_EF" xml:space="preserve">
+    <value>过滤员工</value>
+  </data>
+  <data name="Public_Message_HA" xml:space="preserve">
+    <value>处理异常记录。</value>
+  </data>
+  <data name="Public_Message_NC" xml:space="preserve">
+    <value>没有修改。</value>
+  </data>
+  <data name="Public_Message_RI" xml:space="preserve">
+    <value>关联信息</value>
+  </data>
+  <data name="Public_Message_TATL" xml:space="preserve">
+    <value>缺勤转换成请假(休假)</value>
+  </data>
+  <data name="Attendance_Label_iscf" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Public_Message_APE" xml:space="preserve">
+    <value>分析参数错误</value>
+  </data>
+  <data name="Attendance_Label_athr" xml:space="preserve">
+    <value>出勤小时</value>
+  </data>
+  <data name="Attendance_Label_atst" xml:space="preserve">
+    <value>出勤状态</value>
+  </data>
+  <data name="Attendance_Label_bret" xml:space="preserve">
+    <value>间休结束时间</value>
+  </data>
+  <data name="Attendance_Label_brst" xml:space="preserve">
+    <value>间休开始时间</value>
+  </data>
+  <data name="Attendance_Label_ifma" xml:space="preserve">
+    <value>手工数据</value>
+  </data>
+  <data name="Attendance_Label_intm" xml:space="preserve">
+    <value>上班打卡时间</value>
+  </data>
+  <data name="Attendance_Label_itmm" xml:space="preserve">
+    <value>上班时间(手)</value>
+  </data>
+  <data name="Attendance_Label_otmm" xml:space="preserve">
+    <value>下班时间(手)</value>
+  </data>
+  <data name="Public_Menu_atanaatt" xml:space="preserve">
+    <value>出勤分析</value>
+  </data>
+  <data name="Public_Message_NoAnalDate" xml:space="preserve">
+    <value>请先选择需要做分析的日期。</value>
+  </data>
+  <data name="Leave_Label_apdt" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="Leave_Label_apno" xml:space="preserve">
+    <value>休假申请编号</value>
+  </data>
+  <data name="Leave_Label_baaf" xml:space="preserve">
+    <value>余额</value>
+  </data>
+  <data name="Leave_Label_csaf" xml:space="preserve">
+    <value>已休</value>
+  </data>
+  <data name="Leave_Label_daro" xml:space="preserve">
+    <value>休完日期</value>
+  </data>
+  <data name="Leave_Label_days" xml:space="preserve">
+    <value>需结转天数</value>
+  </data>
+  <data name="Leave_Label_dfby" xml:space="preserve">
+    <value>定义基准</value>
+  </data>
+  <data name="Leave_Label_dfno" xml:space="preserve">
+    <value>定义号</value>
+  </data>
+  <data name="Leave_Label_dftx" xml:space="preserve">
+    <value>定义文字</value>
+  </data>
+  <data name="Leave_Label_dfva" xml:space="preserve">
+    <value>定义值</value>
+  </data>
+  <data name="Leave_Label_frtm" xml:space="preserve">
+    <value>起始日期</value>
+  </data>
+  <data name="Leave_Label_fryr" xml:space="preserve">
+    <value>起始年</value>
+  </data>
+  <data name="Leave_Label_hors" xml:space="preserve">
+    <value>需结转小时数</value>
+  </data>
+  <data name="Leave_Label_hrcs" xml:space="preserve">
+    <value>已休小时数</value>
+  </data>
+  <data name="Leave_Label_hurs" xml:space="preserve">
+    <value>小数</value>
+  </data>
+  <data name="Leave_Label_lmby" xml:space="preserve">
+    <value>限制基准</value>
+  </data>
+  <data name="Leave_Label_lmno" xml:space="preserve">
+    <value>限制号</value>
+  </data>
+  <data name="Leave_Label_lmsp" xml:space="preserve">
+    <value>限制范围</value>
+  </data>
+  <data name="Leave_Label_lmtx" xml:space="preserve">
+    <value>限制文字</value>
+  </data>
+  <data name="Leave_Label_lmva" xml:space="preserve">
+    <value>限制值</value>
+  </data>
+  <data name="Leave_Label_ltcd" xml:space="preserve">
+    <value>休假类型编号</value>
+  </data>
+  <data name="Leave_Label_ltnm" xml:space="preserve">
+    <value>休假类型名称</value>
+  </data>
+  <data name="Leave_Label_lvst" xml:space="preserve">
+    <value>休假申请状态</value>
+  </data>
+  <data name="Leave_Label_mnba" xml:space="preserve">
+    <value>月余额</value>
+  </data>
+  <data name="Leave_Label_mxch" xml:space="preserve">
+    <value>最大可结转时数</value>
+  </data>
+  <data name="Leave_Label_mxlh" xml:space="preserve">
+    <value>最大可休假数</value>
+  </data>
+  <data name="Leave_Label_retm" xml:space="preserve">
+    <value>返回时间</value>
+  </data>
+  <data name="Leave_Label_totm" xml:space="preserve">
+    <value>截止时间</value>
+  </data>
+  <data name="Leave_Label_toyr" xml:space="preserve">
+    <value>截止年数</value>
+  </data>
+  <data name="Leave_Label_unli" xml:space="preserve">
+    <value>无限定</value>
+  </data>
+  <data name="Leave_Label_wkba" xml:space="preserve">
+    <value>星期余额</value>
+  </data>
+  <data name="Leave_Label_year" xml:space="preserve">
+    <value>年度</value>
+  </data>
+  <data name="Leave_Label_yrba" xml:space="preserve">
+    <value>年度余额</value>
+  </data>
+  <data name="Master_Label_isat" xml:space="preserve">
+    <value>是否出勤</value>
+  </data>
+  <data name="Master_Label_isct" xml:space="preserve">
+    <value>Is count rest</value>
+  </data>
+  <data name="Master_Label_lrcd" xml:space="preserve">
+    <value>休假原因编号</value>
+  </data>
+  <data name="Master_Label_lrnm" xml:space="preserve">
+    <value>休假原因名称</value>
+  </data>
+  <data name="Master_Label_ltcd" xml:space="preserve">
+    <value>休假类型编号</value>
+  </data>
+  <data name="Master_Label_ltnm" xml:space="preserve">
+    <value>休假类型名称</value>
+  </data>
+  <data name="Public_Menu_lvcryfwd" xml:space="preserve">
+    <value>休假结转</value>
+  </data>
+  <data name="Public_Menu_lvdfbyem" xml:space="preserve">
+    <value>休假权利(职员)</value>
+  </data>
+  <data name="Public_Menu_lvdfbyot" xml:space="preserve">
+    <value>休假权利(自定义)</value>
+  </data>
+  <data name="Public_Menu_lvdfbyyr" xml:space="preserve">
+    <value>休假权利(服务年限)</value>
+  </data>
+  <data name="Public_Menu_lvleaapp" xml:space="preserve">
+    <value>休假申请</value>
+  </data>
+  <data name="Public_Menu_lvlealmt" xml:space="preserve">
+    <value>休假限定</value>
+  </data>
+  <data name="Public_Menu_tlvlearsn" xml:space="preserve">
+    <value>休假原因</value>
+  </data>
+  <data name="Public_Menu_tlvleatyp" xml:space="preserve">
+    <value>休假类型</value>
+  </data>
+  <data name="Public_Message_AYSCTC" xml:space="preserve">
+    <value>你确定继续结转吗？</value>
+  </data>
+  <data name="Public_Message_BALANCE" xml:space="preserve">
+    <value>余额:</value>
+  </data>
+  <data name="Public_Message_Carryforwarding" xml:space="preserve">
+    <value>结转中...，请勿关闭。</value>
+  </data>
+  <data name="Public_Message_CDR" xml:space="preserve">
+    <value>结转日期范围</value>
+  </data>
+  <data name="Public_Message_CLS" xml:space="preserve">
+    <value>查看请假设定</value>
+  </data>
+  <data name="Public_Message_CS" xml:space="preserve">
+    <value>结转范围</value>
+  </data>
+  <data name="Public_Message_DCF" xml:space="preserve">
+    <value>开始结转</value>
+  </data>
+  <data name="Public_Message_LVST" xml:space="preserve">
+    <value>休假设定</value>
+  </data>
+  <data name="Public_Message_NEBFYAA" xml:space="preserve">
+    <value>该休假类型的余额已经用完，你不能申请新的休假。</value>
+  </data>
+  <data name="Public_Message_NEBFYAC" xml:space="preserve">
+    <value>该类型的余额已经用完，你确定继续申请吗？</value>
+  </data>
+  <data name="Public_Message_NLSF" xml:space="preserve">
+    <value>没有请假(休假)汇总记录。</value>
+  </data>
+  <data name="Public_Message_NoCarryYear" xml:space="preserve">
+    <value>请先选择需要结转的年份。</value>
+  </data>
+  <data name="Public_Message_YCWBL" xml:space="preserve">
+    <value>你做的修改将全部丢失，你确定继续吗？</value>
+  </data>
+  <data name="Public_Processing_WindowTitle" xml:space="preserve">
+    <value>处理中......</value>
+  </data>
+  <data name="Master_Label_autr" xml:space="preserve">
+    <value>自动转换</value>
+  </data>
+  <data name="Master_Label_otcd" xml:space="preserve">
+    <value>加班类型编号</value>
+  </data>
+  <data name="Master_Label_otnm" xml:space="preserve">
+    <value>加班类型名称</value>
+  </data>
+  <data name="Master_Label_ttlv" xml:space="preserve">
+    <value>可转为休假</value>
+  </data>
+  <data name="Overtime_Label_days" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="Overtime_Label_edtm" xml:space="preserve">
+    <value>截止时间</value>
+  </data>
+  <data name="Overtime_Label_istr" xml:space="preserve">
+    <value>是否可转为休假</value>
+  </data>
+  <data name="Overtime_Label_lmby" xml:space="preserve">
+    <value>限制基准</value>
+  </data>
+  <data name="Overtime_Label_lmno" xml:space="preserve">
+    <value>限制编号</value>
+  </data>
+  <data name="Overtime_Label_lmsc" xml:space="preserve">
+    <value>限制范围</value>
+  </data>
+  <data name="Overtime_Label_lmtx" xml:space="preserve">
+    <value>限制文字</value>
+  </data>
+  <data name="Overtime_Label_lmva" xml:space="preserve">
+    <value>限制值</value>
+  </data>
+  <data name="Overtime_Label_mnba" xml:space="preserve">
+    <value>月度余额</value>
+  </data>
+  <data name="Overtime_Label_mxoh" xml:space="preserve">
+    <value>最大加班时数</value>
+  </data>
+  <data name="Overtime_Label_mxth" xml:space="preserve">
+    <value>最大可转为休假的时数</value>
+  </data>
+  <data name="Overtime_Label_otcd" xml:space="preserve">
+    <value>加班类型</value>
+  </data>
+  <data name="Overtime_Label_otdt" xml:space="preserve">
+    <value>加班日期</value>
+  </data>
+  <data name="Overtime_Label_othm" xml:space="preserve">
+    <value>手工加班时数</value>
+  </data>
+  <data name="Overtime_Label_othr" xml:space="preserve">
+    <value>实际加班时数</value>
+  </data>
+  <data name="Overtime_Label_oths" xml:space="preserve">
+    <value>加班时数</value>
+  </data>
+  <data name="Overtime_Label_otnm" xml:space="preserve">
+    <value>加班类型</value>
+  </data>
+  <data name="Overtime_Label_rfno" xml:space="preserve">
+    <value>申请编号</value>
+  </data>
+  <data name="Overtime_Label_sttm" xml:space="preserve">
+    <value>起始日期</value>
+  </data>
+  <data name="Overtime_Label_tlhr" xml:space="preserve">
+    <value>转换时数</value>
+  </data>
+  <data name="Overtime_Label_tlrf" xml:space="preserve">
+    <value>转换参考号</value>
+  </data>
+  <data name="Overtime_Label_ttlv" xml:space="preserve">
+    <value>转换为</value>
+  </data>
+  <data name="Overtime_Label_unli" xml:space="preserve">
+    <value>无限制</value>
+  </data>
+  <data name="Overtime_Label_wkba" xml:space="preserve">
+    <value>星期余额</value>
+  </data>
+  <data name="Overtime_Label_yrba" xml:space="preserve">
+    <value>年度余额</value>
+  </data>
+  <data name="Public_Message_AYSTCTTO" xml:space="preserve">
+    <value>你确定转换加班为休假余额吗？</value>
+  </data>
+  <data name="Public_Message_calcwin" xml:space="preserve">
+    <value>计算窗口</value>
+  </data>
+  <data name="Public_Message_COS" xml:space="preserve">
+    <value>查看加班设定</value>
+  </data>
+  <data name="Public_Message_DOTR" xml:space="preserve">
+    <value>开始转换</value>
+  </data>
+  <data name="Public_Message_NEBFYAAS" xml:space="preserve">
+    <value>该加班类型的余额已经用完，你不能申请新的加班。</value>
+  </data>
+  <data name="Public_Message_NOSF" xml:space="preserve">
+    <value>加班汇总记录。</value>
+  </data>
+  <data name="Public_Message_OTST" xml:space="preserve">
+    <value>加班设定</value>
+  </data>
+  <data name="Public_Message_TDR" xml:space="preserve">
+    <value>转换的日期范围</value>
+  </data>
+  <data name="Public_Message_transfering" xml:space="preserve">
+    <value>转换中，请勿关闭</value>
+  </data>
+  <data name="Public_Message_TS" xml:space="preserve">
+    <value>转换范围</value>
+  </data>
+  <data name="Public_Menu_otaplctn" xml:space="preserve">
+    <value>加班申请</value>
+  </data>
+  <data name="Public_Menu_otdetail" xml:space="preserve">
+    <value>加班明细</value>
+  </data>
+  <data name="Public_Menu_otlimit" xml:space="preserve">
+    <value>加班限制</value>
+  </data>
+  <data name="Public_Menu_otsetting" xml:space="preserve">
+    <value>加班设定</value>
+  </data>
+  <data name="Public_Menu_otsummry" xml:space="preserve">
+    <value>加班汇总</value>
+  </data>
+  <data name="Public_Menu_otttlv" xml:space="preserve">
+    <value>休假转换</value>
+  </data>
+  <data name="Public_Menu_ottype" xml:space="preserve">
+    <value>加班类型</value>
+  </data>
+  <data name="Public_Menu_psempchg" xml:space="preserve">
+    <value>雇佣信息变动</value>
+  </data>
+  <data name="Public_Menu_psqurter" xml:space="preserve">
+    <value>居住信息</value>
+  </data>
+  <data name="Public_Menu_Attendance" xml:space="preserve">
+    <value>出勤模块</value>
+  </data>
+  <data name="Public_Menu_Leave" xml:space="preserve">
+    <value>休假模块</value>
+  </data>
+  <data name="Public_Menu_OpenQuery" xml:space="preserve">
+    <value>自助查询</value>
+  </data>
+  <data name="Public_Menu_Overtime" xml:space="preserve">
+    <value>加班模块</value>
+  </data>
+  <data name="Public_Menu_Payroll" xml:space="preserve">
+    <value>工资模块</value>
+  </data>
+  <data name="Public_Menu_Skill" xml:space="preserve">
+    <value>技能</value>
+  </data>
+  <data name="Public_Menu_Staff" xml:space="preserve">
+    <value>职员信息</value>
+  </data>
+  <data name="Public_Menu_System" xml:space="preserve">
+    <value>系统管理</value>
+  </data>
+  <data name="Public_Menu_tstsyscfg" xml:space="preserve">
+    <value>系统配置</value>
+  </data>
+  <data name="Master_Label_dscr" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Master_Label_padt" xml:space="preserve">
+    <value>支付日</value>
+  </data>
+  <data name="Master_Label_pdcd" xml:space="preserve">
+    <value>Pay day code</value>
+  </data>
+  <data name="Master_Label_sltd" xml:space="preserve">
+    <value>工资项目类型编号</value>
+  </data>
+  <data name="Master_Label_sltn" xml:space="preserve">
+    <value>工资项目类型名称</value>
+  </data>
+  <data name="Master_Label_sifg" xml:space="preserve">
+    <value>工资项目标识</value>
+  </data>
+  <data name="Payroll_Label_csal" xml:space="preserve">
+    <value>成本中心分摊</value>
+  </data>
+  <data name="Payroll_Label_irim" xml:space="preserve">
+    <value>是否是关联项目</value>
+  </data>
+  <data name="Payroll_Label_iscu" xml:space="preserve">
+    <value>是否是累积项目</value>
+  </data>
+  <data name="Payroll_Label_itcd" xml:space="preserve">
+    <value>工资项目编号</value>
+  </data>
+  <data name="Payroll_Label_itnm" xml:space="preserve">
+    <value>工资项目名称</value>
+  </data>
+  <data name="Payroll_Label_opty" xml:space="preserve">
+    <value>项目计算类型</value>
+  </data>
+  <data name="Payroll_Label_sifg" xml:space="preserve">
+    <value>工资项目标记</value>
+  </data>
+  <data name="Payroll_Label_vapc" xml:space="preserve">
+    <value>值的精度</value>
+  </data>
+  <data name="Payroll_Label_burl" xml:space="preserve">
+    <value>规则值</value>
+  </data>
+  <data name="Payroll_Label_isst" xml:space="preserve">
+    <value>是否是系统设定</value>
+  </data>
+  <data name="Payroll_Label_rsid" xml:space="preserve">
+    <value>资源编号</value>
+  </data>
+  <data name="Payroll_Label_vacd" xml:space="preserve">
+    <value>变量编号</value>
+  </data>
+  <data name="Payroll_Label_vanm" xml:space="preserve">
+    <value>变量名称</value>
+  </data>
+  <data name="Payroll_Label_vlty" xml:space="preserve">
+    <value>值类型</value>
+  </data>
+  <data name="Payroll_Label_vlva" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Payroll_Label_cdtl" xml:space="preserve">
+    <value>用于哪个条件</value>
+  </data>
+  <data name="Payroll_Label_cdtx" xml:space="preserve">
+    <value>条件文字</value>
+  </data>
+  <data name="Payroll_Label_cdva" xml:space="preserve">
+    <value>条件值</value>
+  </data>
+  <data name="Payroll_Label_chfn" xml:space="preserve">
+    <value>如何计算明细</value>
+  </data>
+  <data name="Payroll_Label_crcd" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="Payroll_Label_cred" xml:space="preserve">
+    <value>成本中心关联号</value>
+  </data>
+  <data name="Payroll_Label_dscr" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Payroll_Label_frcd" xml:space="preserve">
+    <value>公司编号</value>
+  </data>
+  <data name="Payroll_Label_frnm" xml:space="preserve">
+    <value>公司名称</value>
+  </data>
+  <data name="Payroll_Label_func" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="Payroll_Label_isca" xml:space="preserve">
+    <value>成本中心分摊</value>
+  </data>
+  <data name="Payroll_Label_rlcd" xml:space="preserve">
+    <value>关联号</value>
+  </data>
+  <data name="Payroll_Label_rscd" xml:space="preserve">
+    <value>计算规则编号</value>
+  </data>
+  <data name="Payroll_Label_rsit" xml:space="preserve">
+    <value>计算规则项目</value>
+  </data>
+  <data name="Payroll_Label_rsnm" xml:space="preserve">
+    <value>计算规则名称</value>
+  </data>
+  <data name="Payroll_Label_sait" xml:space="preserve">
+    <value>工资项目</value>
+  </data>
+  <data name="Payroll_Label_sfat" xml:space="preserve">
+    <value>职员属性</value>
+  </data>
+  <data name="Payroll_Label_srno" xml:space="preserve">
+    <value>计算序号</value>
+  </data>
+  <data name="Payroll_Label_ssty" xml:space="preserve">
+    <value>汇总类型</value>
+  </data>
+  <data name="Payroll_Label_valu" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Payroll_Label_vari" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="Payroll_Label_vatx" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Payroll_Label_vtyp" xml:space="preserve">
+    <value>值类型</value>
+  </data>
+  <data name="Public_Title_exbu" xml:space="preserve">
+    <value>表达式生成器</value>
+  </data>
+  <data name="Public_Toolbar_Down" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="Public_Toolbar_Up" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="Public_Message_NoSelectedRecords" xml:space="preserve">
+    <value>请先选择一条或者多条记录。</value>
+  </data>
+  <data name="System_Label_cdnm" xml:space="preserve">
+    <value>条件名称</value>
+  </data>
+  <data name="System_Label_cdno" xml:space="preserve">
+    <value>条件编号</value>
+  </data>
+  <data name="System_Label_cdtx" xml:space="preserve">
+    <value>条件内容</value>
+  </data>
+  <data name="System_Label_dscr" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="System_Label_ownr" xml:space="preserve">
+    <value>拥有者</value>
+  </data>
+  <data name="Payroll_Label_acno" xml:space="preserve">
+    <value>帐号</value>
+  </data>
+  <data name="Payroll_Label_amnt" xml:space="preserve">
+    <value>金额</value>
+  </data>
+  <data name="Payroll_Label_condition" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="Payroll_Label_custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Payroll_Label_details" xml:space="preserve">
+    <value>明细</value>
+  </data>
+  <data name="Payroll_Label_docalculate" xml:space="preserve">
+    <value>开始计算</value>
+  </data>
+  <data name="Payroll_Label_rnno" xml:space="preserve">
+    <value>计算编号</value>
+  </data>
+  <data name="Payroll_Label_summary" xml:space="preserve">
+    <value>汇总</value>
+  </data>
+  <data name="Public_Toolbar_Calculate" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="Public_Message_VILT100" xml:space="preserve">
+    <value>值大于100</value>
+  </data>
+  <data name="Payroll_Label_rndt" xml:space="preserve">
+    <value>计算日期</value>
+  </data>
+  <data name="Payroll_Label_rnty" xml:space="preserve">
+    <value>计算类型</value>
+  </data>
+  <data name="Payroll_Label_tmat" xml:space="preserve">
+    <value>合计金额</value>
+  </data>
+  <data name="Payroll_Label_tsct" xml:space="preserve">
+    <value>职员数目</value>
+  </data>
+  <data name="Payroll_Label_ajva" xml:space="preserve">
+    <value>手工调整值</value>
+  </data>
+  <data name="Public_Button_HROpen" xml:space="preserve">
+    <value>员工自助</value>
+  </data>
+  <data name="Public_Button_HRMS" xml:space="preserve">
+    <value>人事事务</value>
+  </data>
+  <data name="Overtime_Label_apdt" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="Overtime_Label_apno" xml:space="preserve">
+    <value>加班申请号</value>
+  </data>
+  <data name="Overtime_Label_frtm" xml:space="preserve">
+    <value>起始时间</value>
+  </data>
+  <data name="Overtime_Label_otst" xml:space="preserve">
+    <value>加班状态</value>
+  </data>
+  <data name="Overtime_Label_totm" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="Public_Label_rest" xml:space="preserve">
+    <value>记录状态</value>
+  </data>
+  <data name="Public_Label_actn" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Public_Label_lgtm" xml:space="preserve">
+    <value>Log time</value>
+  </data>
+  <data name="Public_Label_lgtx" xml:space="preserve">
+    <value>Log text</value>
+  </data>
+  <data name="Public_Label_lgur" xml:space="preserve">
+    <value>Log user</value>
+  </data>
+  <data name="Public_Toolbar_Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Public_Message_AnalSuccess" xml:space="preserve">
+    <value>分析成功</value>
+  </data>
+  <data name="Leavel_Label_days" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="Leavel_Label_dfby" xml:space="preserve">
+    <value>定义基准</value>
+  </data>
+  <data name="Leavel_Label_dfno" xml:space="preserve">
+    <value>定义号</value>
+  </data>
+  <data name="Leavel_Label_dfva" xml:space="preserve">
+    <value>定义值</value>
+  </data>
+  <data name="Leavel_Label_fryr" xml:space="preserve">
+    <value>起始年份</value>
+  </data>
+  <data name="Leavel_Label_toyr" xml:space="preserve">
+    <value>截止年份</value>
+  </data>
+  <data name="Leave_Label_iscf" xml:space="preserve">
+    <value>是否结转</value>
+  </data>
+  <data name="Leave_Label_lmsc" xml:space="preserve">
+    <value>限制范围</value>
+  </data>
+  <data name="Personal_Label_hccd" xml:space="preserve">
+    <value>人员配额配置编号</value>
+  </data>
+  <data name="Personal_Label_hcnm" xml:space="preserve">
+    <value>人员配额配置名称</value>
+  </data>
+  <data name="Personal_Label_xdef" xml:space="preserve">
+    <value>X轴</value>
+  </data>
+  <data name="Personal_Label_ydef" xml:space="preserve">
+    <value>Y轴</value>
+  </data>
+  <data name="Public_Menu_HeadCountCfg" xml:space="preserve">
+    <value>人员配额配置</value>
+  </data>
+  <data name="Report_Label_isme" xml:space="preserve">
+    <value>是否合并</value>
+  </data>
+  <data name="Report_Label_isor" xml:space="preserve">
+    <value>是否排序</value>
+  </data>
+  <data name="Report_Label_isqr" xml:space="preserve">
+    <value>是否作为查询条件</value>
+  </data>
+  <data name="Report_Label_issu" xml:space="preserve">
+    <value>是否合计</value>
+  </data>
+  <data name="Report_Label_itnm" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+  <data name="Report_Label_rpcd" xml:space="preserve">
+    <value>报表编号</value>
+  </data>
+  <data name="Report_Label_rpnm" xml:space="preserve">
+    <value>报表名称</value>
+  </data>
+  <data name="Report_Label_rptt" xml:space="preserve">
+    <value>报表标题</value>
+  </data>
+  <data name="Report_Label_rpty" xml:space="preserve">
+    <value>报表类型</value>
+  </data>
+  <data name="er_label_age" xml:space="preserve">
+    <value>年龄</value>
+  </data>
+  <data name="er_label_arcd" xml:space="preserve">
+    <value>区域编号</value>
+  </data>
+  <data name="er_label_arnm" xml:space="preserve">
+    <value>区域名称</value>
+  </data>
+  <data name="er_label_brdt" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="er_label_bscd" xml:space="preserve">
+    <value>事业部编号</value>
+  </data>
+  <data name="er_label_bsnm" xml:space="preserve">
+    <value>事业部名称</value>
+  </data>
+  <data name="er_label_cccd" xml:space="preserve">
+    <value>成本中心编号</value>
+  </data>
+  <data name="er_label_ccnm" xml:space="preserve">
+    <value>成本中心名称</value>
+  </data>
+  <data name="er_label_cdcd" xml:space="preserve">
+    <value>成本中心编号</value>
+  </data>
+  <data name="er_label_clcd" xml:space="preserve">
+    <value>日历编号</value>
+  </data>
+  <data name="er_label_conm" xml:space="preserve">
+    <value>国家名称</value>
+  </data>
+  <data name="er_label_dayservice" xml:space="preserve">
+    <value>服务天数</value>
+  </data>
+  <data name="er_label_dpcd" xml:space="preserve">
+    <value>部门编号</value>
+  </data>
+  <data name="er_label_dpnm" xml:space="preserve">
+    <value>部门名称</value>
+  </data>
+  <data name="er_label_dvcd" xml:space="preserve">
+    <value>分部编号</value>
+  </data>
+  <data name="er_label_dvnm" xml:space="preserve">
+    <value>分部名称</value>
+  </data>
+  <data name="er_label_elcd" xml:space="preserve">
+    <value>教育程度编号</value>
+  </data>
+  <data name="er_label_elnm" xml:space="preserve">
+    <value>教育程度名称</value>
+  </data>
+  <data name="er_label_emno" xml:space="preserve">
+    <value>职员编号</value>
+  </data>
+  <data name="er_label_emst" xml:space="preserve">
+    <value>职员状态</value>
+  </data>
+  <data name="er_label_ennm" xml:space="preserve">
+    <value>英文名</value>
+  </data>
+  <data name="er_label_frnm" xml:space="preserve">
+    <value>外国名</value>
+  </data>
+  <data name="er_label_grcd" xml:space="preserve">
+    <value>级别编号</value>
+  </data>
+  <data name="er_label_grnm" xml:space="preserve">
+    <value>级别名称</value>
+  </data>
+  <data name="er_label_idno" xml:space="preserve">
+    <value>身份证号</value>
+  </data>
+  <data name="er_label_jccd" xml:space="preserve">
+    <value>工类编号</value>
+  </data>
+  <data name="er_label_jcnm" xml:space="preserve">
+    <value>工类名称</value>
+  </data>
+  <data name="er_label_jidt" xml:space="preserve">
+    <value>入职日期</value>
+  </data>
+  <data name="er_label_jtcd" xml:space="preserve">
+    <value>工种编号</value>
+  </data>
+  <data name="er_label_jtnm" xml:space="preserve">
+    <value>工种名称</value>
+  </data>
+  <data name="er_label_mast" xml:space="preserve">
+    <value>婚姻状态</value>
+  </data>
+  <data name="er_label_monthservice" xml:space="preserve">
+    <value>服务月数</value>
+  </data>
+  <data name="er_label_napl" xml:space="preserve">
+    <value>出生地</value>
+  </data>
+  <data name="er_label_ntnm" xml:space="preserve">
+    <value>籍贯</value>
+  </data>
+  <data name="er_label_otnm" xml:space="preserve">
+    <value>其他名称</value>
+  </data>
+  <data name="er_label_prdt" xml:space="preserve">
+    <value>试用期日期</value>
+  </data>
+  <data name="er_label_pscd" xml:space="preserve">
+    <value>职位编号</value>
+  </data>
+  <data name="er_label_psnm" xml:space="preserve">
+    <value>职位名称</value>
+  </data>
+  <data name="er_label_ptcd" xml:space="preserve">
+    <value>支付类型编号</value>
+  </data>
+  <data name="er_label_ptnm" xml:space="preserve">
+    <value>支付类型名称</value>
+  </data>
+  <data name="er_label_remk" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="er_label_rscd" xml:space="preserve">
+    <value>轮班编号</value>
+  </data>
+  <data name="er_label_rsnm" xml:space="preserve">
+    <value>轮班名称</value>
+  </data>
+  <data name="er_label_salu" xml:space="preserve">
+    <value>称呼</value>
+  </data>
+  <data name="er_label_sccd" xml:space="preserve">
+    <value>法人公司编号</value>
+  </data>
+  <data name="er_label_scnm" xml:space="preserve">
+    <value>法人公司名称</value>
+  </data>
+  <data name="er_label_sex" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="er_label_sfid" xml:space="preserve">
+    <value>职员编号</value>
+  </data>
+  <data name="er_label_stcd" xml:space="preserve">
+    <value>职员类型编号</value>
+  </data>
+  <data name="er_label_stnm" xml:space="preserve">
+    <value>职员类型名称</value>
+  </data>
+  <data name="er_label_sunm" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="er_label_tmdt" xml:space="preserve">
+    <value>离职日期</value>
+  </data>
+  <data name="er_label_tmst" xml:space="preserve">
+    <value>离职状态</value>
+  </data>
+  <data name="er_label_trcd" xml:space="preserve">
+    <value>离职原因编号</value>
+  </data>
+  <data name="er_label_trnm" xml:space="preserve">
+    <value>离职原因名称</value>
+  </data>
+  <data name="er_label_ttcd" xml:space="preserve">
+    <value>离职类型编号</value>
+  </data>
+  <data name="er_label_ttnm" xml:space="preserve">
+    <value>离职类型名称</value>
+  </data>
+  <data name="er_label_wgcd" xml:space="preserve">
+    <value>工作组编号</value>
+  </data>
+  <data name="er_label_wgnm" xml:space="preserve">
+    <value>工作组名称</value>
+  </data>
+  <data name="er_label_wscd" xml:space="preserve">
+    <value>工作地点编号</value>
+  </data>
+  <data name="er_label_wsnm" xml:space="preserve">
+    <value>工作地点名称</value>
+  </data>
+  <data name="er_label_yearservice" xml:space="preserve">
+    <value>服务年数</value>
+  </data>
+  <data name="Report_Label_ittx" xml:space="preserve">
+    <value>项目文字</value>
+  </data>
+  <data name="erp_acno" xml:space="preserve">
+    <value>银行帐号</value>
+  </data>
+  <data name="erp_amnt" xml:space="preserve">
+    <value>帐号金额</value>
+  </data>
+  <data name="er_label_perd" xml:space="preserve">
+    <value>期间</value>
+  </data>
+  <data name="Training_Label_ceed" xml:space="preserve">
+    <value>生效日期</value>
+  </data>
+  <data name="Training_Label_ceid" xml:space="preserve">
+    <value>处理日期</value>
+  </data>
+  <data name="Training_Label_cenm" xml:space="preserve">
+    <value>证书名称</value>
+  </data>
+  <data name="Training_Label_cexd" xml:space="preserve">
+    <value>失效日期</value>
+  </data>
+  <data name="Training_Label_isce" xml:space="preserve">
+    <value>是否发放证书</value>
+  </data>
+  <data name="Training_Label_isnm" xml:space="preserve">
+    <value>机构名称</value>
+  </data>
+  <data name="Training_Label_ispb" xml:space="preserve">
+    <value>是否发布</value>
+  </data>
+  <data name="Training_Label_issk" xml:space="preserve">
+    <value>是否计入技能</value>
+  </data>
+  <data name="Training_Label_skle" xml:space="preserve">
+    <value>技能级别</value>
+  </data>
+  <data name="Training_Label_sknm" xml:space="preserve">
+    <value>技能名称</value>
+  </data>
+  <data name="Training_Label_trnm" xml:space="preserve">
+    <value>培训名称</value>
+  </data>
+  <data name="Training_Label_tchr" xml:space="preserve">
+    <value>培训教师</value>
+  </data>
+  <data name="Training_Label_tget" xml:space="preserve">
+    <value>培训目标</value>
+  </data>
+  <data name="Training_Label_abrs" xml:space="preserve">
+    <value>缺席时数</value>
+  </data>
+  <data name="Training_Label_isrg" xml:space="preserve">
+    <value>是否注册</value>
+  </data>
+  <data name="Training_Label_rgtm" xml:space="preserve">
+    <value>注册时间</value>
+  </data>
+  <data name="Training_Label_rgur" xml:space="preserve">
+    <value>注册人</value>
+  </data>
+  <data name="Personal_Label_trcd" xml:space="preserve">
+    <value>培训编号</value>
+  </data>
+  <data name="Training_Label_isat" xml:space="preserve">
+    <value>是否出席</value>
+  </data>
+  <data name="Public_Message_Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Training_Label_ispa" xml:space="preserve">
+    <value>是否通过</value>
+  </data>
+  <data name="Training_Label_scor" xml:space="preserve">
+    <value>分数</value>
+  </data>
+  <data name="Public_Toolbar_ApplyToAll" xml:space="preserve">
+    <value>全部应用</value>
+  </data>
+  <data name="Public_Toolbar_Reload" xml:space="preserve">
+    <value>重新加载</value>
+  </data>
+  <data name="Training_Label_athr" xml:space="preserve">
+    <value>出席时数</value>
+  </data>
+  <data name="Public_Confirm_Clear" xml:space="preserve">
+    <value>你确定要清除吗？</value>
+  </data>
+  <data name="Public_Menu_MUF" xml:space="preserve">
+    <value>常用功能</value>
+  </data>
+  <data name="Public_Message_GridDefaultText" xml:space="preserve">
+    <value>点击[查询]按钮查看数据.</value>
+  </data>
+  <data name="Public_Toolbar_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Public_Toolbar_ClearAll" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="Public_Menu_atwrdset" xml:space="preserve">
+    <value>工作日设定</value>
+  </data>
+  <data name="Public_Menu_bsreltyp" xml:space="preserve">
+    <value>社会关系类型</value>
+  </data>
+  <data name="Public_Menu_praccalc" xml:space="preserve">
+    <value>银行帐号分配</value>
+  </data>
+  <data name="Public_Menu_praddrst" xml:space="preserve">
+    <value>员工附加计算规则</value>
+  </data>
+  <data name="Public_Menu_prbaalcr" xml:space="preserve">
+    <value>银行帐号分配规则</value>
+  </data>
+  <data name="Public_Menu_prcalcul" xml:space="preserve">
+    <value>工资计算</value>
+  </data>
+  <data name="Public_Menu_prccalcr" xml:space="preserve">
+    <value>成本中心分配规则</value>
+  </data>
+  <data name="Public_Menu_prcstalc" xml:space="preserve">
+    <value>成本中心分配</value>
+  </data>
+  <data name="Public_Menu_prcumitm" xml:space="preserve">
+    <value>累积项目计算</value>
+  </data>
+  <data name="Public_Menu_prexrpdp" xml:space="preserve">
+    <value>报表显示</value>
+  </data>
+  <data name="Public_Menu_prfmular" xml:space="preserve">
+    <value>计算公式</value>
+  </data>
+  <data name="Public_Menu_prpayday" xml:space="preserve">
+    <value>支付日</value>
+  </data>
+  <data name="Public_Menu_prpbrhis" xml:space="preserve">
+    <value>员工公用计算规则历史</value>
+  </data>
+  <data name="Public_Menu_prprirst" xml:space="preserve">
+    <value>员工私有计算规则</value>
+  </data>
+  <data name="Public_Menu_prpubrst" xml:space="preserve">
+    <value>员工公用计算规则</value>
+  </data>
+  <data name="Public_Menu_prrun" xml:space="preserve">
+    <value>计算管理</value>
+  </data>
+  <data name="Public_Menu_prsaitfg" xml:space="preserve">
+    <value>工资项目标记</value>
+  </data>
+  <data name="Public_Menu_prsalhis" xml:space="preserve">
+    <value>工资历史</value>
+  </data>
+  <data name="Public_Menu_prsalitm" xml:space="preserve">
+    <value>工资项目</value>
+  </data>
+  <data name="Public_Menu_prsaltyp" xml:space="preserve">
+    <value>工资类型</value>
+  </data>
+  <data name="Public_Menu_prvarble" xml:space="preserve">
+    <value>计算变量</value>
+  </data>
+  <data name="Public_Menu_rpexrpdf" xml:space="preserve">
+    <value>报表定义</value>
+  </data>
+  <data name="Public_Menu_rphctctl" xml:space="preserve">
+    <value>人员配额控制报表</value>
+  </data>
+  <data name="Public_Menu_stcondtn" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="Public_Menu_stpubmsg" xml:space="preserve">
+    <value>公共消息发布</value>
+  </data>
+  <data name="Public_Menu_Traing" xml:space="preserve">
+    <value>培训模块</value>
+  </data>
+  <data name="Public_Menu_trtraatt" xml:space="preserve">
+    <value>出席名单</value>
+  </data>
+  <data name="Public_Menu_trtraing" xml:space="preserve">
+    <value>公司培训</value>
+  </data>
+  <data name="Public_Menu_trtrarst" xml:space="preserve">
+    <value>培训结果</value>
+  </data>
+  <data name="Attendance_Label_lvhr" xml:space="preserve">
+    <value>休假时数</value>
+  </data>
+  <data name="Attendance_Label_othr" xml:space="preserve">
+    <value>加班时数</value>
+  </data>
+  <data name="Public_Message_WrongIDFormat" xml:space="preserve">
+    <value>身份证号码格式错误。</value>
+  </data>
+  <data name="Public_Menu_bsxcgrat" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="TabDef_Label_frcr" xml:space="preserve">
+    <value>起始货币</value>
+  </data>
+  <data name="TabDef_Label_rate" xml:space="preserve">
+    <value>汇率值</value>
+  </data>
+  <data name="TabDef_Label_tocr" xml:space="preserve">
+    <value>目标货币</value>
+  </data>
+  <data name="TabDef_Label_efdt" xml:space="preserve">
+    <value>生效日期</value>
+  </data>
+  <data name="TabDef_Label_exdt" xml:space="preserve">
+    <value>失效日期</value>
+  </data>
+  <data name="Master_Label_htcd" xml:space="preserve">
+    <value>节假日类型编号</value>
+  </data>
+  <data name="Master_Label_htnm" xml:space="preserve">
+    <value>节假日类型名称</value>
+  </data>
+  <data name="Public_Menu_stperiod" xml:space="preserve">
+    <value>工资期间</value>
+  </data>
+  <data name="Public_Message_SelectPeriodFirst" xml:space="preserve">
+    <value>请先选择一个期间。</value>
+  </data>
+  <data name="Public_Button_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Public_Menu_stusrinf" xml:space="preserve">
+    <value>Logon User Information</value>
+  </data>
+  <data name="Public_Label_cfnpwd" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="Public_Label_changepwd" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="Public_Label_newpwd" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="Public_Label_oldpwd" xml:space="preserve">
+    <value>旧密码</value>
+  </data>
+  <data name="Public_Message_alcp" xml:space="preserve">
+    <value>你可以修改登陆密码。</value>
+  </data>
+  <data name="Public_Message_nalcp" xml:space="preserve">
+    <value>你不可以修改登陆密码(系统是基于AD的安全认证)。</value>
+  </data>
+  <data name="Public_Message_Notequal" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="Public_Label_usrinfo" xml:space="preserve">
+    <value>用户信息</value>
+  </data>
+  <data name="Public_Menu_stsearch" xml:space="preserve">
+    <value>站内查询</value>
+  </data>
+  <data name="Public_Menu_stcheckr" xml:space="preserve">
+    <value>系统检查</value>
+  </data>
+  <data name="Public_Label_ispb" xml:space="preserve">
+    <value>是否发布</value>
+  </data>
+  <data name="Public_Label_pbby" xml:space="preserve">
+    <value>发布人</value>
+  </data>
+  <data name="Public_Label_pbtm" xml:space="preserve">
+    <value>发布时间</value>
+  </data>
+  <data name="Public_Label_smid" xml:space="preserve">
+    <value>消息编号</value>
+  </data>
+  <data name="Public_Label_subj" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Public_Message_cfpm" xml:space="preserve">
+    <value>你确定要发布该消息吗？</value>
+  </data>
+  <data name="Public_Menu_stalconf" xml:space="preserve">
+    <value>消息设定</value>
+  </data>
+  <data name="TabDef_Label_alde" xml:space="preserve">
+    <value>消息描述</value>
+  </data>
+  <data name="TabDef_Label_alty" xml:space="preserve">
+    <value>消息ID</value>
+  </data>
+  <data name="TabDef_Label_clsn" xml:space="preserve">
+    <value>类名</value>
+  </data>
+  <data name="TabDef_Label_isbk" xml:space="preserve">
+    <value>是否接收此消息</value>
+  </data>
+  <data name="TabDef_Label_lwva" xml:space="preserve">
+    <value>下(左)值</value>
+  </data>
+  <data name="TabDef_Label_upva" xml:space="preserve">
+    <value>上(右)值</value>
+  </data>
+  <data name="TabDef_Label_usby" xml:space="preserve">
+    <value>何处使用</value>
+  </data>
+  <data name="Personal_Label_crno" xml:space="preserve">
+    <value>合同号</value>
+  </data>
+  <data name="Personal_Label_ided" xml:space="preserve">
+    <value>身份证失效日期</value>
+  </data>
+  <data name="TabDef_Label_aitv" xml:space="preserve">
+    <value>重发间隔</value>
+  </data>
+  <data name="Public_Menu_rcrcttyp" xml:space="preserve">
+    <value>招聘类型</value>
+  </data>
+  <data name="Public_Menu_Recruitment" xml:space="preserve">
+    <value>招聘模块</value>
+  </data>
+  <data name="Recruitment_Label_apdt" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="Recruitment_Label_apno" xml:space="preserve">
+    <value>申请编号</value>
+  </data>
+  <data name="Recruitment_Label_hcnt" xml:space="preserve">
+    <value>当前人数</value>
+  </data>
+  <data name="Recruitment_Label_hctl" xml:space="preserve">
+    <value>Headcount control</value>
+  </data>
+  <data name="Recruitment_Label_jbcd" xml:space="preserve">
+    <value>职位编号</value>
+  </data>
+  <data name="Recruitment_Label_jbde" xml:space="preserve">
+    <value>职位描述</value>
+  </data>
+  <data name="Recruitment_Label_jbnm" xml:space="preserve">
+    <value>职位名称</value>
+  </data>
+  <data name="Recruitment_Label_jbre" xml:space="preserve">
+    <value>职位需求</value>
+  </data>
+  <data name="Recruitment_Label_stus" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Recruitment_Label_vacn" xml:space="preserve">
+    <value>空缺数</value>
+  </data>
+  <data name="Recruitment_Label_whhi" xml:space="preserve">
+    <value>何处招聘</value>
+  </data>
+  <data name="TableDef_Label_rtcd" xml:space="preserve">
+    <value>招聘类型编号</value>
+  </data>
+  <data name="TableDef_Label_rtnm" xml:space="preserve">
+    <value>招聘类型名称</value>
+  </data>
+  <data name="Recruitment_Label_any" xml:space="preserve">
+    <value>任意</value>
+  </data>
+  <data name="Recruitment_Label_approved" xml:space="preserve">
+    <value>已批准</value>
+  </data>
+  <data name="Recruitment_Label_cancelled" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="Recruitment_Label_completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="Recruitment_Label_created" xml:space="preserve">
+    <value>已创建</value>
+  </data>
+  <data name="Recruitment_Label_expired" xml:space="preserve">
+    <value>过期失效</value>
+  </data>
+  <data name="Recruitment_Label_external" xml:space="preserve">
+    <value>外部</value>
+  </data>
+  <data name="Recruitment_Label_ihcnt" xml:space="preserve">
+    <value>在计划人数内</value>
+  </data>
+  <data name="Recruitment_Label_internal" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="Recruitment_Label_ohcnt" xml:space="preserve">
+    <value>在计划人数外</value>
+  </data>
+  <data name="Recruitment_Label_processing" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="Recruitment_Label_rejected" xml:space="preserve">
+    <value>已否决</value>
+  </data>
+  <data name="Recruitment_Label_unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="Public_Menu_rcapplic" xml:space="preserve">
+    <value>招聘申请</value>
+  </data>
+  <data name="Recruitment_Label_aino" xml:space="preserve">
+    <value>申请人编号</value>
+  </data>
+  <data name="Recruitment_Label_brdt" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="Recruitment_Label_cnnm" xml:space="preserve">
+    <value>中文名称</value>
+  </data>
+  <data name="Recruitment_Label_doav" xml:space="preserve">
+    <value>可到职天数</value>
+  </data>
+  <data name="Recruitment_Label_emad" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Recruitment_Label_emal" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="Recruitment_Label_emergency" xml:space="preserve">
+    <value>紧急联系人</value>
+  </data>
+  <data name="Recruitment_Label_emnm" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="Recruitment_Label_emrl" xml:space="preserve">
+    <value>关系</value>
+  </data>
+  <data name="Recruitment_Label_emtp" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Recruitment_Label_ennm" xml:space="preserve">
+    <value>英文名称</value>
+  </data>
+  <data name="Recruitment_Label_exsa" xml:space="preserve">
+    <value>期望薪水</value>
+  </data>
+  <data name="Recruitment_Label_hmad" xml:space="preserve">
+    <value>家庭地址</value>
+  </data>
+  <data name="Recruitment_Label_hmtp" xml:space="preserve">
+    <value>家庭电话</value>
+  </data>
+  <data name="Recruitment_Label_inho" xml:space="preserve">
+    <value>兴趣与爱好</value>
+  </data>
+  <data name="Recruitment_Label_jbty" xml:space="preserve">
+    <value>工作性质</value>
+  </data>
+  <data name="Recruitment_Label_long" xml:space="preserve">
+    <value>长期工作</value>
+  </data>
+  <data name="Recruitment_Label_mobi" xml:space="preserve">
+    <value>移动电话</value>
+  </data>
+  <data name="Recruitment_Label_oth1" xml:space="preserve">
+    <value>曾否因行为或工作不佳而被辞退</value>
+  </data>
+  <data name="Recruitment_Label_oth2" xml:space="preserve">
+    <value>曾否因违反法律行为而被判刑或劳动教养</value>
+  </data>
+  <data name="Recruitment_Label_oth3" xml:space="preserve">
+    <value>曾否患有严重疾病、受伤或接受手术治疗</value>
+  </data>
+  <data name="Recruitment_Label_oth4" xml:space="preserve">
+    <value>是否愿意接受公司对仪容仪表方面的要求</value>
+  </data>
+  <data name="Recruitment_Label_short" xml:space="preserve">
+    <value>短期工作</value>
+  </data>
+  <data name="Recruitment_Label_Skll" xml:space="preserve">
+    <value>技巧与技能</value>
+  </data>
+  <data name="Recruitment_Label_wktp" xml:space="preserve">
+    <value>工作电话</value>
+  </data>
+  <data name="Public_Menu_rcaplinf" xml:space="preserve">
+    <value>申请人资料</value>
+  </data>
+  <data name="Recruitment_Label_Contact" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="Recruitment_Label_cpnm" xml:space="preserve">
+    <value>公司名称</value>
+  </data>
+  <data name="Recruitment_Label_dgcd" xml:space="preserve">
+    <value>学位</value>
+  </data>
+  <data name="Recruitment_Label_education" xml:space="preserve">
+    <value>教育状况</value>
+  </data>
+  <data name="Recruitment_Label_elcd" xml:space="preserve">
+    <value>教育水平</value>
+  </data>
+  <data name="Recruitment_Label_experience" xml:space="preserve">
+    <value>工作经验</value>
+  </data>
+  <data name="Recruitment_Label_family" xml:space="preserve">
+    <value>家庭情况</value>
+  </data>
+  <data name="Recruitment_Label_frdt" xml:space="preserve">
+    <value>起始日期</value>
+  </data>
+  <data name="Recruitment_Label_isgd" xml:space="preserve">
+    <value>是否毕业？</value>
+  </data>
+  <data name="Recruitment_Label_lssa" xml:space="preserve">
+    <value>最后薪水</value>
+  </data>
+  <data name="Recruitment_Label_Misc" xml:space="preserve">
+    <value>杂类</value>
+  </data>
+  <data name="Recruitment_Label_nanm" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="Recruitment_Label_occp" xml:space="preserve">
+    <value>职业</value>
+  </data>
+  <data name="Recruitment_Label_posi" xml:space="preserve">
+    <value>职位</value>
+  </data>
+  <data name="Recruitment_Label_rlspo" xml:space="preserve">
+    <value>关系</value>
+  </data>
+  <data name="Recruitment_Label_scnm" xml:space="preserve">
+    <value>学校名称</value>
+  </data>
+  <data name="Recruitment_Label_spec" xml:space="preserve">
+    <value>专业</value>
+  </data>
+  <data name="Recruitment_Label_telp" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Recruitment_Label_todti" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="Recruitment_Label_trcd" xml:space="preserve">
+    <value>离职原因</value>
+  </data>
+  <data name="Recruitment_Label_addr" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Recruitment_Label_lang" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Recruitment_Label_language" xml:space="preserve">
+    <value>语言能力</value>
+  </data>
+  <data name="Recruitment_Label_otct" xml:space="preserve">
+    <value>其他联系方式</value>
+  </data>
+  <data name="Recruitment_Label_rdng" xml:space="preserve">
+    <value>阅读</value>
+  </data>
+  <data name="Recruitment_Label_reference" xml:space="preserve">
+    <value>介绍人</value>
+  </data>
+  <data name="Recruitment_Label_rlsp" xml:space="preserve">
+    <value>与本人关系</value>
+  </data>
+  <data name="Recruitment_Label_spkn" xml:space="preserve">
+    <value>会话</value>
+  </data>
+  <data name="Recruitment_Label_wrtn" xml:space="preserve">
+    <value>书写</value>
+  </data>
+  <data name="Recruitment_Label_hmpc" xml:space="preserve">
+    <value>邮政编码</value>
+  </data>
+  <data name="Public_Menu_rcintasm" xml:space="preserve">
+    <value>面试评价设定</value>
+  </data>
+  <data name="Recruitment_Label_iacd" xml:space="preserve">
+    <value>面试评价编号</value>
+  </data>
+  <data name="Recruitment_Label_iade" xml:space="preserve">
+    <value>面试评价名称</value>
+  </data>
+  <data name="Recruitment_Label_itde" xml:space="preserve">
+    <value>项目描述</value>
+  </data>
+  <data name="Recruitment_Label_itnm" xml:space="preserve">
+    <value>项目名</value>
+  </data>
+  <data name="Public_Menu_rcintsch" xml:space="preserve">
+    <value>面试计划</value>
+  </data>
+  <data name="Recruitment_Label_frtm" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="Recruitment_Label_hrof" xml:space="preserve">
+    <value>HR人员</value>
+  </data>
+  <data name="Recruitment_Label_otof" xml:space="preserve">
+    <value>其他人员</value>
+  </data>
+  <data name="Recruitment_Label_totm" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="Public_Menu_rcintrst" xml:space="preserve">
+    <value>面试结果</value>
+  </data>
+  <data name="Recruitment_Label_Absent" xml:space="preserve">
+    <value>未出席</value>
+  </data>
+  <data name="Recruitment_Label_assm" xml:space="preserve">
+    <value>面试评价</value>
+  </data>
+  <data name="Recruitment_Label_canc" xml:space="preserve">
+    <value>被取消</value>
+  </data>
+  <data name="Recruitment_Label_Considerable" xml:space="preserve">
+    <value>可以考虑</value>
+  </data>
+  <data name="Recruitment_Label_itrs" xml:space="preserve">
+    <value>面试结果</value>
+  </data>
+  <data name="Recruitment_Label_ovas" xml:space="preserve">
+    <value>总体评价</value>
+  </data>
+  <data name="Recruitment_Label_Probational" xml:space="preserve">
+    <value>可以试用</value>
+  </data>
+  <data name="Recruitment_Label_recm" xml:space="preserve">
+    <value>建议复试考察内容</value>
+  </data>
+  <data name="Recruitment_Label_Reinterview" xml:space="preserve">
+    <value>可以复试</value>
+  </data>
+  <data name="Recruitment_Label_rejc" xml:space="preserve">
+    <value>不予考虑</value>
+  </data>
+  <data name="Recruitment_Label_Scheduled" xml:space="preserve">
+    <value>计划</value>
+  </data>
+  <data name="Recruitment_Label_scty" xml:space="preserve">
+    <value>计划类型</value>
+  </data>
+  <data name="Recruitment_Label_Unscheduled" xml:space="preserve">
+    <value>未计划</value>
+  </data>
+  <data name="Master_Label_ricd" xml:space="preserve">
+    <value>项目编号</value>
+  </data>
+  <data name="Master_Label_rinm" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+</root>

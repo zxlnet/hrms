@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GotWell.CentralService.AuthorizationService" CodeBehind="AuthorizationService.svc.cs" %>

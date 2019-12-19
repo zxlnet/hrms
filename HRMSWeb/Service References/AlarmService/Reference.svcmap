@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3f67fac1-48f3-417d-8589-8dc626ff0c65" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8461/AlarmService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlarmService.disco" MetadataType="Disco" ID="6557ef09-36e3-4c25-baae-b5e4f6d665f6" SourceId="1" SourceUrl="http://localhost:8461/AlarmService.svc?disco" />
+    <MetadataFile FileName="AlarmService.wsdl" MetadataType="Wsdl" ID="357b6630-ff90-413b-9d1b-06ca2fafea23" SourceId="1" SourceUrl="http://localhost:8461/AlarmService.svc?wsdl" />
+    <MetadataFile FileName="AlarmService.xsd" MetadataType="Schema" ID="51a7e37f-8ba1-45e1-a62e-51ec980bdf5e" SourceId="1" SourceUrl="http://localhost:8461/AlarmService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AlarmService1.xsd" MetadataType="Schema" ID="04846755-fada-4773-9eba-6b7f3a7b5dd9" SourceId="1" SourceUrl="http://localhost:8461/AlarmService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

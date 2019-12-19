@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CED6B7E-DDCB-46A2-B30B-00F056FA6D54}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GotWell.HRMS.HRMSData</RootNamespace>
+    <AssemblyName>GotWell.HRMS.HRMSData</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LinqKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc217f8844052a91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\LinqKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attendance\atabsdtlDal.cs" />
+    <Compile Include="Attendance\atabssumDal.cs" />
+    <Compile Include="Attendance\atanaattDal.cs" />
+    <Compile Include="Attendance\atanarstDal.cs" />
+    <Compile Include="Attendance\atcaldarDal.cs" />
+    <Compile Include="Attendance\atcldworkdaysDal.cs" />
+    <Compile Include="Attendance\atdatmnuDal.cs" />
+    <Compile Include="Attendance\atoridatDal.cs" />
+    <Compile Include="Master\bsratingDal.cs" />
+    <Compile Include="Overtime\otaplctnDal.cs" />
+    <Compile Include="Overtime\otdetailDal.cs" />
+    <Compile Include="Overtime\otlimitDal.cs" />
+    <Compile Include="Overtime\otsummryDal.cs" />
+    <Compile Include="Attendance\atpvtcldDal.cs" />
+    <Compile Include="Attendance\atrosterDal.cs" />
+    <Compile Include="Attendance\atroshisDal.cs" />
+    <Compile Include="Attendance\atshiftDal.cs" />
+    <Compile Include="Attendance\atshfelyDal.cs" />
+    <Compile Include="Attendance\atshflatDal.cs" />
+    <Compile Include="Attendance\atshfottDal.cs" />
+    <Compile Include="Leave\lvanalevDal.cs" />
+    <Compile Include="Leave\lvcryfwdDal.cs" />
+    <Compile Include="Leave\lvdfbyyrDal.cs" />
+    <Compile Include="Common\BaseDal.cs" />
+    <Compile Include="Common\MenuConfigDal.cs" />
+    <Compile Include="Common\tracerDal.cs" />
+    <Compile Include="Common\TransactionLogDal.cs" />
+    <Compile Include="Leave\lvdfbyemDal.cs" />
+    <Compile Include="Leave\lvleaappDal.cs" />
+    <Compile Include="Leave\lvdfbyotDal.cs" />
+    <Compile Include="Leave\lvlealmtDal.cs" />
+    <Compile Include="Master\MasterDataDal.cs" />
+    <Compile Include="Recruitment\rcaplinfDal.cs" />
+    <Compile Include="Recruitment\rcapplicDal.cs" />
+    <Compile Include="Recruitment\rcintadtDal.cs" />
+    <Compile Include="Recruitment\rcintasmDal.cs" />
+    <Compile Include="Recruitment\rcintrdtDal.cs" />
+    <Compile Include="Recruitment\rcintrstDal.cs" />
+    <Compile Include="Recruitment\rcintschDal.cs" />
+    <Compile Include="Syst\stcheckrDal.cs" />
+    <Compile Include="Syst\stperiodDal.cs" />
+    <Compile Include="Overtime\otttlvDal.cs" />
+    <Compile Include="Payroll\praccalcDal.cs" />
+    <Compile Include="Payroll\praddrstDal.cs" />
+    <Compile Include="Payroll\prbaalcrDal.cs" />
+    <Compile Include="Payroll\prcalculDal.cs" />
+    <Compile Include="Payroll\prcstalcDal.cs" />
+    <Compile Include="Payroll\prccalcrDal.cs" />
+    <Compile Include="Payroll\prcumitmDal.cs" />
+    <Compile Include="Payroll\prfmularDal.cs" />
+    <Compile Include="Payroll\prpbrhisDal.cs" />
+    <Compile Include="Payroll\prprirstDal.cs" />
+    <Compile Include="Payroll\prpubrstDal.cs" />
+    <Compile Include="Payroll\prrunDal.cs" />
+    <Compile Include="Payroll\prsalhisDal.cs" />
+    <Compile Include="Payroll\prsalitmDal.cs" />
+    <Compile Include="Payroll\prvarbleDal.cs" />
+    <Compile Include="Personal\psaccontDal.cs" />
+    <Compile Include="Personal\psaddresDal.cs" />
+    <Compile Include="Personal\pscertfcDal.cs" />
+    <Compile Include="Personal\pschghisDal.cs" />
+    <Compile Include="Personal\psclubDal.cs" />
+    <Compile Include="Personal\pscontctDal.cs" />
+    <Compile Include="Personal\pscontrtDal.cs" />
+    <Compile Include="Personal\psdetainDal.cs" />
+    <Compile Include="Personal\pseductnDal.cs" />
+    <Compile Include="Personal\psempchgDal.cs" />
+    <Compile Include="Personal\psemplymDal.cs" />
+    <Compile Include="Personal\pseventDal.cs" />
+    <Compile Include="Personal\psexprncDal.cs" />
+    <Compile Include="Personal\pshctcfgDal.cs" />
+    <Compile Include="Personal\pshctvalDal.cs" />
+    <Compile Include="Personal\pshltrecDal.cs" />
+    <Compile Include="Personal\psinsurnDal.cs" />
+    <Compile Include="Personal\pspersonDal.cs" />
+    <Compile Include="Personal\psquafcaDal.cs" />
+    <Compile Include="Personal\psqurterDal.cs" />
+    <Compile Include="Personal\psrelshpDal.cs" />
+    <Compile Include="Personal\psskillDal.cs" />
+    <Compile Include="Personal\pstraingDal.cs" />
+    <Compile Include="Personal\pswelfreDal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporting\rpexrpdfDal.cs" />
+    <Compile Include="Reporting\rphctctlDal.cs" />
+    <Compile Include="Syst\stactlogDal.cs" />
+    <Compile Include="Syst\stcondtnDal.cs" />
+    <Compile Include="Syst\stpubmsgDal.cs" />
+    <Compile Include="Syst\stsearchDal.cs" />
+    <Compile Include="Syst\stsyscfgDal.cs" />
+    <Compile Include="Syst\stalsubsDal.cs" />
+    <Compile Include="Syst\staldlyDal.cs" />
+    <Compile Include="Training\trtraattDal.cs" />
+    <Compile Include="Training\trtraingDal.cs" />
+    <Compile Include="Training\trtrarstDal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HRMSWeb\Common\Common.csproj">
+      <Project>{1B8CCE4C-6C02-4992-86B2-E20E00F4349A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HRMSCore\HRMSCore.csproj">
+      <Project>{FBE6510E-FCB7-43EC-A979-B10FFE93E5B7}</Project>
+      <Name>HRMSCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageResources\LanguageResources.csproj">
+      <Project>{2641856B-0A51-4797-9A96-5CBAB3D0CD91}</Project>
+      <Name>LanguageResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{20213824-9014-4DED-8E7A-A0663FA89847}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{0845EC90-DD90-44E1-B3B5-E573FE3F0895}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Authorization\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
